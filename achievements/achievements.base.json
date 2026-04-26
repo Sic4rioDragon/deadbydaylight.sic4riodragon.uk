@@ -2350,5 +2350,29 @@
     "category": "general",
     "section": "general",
     "id": null
+  },
+  {
+    "achievement_id": "a_worthy_opponent",
+    "title": "A Worthy Opponent",
+    "description": "In a single trial in public matches, be chased by the Killer for a total of 90 seconds.",
+    "category": "survivor",
+    "section": "general",
+    "id": "survivor"
+  },
+  {
+    "achievement_id": "devoted_caretaker",
+    "title": "Devoted Caretaker",
+    "description": "In a single trial in public matches, heal the Obsession 3 times.",
+    "category": "survivor",
+    "section": "general",
+    "id": "survivor"
+  },
+  {
+    "achievement_id": "adept_tae_young",
+    "title": "Adept Tae-young",
+    "description": "Escape with Kwon Tae-young using only his 3 unique perks in a public match.",
+    "category": "survivor",
+    "section": "adept",
+    "id": "tae_young"
   }
 ]
