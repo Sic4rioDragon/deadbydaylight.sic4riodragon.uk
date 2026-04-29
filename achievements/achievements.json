@@ -193,7 +193,7 @@
     },
     "map": {
       "all_aboard": true,
-      "ancestors_rite": false,
+      "ancestors_rite": true,
       "campbells_chapel_legacy": true,
       "cherish_your_life": true,
       "classy_act": true,
@@ -215,7 +215,7 @@
       "raccoon_city_recruit": true,
       "rebuilding_the_borgo": false,
       "shock_therapy": true,
-      "shrine_apparatus": false,
+      "shrine_apparatus": true,
       "unforgettable_getaway": true
     },
     "general": {
@@ -267,7 +267,7 @@
       "near_death_experience": true,
       "nerves_of_steel": true,
       "no_one_left_behind": true,
-      "not_today": false,
+      "not_today": true,
       "one_more_step": true,
       "outrun_evil": true,
       "perfect_escape": true,
