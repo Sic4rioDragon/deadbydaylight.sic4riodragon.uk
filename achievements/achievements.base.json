@@ -1432,14 +1432,6 @@
     "id": "elodie"
   },
   {
-    "achievement_id": "skilled_generalist",
-    "title": "Skilled Generalist",
-    "description": "Escape 8 times while repairing the equivalent of 1 generator with only 3 universal perks equipped.",
-    "category": "survivor",
-    "section": "general",
-    "id": null
-  },
-  {
     "achievement_id": "all_aboard",
     "title": "All Aboard",
     "description": "In a public match, activate the Foghorn by repairing the generator in the Steamboat and escape.",
@@ -1771,6 +1763,14 @@
     "achievement_id": "expert_generalist",
     "title": "Expert Generalist",
     "description": "Escape 8 times while repairing the equivalent of 1 generator with only 2 universal perks equipped.",
+    "category": "survivor",
+    "section": "general",
+    "id": null
+  },
+  {
+    "achievement_id": "skilled_generalist",
+    "title": "Skilled Generalist",
+    "description": "Escape 8 times while repairing the equivalent of 1 generator with only 3 universal perks equipped.",
     "category": "survivor",
     "section": "general",
     "id": null
