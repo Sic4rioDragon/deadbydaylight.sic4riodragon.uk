@@ -197,7 +197,7 @@
       "campbells_chapel_legacy": true,
       "cherish_your_life": true,
       "classy_act": true,
-      "cottage_owner": false,
+      "cottage_owner": true,
       "dont_open_dead_inside": true,
       "dungeon_crawler": true,
       "escape_artist": true,
