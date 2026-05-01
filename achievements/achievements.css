@@ -321,13 +321,14 @@ body{
 
 .achievement{
   display:grid;
-  grid-template-columns:52px 1fr 82px;
+  grid-template-columns:52px minmax(0, 1fr) 150px;
   gap:10px;
   align-items:center;
   border-radius:14px;
   padding:9px 10px;
   border:1px solid rgba(255,255,255,.05);
   background:rgba(0,0,0,.18);
+  overflow:hidden;
 }
 
 .achievement.is-unlocked{
@@ -481,9 +482,19 @@ body{
     align-items:center;
     text-align:left;
   }
+
+  .achievement{
+    grid-template-columns:48px minmax(0, 1fr) 120px;
+    gap:8px;
+  }
+
+  .achievement-meta-progress{
+    width: 120px;
+  }
 }
 .achievement-meta-progress{
-  min-width: 150px;
+  width: 150px;
+  min-width: 0;
 }
 
 .achievement-state-done{
@@ -492,7 +503,8 @@ body{
 
 .achievement-progress-wrap{
   margin-top: 6px;
-  width: 120px;
+  width: 100%;
+  max-width: 120px;
 }
 
 .achievement-progress-label{
