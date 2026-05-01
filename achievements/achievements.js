@@ -309,22 +309,22 @@ async function init() {
   const stateMap = flattenState(groupedState);
   state.icons = icons || {};
 
-  state.items = base.map(item => {
-    const entry = stateMap.get(item.achievement_id) || {
-      unlocked: false,
-      progress: null,
-      goal: null,
-      category: item.category,
-      section: item.section
-    };
+ state.items = base.map(item => {
+  const entry = stateMap.get(item.achievement_id) || {
+    unlocked: false,
+    progress: null,
+    goal: null,
+    category: item.category,
+    section: item.section
+  };
 
-    return {
-      ...item,
-      unlocked: !!entry.unlocked,
-      progress: Number.isFinite(entry.progress) ? entry.progress : null,
-      goal: Number.isFinite(entry.goal) ? entry.goal : null
-    };
-  });
+  return {
+    ...item,
+    unlocked: !!entry.unlocked,
+    progress: Number.isFinite(entry.progress) ? entry.progress : null,
+    goal: Number.isFinite(entry.goal) ? entry.goal : null
+  };
+});
 
   els.searchInput?.addEventListener('input', () => {
     state.search = normalize(els.searchInput.value);
