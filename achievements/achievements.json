@@ -40,7 +40,11 @@
       "adept_unknown": true,
       "adept_wraith": true,
       "adept_xenomorph": true,
-      "tools_of_the_trade": false
+      "tools_of_the_trade": {
+      "unlocked": false,
+      "progress": 0,
+      "goal": 5
+    }
     },
     "general": {
       "a_bite_for_the_entity": true,
@@ -93,47 +97,115 @@
       "what_lurks_beneath": true
     },
     "extra": {
-      "battle_caster": false,
+      "battle_caster": {
+      "unlocked": false,
+      "progress": 7,
+      "goal": 25
+    },
       "binding_teeth": false,
-      "biological_weaponry": false,
-      "bloodbath": false,
-      "bound_and_downed": false,
-      "bump_in_the_night": false,
+      "biological_weaponry": {
+      "unlocked": false,
+      "progress": 25,
+      "goal": 65
+    },
+      "bloodbath": {
+      "unlocked": false,
+      "progress": 12,
+      "goal": 20
+    },
+      "bound_and_downed": {
+      "unlocked": false,
+      "progress": 22,
+      "goal": 30
+    },
+      "bump_in_the_night": {
+      "unlocked": false,
+      "progress": 16,
+      "goal": 50
+    },
       "butcherin": true,
-      "caws_of_death": false,
-      "cleansed_in_agony": false,
-      "collision_course": true,
-      "conniption": false,
+      "caws_of_death": {
+      "unlocked": false,
+      "progress": 34,
+      "goal": 50
+    },
+      "cleansed_in_agony": {
+      "unlocked": false,
+      "progress": 23,
+      "goal": 30
+    },
+    "collision_course": true,
+      "conniption": {
+      "unlocked": false,
+      "progress": 14,
+      "goal": 30
+    },
       "cripple_them_all": true,
-      "cruelty_loves_company": false,
+      "cruelty_loves_company": {
+      "unlocked": false,
+      "progress": 9,
+      "goal": 50
+    },
       "deranged_pursuit": true,
       "dream_demon": true,
       "even_punishment": true,
       "from_the_void_she_kills": false,
-      "i_want_to_play_a_game": { "unlocked": false, "progress": 114, "goal": 125 },
+      "i_want_to_play_a_game": {
+      "unlocked": false,
+      "progress": 114,
+      "goal": 125
+    },
       "in_the_void_she_walks": true,
       "jump_scared": true,
       "jump_scares": true,
       "mad_house": true,
       "one_thousand_cuts": true,
       "prey_upon": true,
-      "remember_who_i_am": { "unlocked": false, "progress": 2, "goal": 30 },
+      "remember_who_i_am": {
+      "unlocked": false,
+      "progress": 2,
+      "goal": 30
+    },
       "rightful_owner": false,
-      "shocking_treatment": { "unlocked": false, "progress": 216, "goal": 500 },
-      "skilled_huntress": false,
+      "shocking_treatment": {
+      "unlocked": false,
+      "progress": 216,
+      "goal": 500
+    },
+      "skilled_huntress": {
+      "unlocked": false,
+      "progress": 12,
+      "goal": 20
+    },
       "slip_into_the_stream": true,
       "smoked": true,
       "speed_kills": true,
       "swirling_death": true,
       "symphony_of_fire": true,
       "tag_team": true,
-      "terminal_illness": false,
+      "terminal_illness": {
+      "unlocked": false,
+      "progress": 13,
+      "goal": 50
+    },
       "terror_of_lv_426": true,
-      "the_grind": { "unlocked": false, "progress": 49, "goal": 100 },
-      "thrill_of_the_chase": false,
+      "the_grind": {
+        "unlocked": false,
+        "progress": 49,
+        "goal": 100
+      },
+      "thrill_of_the_chase": {
+      "unlocked": false,
+      "progress": 4,
+      "goal": 10
+    },
       "torn_asunder": true,
       "totally_vulnerable": true,
-      "triggered": { "unlocked": false, "progress": 71, "goal": 300 },
+      "triggered": {
+      "unlocked": false,
+      "progress": 71,
+      "goal": 300
+    },
       "viral_video": true,
       "youve_got_guts": true
     }
@@ -209,7 +281,11 @@
       "mu_th_ur_dearest": true,
       "old_west_oasis": true,
       "operation_survival": true,
-      "outbreak_breakout": { "unlocked": false, "progress": 9, "goal": 20 },
+      "outbreak_breakout": {
+      "unlocked": false,
+      "progress": 9,
+      "goal": 20
+    },
       "outrun_the_overlap": true,
       "raccoon_city_recruit": true,
       "rebuilding_the_borgo": true,
@@ -222,13 +298,21 @@
       "apt_survivor": true,
       "a_worthy_opponent": true,
       "backdoor_escape": true,
-      "bless_you": false,
+      "bless_you": {
+      "unlocked": false,
+      "progress": 11,
+      "goal": 20
+    },
       "bloodied_hands": true,
       "bodyguard": true,
       "break_for_it": true,
       "close_shave": true,
       "cutting_out": true,
-      "deep_cleansing": { "unlocked": false, "progress": 22, "goal": 100 },
+      "deep_cleansing": {
+      "unlocked": false,
+      "progress": 22,
+      "goal": 100
+    },
       "desperate_escape": true,
       "devoted_caretaker": true,
       "dismantle": true,
@@ -236,8 +320,16 @@
       "escaping_the_nightmare": true,
       "ever_vigilant": true,
       "every_last_drop": true,
-      "expert_generalist": false,
-      "skilled_generalist": false,
+      "expert_generalist": {
+      "unlocked": false,
+      "progress": 0,
+      "goal": 8
+    },
+      "skilled_generalist": {
+      "unlocked": false,
+      "progress": 1,
+      "goal": 8
+    },
       "expert_survivor": true,
       "fearless_healer": true,
       "final_days": true,
@@ -303,7 +395,11 @@
       "first_to_the_punch": true,
       "getting_the_hang_of_it": true,
       "gifts_for_the_fog": true,
-      "happy_holidays": false,
+      "happy_holidays": {
+      "unlocked": false,
+      "progress": 4,
+      "goal": 100
+    },
       "holiday_get_together": true,
       "i": true,
       "ii": true,

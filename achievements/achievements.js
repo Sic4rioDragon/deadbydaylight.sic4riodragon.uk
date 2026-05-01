@@ -61,9 +61,23 @@ function flattenState(grouped) {
     for (const [sectionKey, sectionValue] of Object.entries(topValue)) {
       if (!sectionValue || typeof sectionValue !== 'object') continue;
 
-      for (const [achievementId, unlocked] of Object.entries(sectionValue)) {
+      for (const [achievementId, rawValue] of Object.entries(sectionValue)) {
+        let unlocked = false;
+        let progress = null;
+        let goal = null;
+
+        if (typeof rawValue === 'boolean') {
+          unlocked = rawValue;
+        } else if (rawValue && typeof rawValue === 'object') {
+          unlocked = !!rawValue.unlocked;
+          progress = Number.isFinite(rawValue.progress) ? rawValue.progress : 0;
+          goal = Number.isFinite(rawValue.goal) ? rawValue.goal : 0;
+        }
+
         out.set(achievementId, {
-          unlocked: !!unlocked,
+          unlocked,
+          progress,
+          goal,
           category:
             topKey === 'survivors'
               ? 'survivor'
@@ -195,8 +209,44 @@ function renderSections(container, items, category) {
 }
 
 function renderAchievementCard(item) {
-  const progressLabel = item.unlocked ? '1 / 1' : '0 / 1';
   const icon = state.icons[item.achievement_id] || '';
+  const hasProgress = !item.unlocked && Number.isFinite(item.progress) && Number.isFinite(item.goal) && item.goal > 1;
+
+  let metaHtml = '';
+
+  if (item.unlocked) {
+    metaHtml = `
+      <div class="achievement-meta">
+        <span class="achievement-state achievement-state-done">Done</span>
+        <strong>Done</strong>
+      </div>
+    `;
+  } else if (hasProgress) {
+    const safeProgress = Math.max(0, item.progress);
+    const safeGoal = Math.max(1, item.goal);
+    const percent = Math.max(0, Math.min(100, (safeProgress / safeGoal) * 100));
+    const percentLabel = Number.isInteger(percent) ? String(percent) : percent.toFixed(1);
+
+    metaHtml = `
+      <div class="achievement-meta achievement-meta-progress">
+        <span class="achievement-state">Locked</span>
+        <strong>${safeProgress} / ${safeGoal}</strong>
+        <div class="achievement-progress-wrap">
+          <div class="achievement-progress-label">${percentLabel}%</div>
+          <div class="achievement-progressbar">
+            <div class="achievement-progressbar-inner" style="width:${percent}%;"></div>
+          </div>
+        </div>
+      </div>
+    `;
+  } else {
+    metaHtml = `
+      <div class="achievement-meta">
+        <span class="achievement-state">Locked</span>
+        <strong>0 / 1</strong>
+      </div>
+    `;
+  }
 
   return `
     <article class="achievement ${item.unlocked ? 'is-unlocked' : 'is-locked'}">
@@ -209,10 +259,7 @@ function renderAchievementCard(item) {
         </div>
         <p>${escapeHtml(item.description)}</p>
       </div>
-      <div class="achievement-meta">
-        <span class="achievement-state">${item.unlocked ? 'Unlocked' : 'Locked'}</span>
-        <strong>${progressLabel}</strong>
-      </div>
+      ${metaHtml}
     </article>
   `;
 }
