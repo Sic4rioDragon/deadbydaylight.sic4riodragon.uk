@@ -283,7 +283,7 @@
       "operation_survival": true,
       "outbreak_breakout": {
       "unlocked": false,
-      "progress": 16,
+      "progress": 17,
       "goal": 20
     },
       "outrun_the_overlap": true,
@@ -327,7 +327,7 @@
     },
       "skilled_generalist": {
       "unlocked": false,
-      "progress": 4,
+      "progress": 5,
       "goal": 8
     },
       "expert_survivor": true,
