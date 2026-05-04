@@ -283,7 +283,7 @@
       "operation_survival": true,
       "outbreak_breakout": {
       "unlocked": false,
-      "progress": 9,
+      "progress": 12,
       "goal": 20
     },
       "outrun_the_overlap": true,
@@ -299,8 +299,8 @@
       "a_worthy_opponent": true,
       "backdoor_escape": true,
       "bless_you": {
-      "unlocked": false,
-      "progress": 17,
+      "unlocked": true,
+      "progress": 20,
       "goal": 20
     },
       "bloodied_hands": true,
@@ -310,7 +310,7 @@
       "cutting_out": true,
       "deep_cleansing": {
       "unlocked": false,
-      "progress": 23,
+      "progress": 30,
       "goal": 100
     },
       "desperate_escape": true,
@@ -322,7 +322,7 @@
       "every_last_drop": true,
       "expert_generalist": {
       "unlocked": false,
-      "progress": 0,
+      "progress": 1,
       "goal": 8
     },
       "skilled_generalist": {
