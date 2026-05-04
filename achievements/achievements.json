@@ -39,12 +39,7 @@
       "adept_twins": true,
       "adept_unknown": true,
       "adept_wraith": true,
-      "adept_xenomorph": true,
-      "tools_of_the_trade": {
-      "unlocked": false,
-      "progress": 0,
-      "goal": 5
-    }
+      "adept_xenomorph": true
     },
     "general": {
       "a_bite_for_the_entity": true,
@@ -94,6 +89,11 @@
       "taste_the_darkness": true,
       "texas_bbq": true,
       "the_grand_sacrifice": true,
+      "tools_of_the_trade": {
+      "unlocked": false,
+      "progress": 0,
+      "goal": 5
+    },
       "what_lurks_beneath": true
     },
     "extra": {
@@ -283,7 +283,7 @@
       "operation_survival": true,
       "outbreak_breakout": {
       "unlocked": false,
-      "progress": 12,
+      "progress": 16,
       "goal": 20
     },
       "outrun_the_overlap": true,
@@ -310,7 +310,7 @@
       "cutting_out": true,
       "deep_cleansing": {
       "unlocked": false,
-      "progress": 30,
+      "progress": 50,
       "goal": 100
     },
       "desperate_escape": true,
@@ -321,13 +321,13 @@
       "ever_vigilant": true,
       "every_last_drop": true,
       "expert_generalist": {
-      "unlocked": false,
-      "progress": 1,
+      "unlocked": true,
+      "progress": 8,
       "goal": 8
     },
       "skilled_generalist": {
       "unlocked": false,
-      "progress": 1,
+      "progress": 4,
       "goal": 8
     },
       "expert_survivor": true,
