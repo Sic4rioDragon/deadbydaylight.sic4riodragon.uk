@@ -114,8 +114,8 @@
       "goal": 20
     },
       "bound_and_downed": {
-      "unlocked": false,
-      "progress": 22,
+      "unlocked": true,
+      "progress": 30,
       "goal": 30
     },
       "bump_in_the_night": {
