@@ -130,8 +130,8 @@
       "goal": 50
     },
       "cleansed_in_agony": {
-      "unlocked": false,
-      "progress": 23,
+      "unlocked": true,
+      "progress": 30,
       "goal": 30
     },
     "collision_course": true,
@@ -310,7 +310,7 @@
       "cutting_out": true,
       "deep_cleansing": {
       "unlocked": false,
-      "progress": 50,
+      "progress": 51,
       "goal": 100
     },
       "desperate_escape": true,
