@@ -310,7 +310,7 @@
       "cutting_out": true,
       "deep_cleansing": {
       "unlocked": false,
-      "progress": 51,
+      "progress": 63,
       "goal": 100
     },
       "desperate_escape": true,
@@ -326,8 +326,8 @@
       "goal": 8
     },
       "skilled_generalist": {
-      "unlocked": false,
-      "progress": 5,
+      "unlocked": true,
+      "progress": 8,
       "goal": 8
     },
       "expert_survivor": true,
@@ -347,7 +347,7 @@
       "key_to_success": true,
       "kitted_out": true,
       "leapfrog": true,
-      "left_for_dead": false,
+      "left_for_dead": true,
       "legendary_survivor": true,
       "lifting_the_fog": true,
       "looter": true,
