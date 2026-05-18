@@ -309,8 +309,8 @@
       "close_shave": true,
       "cutting_out": true,
       "deep_cleansing": {
-      "unlocked": false,
-      "progress": 63,
+      "unlocked": true,
+      "progress": 100,
       "goal": 100
     },
       "desperate_escape": true,
