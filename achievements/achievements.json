@@ -109,8 +109,8 @@
       "goal": 65
     },
       "bloodbath": {
-      "unlocked": false,
-      "progress": 12,
+      "unlocked": true,
+      "progress": 20,
       "goal": 20
     },
       "bound_and_downed": {
@@ -136,8 +136,8 @@
     },
     "collision_course": true,
       "conniption": {
-      "unlocked": false,
-      "progress": 14,
+      "unlocked": true,
+      "progress": 30,
       "goal": 30
     },
       "cripple_them_all": true,
