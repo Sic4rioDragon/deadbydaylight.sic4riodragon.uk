@@ -168,8 +168,8 @@
     },
       "rightful_owner": true,
       "shocking_treatment": {
-      "unlocked": false,
-      "progress": 216,
+      "unlocked": true,
+      "progress": 500,
       "goal": 500
     },
       "skilled_huntress": {
@@ -202,8 +202,8 @@
       "torn_asunder": true,
       "totally_vulnerable": true,
       "triggered": {
-      "unlocked": false,
-      "progress": 71,
+      "unlocked": true,
+      "progress": 300,
       "goal": 300
     },
       "viral_video": true,
@@ -282,8 +282,8 @@
       "old_west_oasis": true,
       "operation_survival": true,
       "outbreak_breakout": {
-      "unlocked": false,
-      "progress": 17,
+      "unlocked": true,
+      "progress": 20,
       "goal": 20
     },
       "outrun_the_overlap": true,
