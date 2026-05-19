@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Funny Steam Reviews | Dead by Daylight</title>
+  <link rel="icon" href="https://sic4riodragon.uk/favicon.ico">
+  <style>
+    :root {
+      --bg: #08090d;
+      --panel: rgba(15, 17, 25, 0.88);
+      --text: #f3f4f8;
+      --muted: #aeb3c2;
+      --line: rgba(255, 255, 255, 0.13);
+      --red: #ff5c72;
+      --blue: #66c0f4;
+      --gold: #f4c76a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.9)),
+        url("https://sic4riodragon.uk/assets/general.png") center / cover fixed no-repeat,
+        var(--bg);
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      width: min(1080px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 34px 0 54px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.35);
+      color: var(--text);
+      font-size: 13px;
+    }
+
+    .hero {
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: linear-gradient(135deg, rgba(130, 22, 39, 0.62), rgba(11, 15, 24, 0.92));
+      box-shadow: 0 22px 80px rgba(0, 0, 0, 0.55);
+      padding: clamp(22px, 4vw, 42px);
+      margin-bottom: 24px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -80px -120px auto;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: rgba(255, 92, 114, 0.18);
+      filter: blur(10px);
+      pointer-events: none;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(32px, 5vw, 58px);
+      letter-spacing: -0.05em;
+      line-height: 0.95;
+    }
+
+    .hero p {
+      max-width: 780px;
+      margin: 0;
+      color: #d8dbe5;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    .note {
+      margin-top: 18px;
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      color: #ffe1e6;
+      font-size: 13px;
+    }
+
+    .pill {
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 999px;
+      padding: 7px 10px;
+    }
+
+    .review-card {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--panel);
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
+      margin: 22px 0;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+    }
+
+    .review-card.context {
+      border-color: rgba(244, 199, 106, 0.35);
+    }
+
+    .review-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 18px;
+      padding: 22px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+      border-bottom: 1px solid var(--line);
+    }
+
+    .game-title {
+      margin: 0 0 8px;
+      font-size: clamp(22px, 3vw, 34px);
+      letter-spacing: -0.03em;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      line-height: 1.5;
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .verdict {
+      align-self: start;
+      border-radius: 14px;
+      padding: 10px 12px;
+      font-weight: 800;
+      color: white;
+      background: rgba(255, 92, 114, 0.22);
+      border: 1px solid rgba(255, 92, 114, 0.45);
+      white-space: nowrap;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      padding: 16px 22px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .meta {
+      border: 1px solid rgba(255, 255, 255, 0.11);
+      border-radius: 16px;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.045);
+      min-height: 70px;
+    }
+
+    .meta b {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 6px;
+    }
+
+    .meta span {
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .review-body {
+      padding: 24px;
+      color: #e8eaf1;
+      line-height: 1.65;
+      font-size: 16px;
+    }
+
+    .review-body .bb_h1 {
+      margin: 22px 0 8px;
+      color: #fff;
+      font-weight: 900;
+      font-size: clamp(22px, 3vw, 34px);
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+    }
+
+    .review-body .bb_h1:first-child {
+      margin-top: 0;
+    }
+
+    .review-body hr {
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 14px 0;
+    }
+
+    .review-body ul {
+      padding-left: 22px;
+    }
+
+    .review-body li {
+      margin: 6px 0;
+    }
+
+    .footer {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+      margin-top: 28px;
+    }
+
+    @media (max-width: 760px) {
+      .topbar,
+      .review-head {
+        grid-template-columns: 1fr;
+      }
+
+      .meta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .verdict {
+        width: fit-content;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+
+    <section class="hero">
+      <h1>Funny Steam Review</h1>
+      <p>
+        A tiny page for preserving one extremely normal Dead by Daylight review, with the GTA Enhanced review above it showing how much of a problem they have with easy anti cheat.....
+      </p>
+    </section>
+
+    <article class="review-card context" id="gta-enhanced">
+      <header class="review-head">
+        <div>
+          <h2 class="game-title">Grand Theft Auto V Enhanced</h2>
+        <div class="verdict">Not Recommended</div>
+      </header>
+
+      <section class="meta-grid">
+        <div class="meta"><b>Steam link</b><span><a href="https://steamcommunity.com/id/mistressspy/recommended/3240220/" target="_blank" rel="noopener">Open review</a></span></div>
+        <div class="meta"><b>Hours now</b><span>1.9 hrs on record</span></div>
+        <div class="meta"><b>At review time</b><span>1.3 hrs</span></div>
+        <div class="meta"><b>Posted / edited</b><span>Posted April 28, 2025. Last edited April 28, 2025.</span></div>
+      </section>
+
+      <section class="review-body">
+        <hr>
+        <br>
+        <br>
+        <div class="bb_h1">⚠️ BEWARE: BattlEye Anti-Cheat in GTA Enhanced Comes with Major Privacy Trade-Offs ⚠️</div>
+        <br>
+        <hr>
+        <br>
+        Before diving into GTA Enhanced, be aware that it requires the installation of BattlEye, an invasive anti-cheat system with deep access to your computer. BattlEye collects a wide range of personal data including your IP address, hardware serial numbers, OS-level file names, and even scans your running processes, drivers, and system memory. If any data is flagged (even wrongly), it can be stored indefinitely and shared with the publisher or affiliates. Opting out of this data collection means you can’t access the game at all.
+        <br><br>
+        Though BattlEye claims it doesn’t sell your information, it retains the theoretical ability to transmit executable code from your system to their servers, and it uses automated decision-making that could lead to bans without clear human oversight. You also can’t directly exercise your EU data rights with them — they push that burden onto the game publisher.
+        <br><br>
+        ---&gt; !! LINUX AND STEAM CONSOLE USERS CAN NOT PLAY GTA ONLINE NOW !! &lt;---
+        <br><br>
+        Additionally, you must be online for story mode!
+      </section>
+    </article>
+
+    <article class="review-card" id="dead-by-daylight">
+      <header class="review-head">
+        <div>
+          <h2 class="game-title">Dead by Daylight</h2>
+          <p class="subtitle">The only actual Dead by Daylight review on this page, kept in full from the Steam review HTML.</p>
+        </div>
+        <div class="verdict">Not Recommended</div>
+      </header>
+
+      <section class="meta-grid">
+        <div class="meta"><b>Steam link</b><span><a href="https://steamcommunity.com/id/mistressspy/recommended/381210/" target="_blank" rel="noopener">Open review</a></span></div>
+        <div class="meta"><b>Hours now</b><span>1,724.3 hrs on record</span></div>
+        <div class="meta"><b>At review time</b><span>995.1 hrs</span></div>
+        <div class="meta"><b>Posted / edited</b><span>Posted March 19, 2019. Last edited July 14, 2025.</span></div>
+      </section>
+
+      <section class="review-body">
+        <div class="bb_h1"> Dead by Daylight: A 7+ Year Review. </div>
+        <br>
+        I have spent long and hard on the subject of Dead by Daylight. I have wasted thousands of hours thinking about this game that could have been used on anything else! Maybe learning a language? Revisiting math? Even picking up ♥♥♥♥♥♥♥♥ at the park would be a better use of my time.
+        <br><br>
+        Instead, I am revising my review of Dead by Daylight, in the hopes that some newcomer, some TikTok kid who saw some gameplay video, might actually see this and think twice before ever ruining their life with this game.
+        <br><br>
+        Dead by Daylight may be the most addicting, most toxic, most terrible game to ever exist. It may even surpass League or Destiny 2.
+        <br><br>
+
+        <div class="bb_h1">The Gameplay.</div>
+        <div class="bb_h1">It's killer-sided, you morons!</div>
+        <br>
+        It is a killer sided game. The killer will always be at some sort of advantage. I would take 2018 DBD, without any punishments for camping and tunneling, over whatever it is now, because at least back then we had perks like Dead Hard and Decisive Strike. The reason why these ""meta"" perks were nerfed for survivor is the root cause of why DBD WILL fail within the next few years (God willing) -- the developers, who need to keep the game alive, appeal to and appease any whim of any killer main. Killer mains are never incentivized to work hard for a win or a kill. They will cry and call BS when any survivor, no matter how skilled, actually outplays them, because they want their fun and easy thrill of seeing a 4K. Dead Hard? Nah, they wouldn't wait an additional second before hitting as to trick a survivor into using it at the wrong time, just remove the ♥♥♥♥♥♥♥ perk instead.
+        <br><br>
+        Each and every single addition to the game has KILLED survivor gameplay. Every new killer has some overpowered power (or several!) that makes them virtually uncounterable. Autistic children who pick up the game today will be able to kill a survivor main who has been playing since launch with cheesed tactics and P2W bullshittery. Every killer has some sort of teleport/faster movement buff, or some sort of M1 hit and another additional ranged hit, usually both and then some. They even started nerfing killers that took ACTUAL skill, such as Nurse, for some reason? While buffing characters like Trickster.
+        <br><br>
+        Every killer that takes skill is not played. The OG Freddy was a fantastic and fun killer to play. But nobody played him because it took skill, so what did they do? Eh, screw it, just rework him to be easier. Who needs the lore of the films when you have a dev team who doesn't care?
+        <br><br>
+        "B-but MissSpy!" I hear the killer mains howling. "You must be a survivor main!"
+        <br><br>
+        I am a flex player who is rank 1 each and every reset on both survivor and killer. I flex main multiple killers, including Nurse, Dracula, Bubba (yes! M1 bubba!), Wraith, Trapper, Legion, the list goes on. I play mostly killer these days (because as I have said, survivor gameplay is UNTENABLE!) and still agree with this sentiment.
+        <br><br>
+
+        <div class="bb_h1">The Sexualization Of Women... and Yes, Children. </div>
+        <br>
+        Every single female in this game has some sort of wh-re skin. Some sort of shoeless skin. Some sort of butt booty naked skin for the gooners. In the lore, the Huntress is mentally a child. She is traumatized and EXTREMELY mentally stunted. Yet she is sexualized perhaps most out of the female killers. Why? Because a) the devs don't care about their own lore, b) the fans don't care about the lore (anymore,) c) because sex = money, even for children or the disabled, and d) women are objects, not human beings.
+        <br><br>
+        I know people will cry about this too; "b-but, sex work is work! What are you, some sort of SEXIST?! You must HATE women! Stop POLICING WOMEN!"
+        <br><br>
+        I am a woman. A woman who hopes that one day, money will not be made off of young women being sold to gooners and pick me's in what was supposed to be a horror game now turned Fortnite gatcha shet. Just sick and disappointing.
+        <br><br>
+        The disabled Huntress? Ah fug it. She a hoe. The abused Spriit? She a hoe. The shy, scientific Claudette. Hoe. Because here at BHVR, women are nothing more than s/uts and moneymakers. Take off those shoes, sable - you and all women are fetishes for gooners! It's all about bucks, kid!
+        <br><br>
+
+        <div class="bb_h1"> The Story... Or, What's Left.</div>
+        <br>
+        Aside from a few clues cleverly hidden in in-game items, nobody really knew a lot about the context of the story. It allowed for each person to develop their own headcanons about the characters and the wold around them, and it was an incredibly fun and engaging way to explore the story. Perhaps adding some sort of SHORT narrative or timeline within the game would work, but instead we got the archives. I remember when these first came out and they were disappointing then and they’re disappointing now. BHVR is so wacked out of their mind and completely disconnected to the player base that they assume players will somehow want to turn on the game and LISTEN TO HOURS OF AUDIOBOOKS. You can’t even play/pause these while waiting in lobby or in game! They genuinely expect players to waste time that could be used playing the game listening to the cheapest voice actor they could find read out boring, uninspired stories that tell disjointed and confusing narratives!
+        <br><br>
+        This *alone* should be enough evidence that BHVR does not and never will care about their players. What other game has ♥♥♥♥♥♥♥ audiobooks? Even if the writing was good (it’s not,) there is no way that anyone except for *maybe* 1% of the playerbase will EVER touch these. Need I remind you that these were previously locked behind in-game quests that one had to complete to even get the full story? And often these stories involved playing characters the player does not own! So instead of using these stories as perhaps a way to get players interested in characters they don’t have, they can’t even do *that* right. Besides, even if they just gave them for free, the writing really is twice as painful as I’m making it out to be. No effort or talent went into these stories/comics.
+        <br><br>
+        Additionally, they pushed woke sh/t. Yeah, I'm going there. In 2018 I HC'd David to be a closeted gay man. It made sense and was interesting narratively. Now, he's not only gay, he's extremely flamboyant with BDSM wear anyone can buy to wear as a skin. Same for Jake! I always HC'd him to be a bit feminine (secretly,) but now he has crop tops and other gay skins. These are for the female gooners, who are just as bad as their male counterparts. Just sad.
+        <br><br>
+
+        <div class="bb_h1">Toxic...</div>
+        <br>
+        It is no secret the fanbase is extremely toxic. Click your flashlight as survivor? You will get hate in chat. Crouch? Hate. Don't let someone get hatch? Toxic. Both sides of the argument are stupid and childish, but in my games, I find it is more often for people to somehow think that "bullying" exists in this game.
+        <br><br>
+        Let me be clear: YOU ARE NOT BULLYING SOMEONE BY BEING BETTER THAN THEM, SURVIVOR, OR KILLER.
+        <br><br>
+        You can kill all 4 survivors. You can run the killer for 5 gens. It is not bullying to play the game.
+        <br><br>
+
+        <div class="bb_h1">MMR.</div>
+        <br>
+        I don't have much to say about this. I am rank 1 and getting into games with baby dweets who just installed today. Please, BHVR.
+        <br><br>
+
+        <div class="bb_h1">What's Next?</div>
+        Here would be my wishlist for DBD.
+        <br>
+        <ul class="bb_ul">
+          <li>Revert survivor movement</li>
+          <li>Give us "meta" perks back (DH, DS, etc)</li>
+          <li>Give us back old models for survivors (or add f r33 skins that allow us to use these again)</li>
+          <li>Add some sort of permanent mode for players to go back to the Pig update and play how the game used to be (with all of the above and more returned to us)</li>
+          <li>Allow for private matches to be started with only one player</li>
+          <li>Allow custom settings and rules for custom matches, including old perks, maps, movement, etc</li>
+          <li>Add old maps back into the game into either aformentioned mode or just in regular queue</li>
+          <li>Remove punishments for DC'ing, as well as removing survivor nerfs to disallow going next and farming</li>
+          <li>Remove (or give an option to remove) chat filtering</li>
+          <li>Bring back rank 1-20</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

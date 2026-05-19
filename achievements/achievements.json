@@ -91,7 +91,7 @@
       "the_grand_sacrifice": true,
       "tools_of_the_trade": {
       "unlocked": false,
-      "progress": 0,
+      "progress": 1,
       "goal": 5
     },
       "what_lurks_beneath": true
@@ -102,7 +102,7 @@
       "progress": 25,
       "goal": 25
     },
-      "binding_teeth": false,
+      "binding_teeth": true,
       "biological_weaponry": {
       "unlocked": true,
       "progress": 65,
@@ -125,8 +125,8 @@
     },
       "butcherin": true,
       "caws_of_death": {
-      "unlocked": false,
-      "progress": 34,
+      "unlocked": true,
+      "progress": 50,
       "goal": 50
     },
       "cleansed_in_agony": {
@@ -151,8 +151,8 @@
       "even_punishment": true,
       "from_the_void_she_kills": false,
       "i_want_to_play_a_game": {
-      "unlocked": false,
-      "progress": 114,
+      "unlocked": true,
+      "progress": 125,
       "goal": 125
     },
       "in_the_void_she_walks": true,
@@ -191,12 +191,12 @@
       "terror_of_lv_426": true,
       "the_grind": {
         "unlocked": false,
-        "progress": 49,
+        "progress": 78,
         "goal": 100
       },
       "thrill_of_the_chase": {
       "unlocked": false,
-      "progress": 4,
+      "progress": 8,
       "goal": 10
     },
       "torn_asunder": true,
