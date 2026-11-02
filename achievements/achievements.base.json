@@ -355,7 +355,7 @@
     "title": "Tools of the Trade",
     "description": "Achieve a merciless victory 5 times in a public match with only 3 universal perks equipped.",
     "category": "killer",
-    "section": "adept",
+    "section": "general",
     "id": null,
     "steam_api_name": "ACH_CHAPTER13_KILLER_3"
   },
