@@ -77,3 +77,6 @@ body:not(.hub-page) .killer:hover{box-shadow:0 0 0 1px rgba(240,104,116,.3),0 16
 .hub-hero:before{opacity:.13}
 @media(max-width:900px){.hub-hero .hub-wrap{gap:12px}.hub-hero-copy{flex-basis:55%}.hub-feature-banner{flex-basis:42%}}
 @media(max-width:670px){.hub-hero .hub-wrap{display:flex;flex-direction:column;align-items:stretch;min-height:0;gap:0}.hub-hero-copy{flex:initial;width:100%;padding:35px 0 16px}.hub-feature-banner{flex:initial;width:100%;margin:0 0 28px}.hub-feature-banner img{max-height:none}.hub-hero h1{font-size:clamp(48px,12vw,70px)}}
+
+/* The shared header replaces the old achievements-only navigation. */
+.site-header ~ .page-shell .hero-nav{display:none}
