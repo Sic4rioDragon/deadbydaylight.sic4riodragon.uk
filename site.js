@@ -3,7 +3,7 @@
     ['/', 'Home'], ['/killers/', 'Killers'], ['/survivors.html', 'Survivors'],
     ['/achievements/', 'Achievements'], ['/dbd-rulebook/', 'Rulebook'],
     ['https://dbdfarming.sic4riodragon.uk/', 'Farming guide'],
-    ['https://sic4riodragon.uk/twitch/deadbydaylight/', 'Challenges']
+    ['https://twitch.sic4riodragon.uk/deadbydaylight/', 'Challenges']
   ];
   const esc = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const path = location.pathname;
