@@ -1,81 +1,35 @@
-# Dead by Daylight — Collection Pages
+# Dead by Daylight website
 
-A small static site to track my **Dead by Daylight** collection with:
-- Killer + Survivor grids
-- Search + favorites
-- Click-to-open modal with loadouts + clip embeds
-- Deep links that open a character directly (`?k=` for killers, `?s=` for survivors)
-- Optional perk icons pulled from snoggles' perk emoji repo
+Main site: https://deadbydaylight.sic4riodragon.uk/
 
 ## Pages
-- **Killers:** `/deadbydaylight/`
-- **Survivors:** `/deadbydaylight/survivors.html`
+- Homepage: `/`
+- Killers: `/killers/` (old `/?k=` links redirect)
+- Survivors: `/survivors.html`
+- Achievements: `/achievements/` (select tracked players)
+- Rulebook: `/dbd-rulebook/`
+- Farming guides: https://dbdfarming.sic4riodragon.uk/
 
-### Switching pages
-Click the icons in the title:
-- **Yui icon** → Survivors
-- **Huntress icon** → Killers
+The original `killers.json`, `survivors.json`, builds, clips, and images remain editable independently.
 
-## Data files
-### Killers
-`/deadbydaylight/killers.json`
+## Steam achievements
+Achievement syncing runs every three hours via GitHub Actions (minute 17 UTC), and can also be triggered manually. Add the `STEAM_API_KEY` **Actions repository secret**; never put it in a website file. Steam Game Details must be public for achievements to be available.
 
-Each killer entry supports:
-- `id` (string) — unique
-- `name` (string)
-- `img` (string) — portrait path
-- `prestige` (number)
-- `owned` (boolean)
+Go to **Actions → DBD achievements - sync and manage → Run workflow**:
+- `sync`: refresh all players.
+- `add`: supply a **SteamID64**. Optional display name is used as a fallback until Steam name is fetched.
+- `remove`: supply the ID; primary account is protected.
+- `rename`: supply the ID and desired override. Leave display name blank to use the current Steam name again.
 
-Optional:
-- `favLoadout`: `{ perks: [], addons: [], offering?: "", notes?: "" }`
-- `clips`: `[ { title?: "", url: "" } ]`
-- `main`: true/false (optional highlight flag if enabled in CSS/JS)
+The registered players are in `achievements/players.json`. A player's `overrideName` takes priority over the Steam name; otherwise the current Steam name is displayed, with `fallbackName` used before the first successful fetch. Player snapshots are kept separately in `achievements/players/STEAMID.json`.
 
-### Survivors
-`/deadbydaylight/survivors.json`
+The shared catalog and icons are in `achievements/achievements.base.json` and `achievements/achievements.icons.json`. Missing or unavailable Steam data never intentionally clears the previous snapshot. Steam may not expose the progress counter for an unfinished achievement; existing progress is therefore retained, not fabricated.
 
-Each survivor supports:
-- `id`, `name`, `img`, `owned`
-Optional:
-- `favLoadout`: `{ perks: [], addons: [], notes?: "" }` (addons can be used for items/add-ons)
-- `clips`: `[ { title?: "", url: "" } ]`
-- `main`: true/false (optional highlight flag if enabled)
+**GitHub Pages setup:** In Settings → Pages, select **GitHub Actions** as the build/deployment source for this workflow to deploy updated data automatically. The workflow commits updated snapshots and deploys the site after a successful run. Ensure Actions can write repository contents (Settings → Actions → General). The old branch-based Pages source may not redeploy for commits made by GitHub's default workflow token.
 
-## Favorites (local-only)
-Favorites are stored in the browser via `localStorage`:
-- Killers: `dbd_favs_v1`
-- Survivors: `dbd_survivor_favs_v1`
+The 3-hour schedule is best-effort: GitHub may delay scheduled jobs. The public player profile shows the actual last successful sync timestamp.
 
-## Deep links
-- Killers open with: `/deadbydaylight/?k=huntress`
-- Survivors open with: `/deadbydaylight/survivors.html?s=yui`
+### Testing
+Run **sync** manually in GitHub Actions; check for errors, verify the Pages deployment and compare the resulting profile with Steam. If it fails, data from the previous successful synchronization is kept.
 
-Ctrl/Cmd-click a card to open the deep link in a new tab.
-
-## Clips (embeds)
-The modal auto-embeds:
-- **Medal** links (supported)
-- **YouTube** links (supported)
-Other links show as plain clickable URLs.
-
-## Perk icons (optional)
-Perk icons load from:
-https://raw.githubusercontent.com/snoggles/dbd-perk-emoji/main/images/input/
-
-Perks can be stored as:
-- Plain string: `"Lethal Pursuer"`
-- Or object: `{ "name": "Lethal Pursuer", "icon": "Lethal Pursuer.png" }`
-
-The killers page includes an automatic filename resolver for most perks:
-- Apostrophe `'` becomes `_` (example: `We'll Make It` → `We_ll Make It.png`)
-- Colons `:` are removed (example: `Hex: Ruin` → `Hex Ruin.png`)
-Plus a small alias list for weird names like BBQ.
-
-## Assets
-- Placeholder: `/deadbydaylight/assets/img/placeholder.webp`
-- Icons used in title:
-  - `/deadbydaylight/assets/img/yui.png`
-  - `/deadbydaylight/assets/img/huntress.png`
-
-Hosted as a static site (GitHub Pages / any static host).
+The retired alt account/repository is not modified or deleted.

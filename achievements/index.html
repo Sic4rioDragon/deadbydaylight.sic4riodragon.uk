@@ -9,7 +9,7 @@
   <meta name="theme-color" content="#07111d">
 
   <link rel="canonical" href="https://deadbydaylight.sic4riodragon.uk/achievements/">
-  <link rel="stylesheet" href="./achievements.css?v=1">
+  <link rel="stylesheet" href="./achievements.css?v=2">
 
   <link rel="icon" type="image/png" href="/assets/img/deadbydaylight_icon.png">
   <link rel="shortcut icon" href="/assets/img/deadbydaylight_icon.png">
@@ -25,6 +25,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Dead by Daylight • Achievements • Sic4rioDragon">
   <meta name="twitter:description" content="My Dead by Daylight achievements — survivors, killers, and general achievements.">
+  <link rel="stylesheet" href="/site.css">
 </head>
 <body>
   <div class="page-bg"></div>
@@ -41,12 +42,12 @@
 
       <div class="hero-copy">
         <h1>Achievements</h1>
-        <p class="subtitle">My Dead by Daylight achievements</p>
+        <p class="subtitle">Steam achievement progress for Sic4rioDragon and other players.</p>
 
         <nav class="hero-nav" aria-label="Dead by Daylight">
-          <a href="/">Home</a>
+          <a href="/killers/">Home</a>
           <a href="/survivors.html">Survivors</a>
-          <a href="/">Killers</a>
+          <a href="/killers/">Killers</a>
           <a href="https://sic4riodragon.uk/twitch/deadbydaylight/">Challenges</a>
           <a class="active" href="/achievements/">Achievements</a>
         </nav>
@@ -60,6 +61,8 @@
         <img src="/assets/img/huntress.png" alt="The Huntress">
       </a>
     </section>
+
+    <section class="player-toolbar card" aria-label="Steam player profile"><div class="player-details"><img id="profileAvatar" src="/assets/img/deadbydaylight_icon.png" alt="" loading="lazy"><div><strong id="profileName">Steam player</strong><p id="playerSyncStatus">Loading saved achievements…</p></div></div><div class="player-actions"><label for="playerSelect">Player</label><select id="playerSelect" aria-label="Select Steam player"></select><a id="playerSteamLink" href="https://steamcommunity.com/" target="_blank" rel="noopener noreferrer">Steam profile</a><a id="playerNightlightLink" href="https://nightlight.gg/" target="_blank" rel="noopener noreferrer">NightLight</a></div></section>
 
     <section class="toolbar card compact">
       <div class="stats">
@@ -153,5 +156,6 @@
   </main>
 
   <script src="./achievements.js?v=1"></script>
+  <script src="/site.js"></script>
 </body>
 </html>

@@ -1,5 +1,7 @@
 const baseUrl = './achievements.base.json';
-const stateUrl = './achievements.json';
+const playerIndexUrl = './players.json';
+let stateUrl = './achievements.json';
+
 const iconsUrl = './achievements.icons.json';
 
 const els = {
@@ -300,13 +302,48 @@ function render() {
 }
 
 async function init() {
+  const players = await loadOptionalJson(playerIndexUrl, []);
+  const idFromUrl = new URLSearchParams(location.search).get('player');
+  const selected = Array.isArray(players) && players.find(p => p.steamid === idFromUrl) || (Array.isArray(players) ? players[0] : null);
+  let profile = null;
+  const select = document.getElementById('playerSelect');
+  const status = document.getElementById('playerSyncStatus');
+  const steamLink = document.getElementById('playerSteamLink');
+  const nightlightLink = document.getElementById('playerNightlightLink');
+  if (selected) {
+    const options = await Promise.all(players.map(async p => {
+      const data = await loadOptionalJson('./players/' + encodeURIComponent(p.steamid) + '.json', {});
+      return { ...p, profile: data };
+    }));
+    if (select) {
+      for (const p of options) {
+        const option = document.createElement('option');
+        option.value = p.steamid;
+        option.textContent = p.overrideName || p.profile.steamName || p.fallbackName || p.steamid;
+        option.selected = p.steamid === selected.steamid;
+        select.appendChild(option);
+      }
+      select.addEventListener('change', () => {
+        const url = new URL(location.href);
+        url.searchParams.set('player', select.value);
+        location.href = url.toString();
+      });
+    }
+    profile = options.find(p=>p.steamid===selected.steamid)?.profile || {};
+    if (steamLink) steamLink.href = 'https://steamcommunity.com/profiles/' + selected.steamid;
+    if (nightlightLink) nightlightLink.href = 'https://nightlight.gg/steam-stats/profile/' + selected.steamid + '/achievements';
+    if (status) status.textContent = profile.lastSync ? 'Last synced: ' + new Date(profile.lastSync).toLocaleString() : 'Awaiting first Steam sync — currently showing saved data';
+    if (document.getElementById('profileName')) document.getElementById('profileName').textContent = selected.overrideName || profile.steamName || selected.fallbackName || selected.steamid;
+    if (document.getElementById('profileAvatar') && profile.avatar) document.getElementById('profileAvatar').src = profile.avatar;
+    stateUrl = './players/' + encodeURIComponent(selected.steamid) + '.json';
+  }
   const [base, groupedState, icons] = await Promise.all([
     fetch(baseUrl, { cache: 'no-store' }).then(r => r.json()),
     fetch(stateUrl, { cache: 'no-store' }).then(r => r.json()),
     loadOptionalJson(iconsUrl, {})
   ]);
 
-  const stateMap = flattenState(groupedState);
+  const stateMap = flattenState(groupedState.state || groupedState);
   state.icons = icons || {};
 
  state.items = base.map(item => {
@@ -322,7 +359,8 @@ async function init() {
     ...item,
     unlocked: !!entry.unlocked,
     progress: Number.isFinite(entry.progress) ? entry.progress : null,
-    goal: Number.isFinite(entry.goal) ? entry.goal : null
+    goal: Number.isFinite(entry.goal) ? entry.goal : null,
+    unlockedAt: entry.unlockedAt || null
   };
 });
 

@@ -1,0 +1,71 @@
+name: DBD achievements - sync and manage
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Sync everyone, add a player, remove a player, or set a name override'
+        required: true
+        type: choice
+        default: sync
+        options:
+          - sync
+          - add
+          - remove
+          - rename
+      steam_id:
+        description: 'SteamID64 for add, remove or rename (leave empty for sync)'
+        required: false
+        type: string
+      display_name:
+        description: 'Optional name when adding; for rename, blank clears override'
+        required: false
+        type: string
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: dbd-achievements
+  cancel-in-progress: false
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Update player data
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          MODE: ${{ github.event.inputs.action || 'sync' }}
+          STEAM_ID: ${{ github.event.inputs.steam_id || '' }}
+          DISPLAY_NAME: ${{ github.event.inputs.display_name || '' }}
+        run: node scripts/sync-achievements.cjs "$MODE" "$STEAM_ID" "$DISPLAY_NAME"
+      - name: Commit updated public data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add achievements/players.json achievements/players/ achievements/achievements.base.json achievements/achievements.icons.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update DBD achievement snapshots"
+            git push
+          fi
+      - name: Prepare Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
