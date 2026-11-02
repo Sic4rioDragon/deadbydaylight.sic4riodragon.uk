@@ -68,3 +68,12 @@ body:not(.hub-page) .killer:hover{box-shadow:0 0 0 1px rgba(240,104,116,.3),0 16
 @media(max-width:1050px){.hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hub-figure{opacity:.5}.site-header{flex-wrap:wrap;padding:12px 22px}.site-links{flex-wrap:nowrap;overflow-x:auto;max-width:100%;justify-content:flex-start;width:100%;padding-bottom:3px}}
 @media(max-width:670px){.hub-wrap{width:min(100% - 28px,1300px)}.hub-hero,.hub-hero .hub-wrap{min-height:385px}.hub-hero-copy{padding:42px 0}.hub-hero h1{font-size:55px}.hub-figure{opacity:.19;right:-38px}.hub-grid{gap:10px}.hub-tile{min-height:215px}.hub-tile-visual{height:128px}.hub-tile-body{padding:12px}.hub-tile-title{font-size:21px}.hub-lower{grid-template-columns:1fr}.hub-main{padding-top:30px}.site-header{padding:10px 14px}.site-links a{font-size:11px;padding:9px 8px}}
 @media(prefers-reduced-motion:reduce){.hub-tile,.hub-btn{transition:none}}
+
+/* Homepage art: single chosen banner rather than separate character cutouts. */
+.hub-hero .hub-wrap{justify-content:space-between;gap:clamp(18px,3vw,40px)}
+.hub-hero-copy{flex:1 1 52%;min-width:0;max-width:680px}
+.hub-feature-banner{position:relative;z-index:2;flex:0 1 44%;min-width:0;align-self:center;margin:25px 0}
+.hub-feature-banner img{display:block;width:100%;height:auto;max-height:340px;object-fit:contain;border-radius:16px;border:1px solid rgba(178,199,224,.21);box-shadow:0 20px 55px rgba(0,0,0,.42)}
+.hub-hero:before{opacity:.13}
+@media(max-width:900px){.hub-hero .hub-wrap{gap:12px}.hub-hero-copy{flex-basis:55%}.hub-feature-banner{flex-basis:42%}}
+@media(max-width:670px){.hub-hero .hub-wrap{display:flex;flex-direction:column;align-items:stretch;min-height:0;gap:0}.hub-hero-copy{flex:initial;width:100%;padding:35px 0 16px}.hub-feature-banner{flex:initial;width:100%;margin:0 0 28px}.hub-feature-banner img{max-height:none}.hub-hero h1{font-size:clamp(48px,12vw,70px)}}
