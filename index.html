@@ -1,66 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>DBD Killers — Sic4rioDragon</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="/assets/img/deadbydaylight_icon.png" />
-
-  <meta name="description" content="My Dead by Daylight killer collection — builds + clips." />
-  <meta property="og:title" content="Dead by Daylight • Killers • Sic4rioDragon" />
-  <meta property="og:description" content="My killer collection — builds + clips." />
-  <meta property="og:image" content="https://deadbydaylight.sic4riodragon.uk/assets/img/banner1.png" />
-  <meta property="og:url" content="https://deadbydaylight.sic4riodragon.uk/" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080c13">
+  <title>Dead by Daylight | Sic4rioDragon</title>
+  <meta name="description" content="Sic4rioDragon's Dead by Daylight hub: killers, survivors, Steam achievements, farming guides, builds and clips.">
+  <link rel="canonical" href="https://deadbydaylight.sic4riodragon.uk/">
+  <link rel="icon" href="/assets/img/deadbydaylight_icon.png">
+  <meta property="og:title" content="Dead by Daylight | Sic4rioDragon">
+  <meta property="og:description" content="Collections, achievements, guides and challenges.">
+  <meta property="og:image" content="https://deadbydaylight.sic4riodragon.uk/assets/img/banner1.png">
+  <link rel="stylesheet" href="/site.css">
+  <script>if(location.search){const p=new URLSearchParams(location.search);if(p.has('k'))location.replace('/killers/?k='+encodeURIComponent(p.get('k')));else if(p.has('s'))location.replace('/survivors.html?s='+encodeURIComponent(p.get('s')));}</script>
 </head>
-
-<body>
-  <div class="topbar">
-    <a class="back-btn" href="https://sic4riodragon.uk/">← Back to Home</a>
-
-    <div class="titleblock">
-      <div class="title-row">
-        <a class="title-avatar-link" href="/survivors.html" title="Go to Survivors">
-          <img class="title-avatar" src="/assets/img/yui.png" alt="Yui">
-        </a>
-
-        <div class="title-text">
-          <h1>Dead by Daylight</h1>
-          <p>My killer collection</p>
+<body class="hub-page">
+  <header class="site-header"></header>
+  <section class="hub-hero">
+    <div class="hub-wrap">
+      <div class="hub-hero-copy">
+        <p class="hub-eyebrow">Sic4rioDragon's DBD hub</p>
+        <h1>Dead by<br>Daylight</h1>
+        <p>My killers and survivors, favorite builds, achievement progress and links to the guides and challenges I work on.</p>
+        <div class="hub-actions">
+          <a class="hub-btn" href="/achievements/">View achievements <span aria-hidden="true">↗</span></a>
+          <a class="hub-btn secondary" href="/killers/">Killer collection</a>
         </div>
-
-        <a class="title-avatar-link" href="/" title="Go to Killers">
-          <img class="title-avatar" src="/assets/img/huntress.png" alt="Huntress">
-        </a>
       </div>
+      <div class="hub-figure" aria-hidden="true"><img src="/assets/img/yui.png" alt=""><img src="/assets/img/huntress.png" alt=""></div>
     </div>
-
-    <div style="width:140px;"></div>
-  </div>
-
-  <div class="controls">
-    <input id="searchInput" class="search" type="search" placeholder="Search killers… (e.g. huntress, oni, spirit)" autocomplete="off">
-  </div>
-
-  <main id="killer-grid"></main>
-
-  <footer>
-    <p id="updated"></p>
-    <button id="toggleNamesBtn" class="toggle-btn" type="button">Turn names off</button>
-  </footer>
-
-  <!-- Modal -->
-  <div id="killerModal" class="modal hidden">
-    <div class="modal-card">
-      <button id="modalClose" class="modal-close">×</button>
-      <h2 id="modalName"></h2>
-      <div id="modalBody"></div>
+  </section>
+  <main class="hub-main hub-wrap">
+    <section aria-labelledby="explore-title">
+      <div class="hub-section-title"><h2 id="explore-title">Explore</h2><span>Collections, progress and guides</span></div>
+      <div class="hub-grid">
+        <a class="hub-tile" href="/killers/"><div class="hub-tile-visual"><img src="/assets/img/huntress.png" alt="" loading="lazy"></div><div class="hub-tile-body"><span class="hub-tile-title">Killers</span><span class="hub-tile-sub">Prestige, favorite builds and clips</span></div></a>
+        <a class="hub-tile" href="/survivors.html"><div class="hub-tile-visual"><img src="/assets/img/yui.png" alt="" loading="lazy"></div><div class="hub-tile-body"><span class="hub-tile-title">Survivors</span><span class="hub-tile-sub">Characters and loadouts</span></div></a>
+        <a class="hub-tile" href="/achievements/"><div class="hub-tile-visual hub-icon-visual"><span aria-hidden="true">★</span></div><div class="hub-tile-body"><span class="hub-tile-title">Achievements</span><span class="hub-tile-sub">Steam profiles, refreshed every 3 hours</span></div></a>
+        <a class="hub-tile" href="https://dbdfarming.sic4riodragon.uk/"><div class="hub-tile-visual hub-icon-visual"><span aria-hidden="true">BP</span></div><div class="hub-tile-body"><span class="hub-tile-title">Farming guide</span><span class="hub-tile-sub">Bloodpoints, methods and tips</span></div></a>
+      </div>
+    </section>
+    <div class="hub-lower">
+      <section class="hub-box" aria-labelledby="tracked-title"><h2 id="tracked-title">Tracked Steam profiles</h2><p>Choose a player to see which DBD achievements they have completed.</p><div class="hub-players" id="homePlayers"><span>Loading player list…</span></div></section>
+      <section class="hub-box"><h2>More DBD stuff</h2><ul class="hub-list">
+        <li><a href="/dbd-rulebook/">My DBD rulebook <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://dbdfarming.sic4riodragon.uk/guides/organized-farming.html">Organized farming <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://dbdfarming.sic4riodragon.uk/guides/bloodpoint-farming.html">Bloodpoint guide <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://sic4riodragon.uk/twitch/deadbydaylight/">Twitch DBD challenges <span aria-hidden="true">↗</span></a></li>
+      </ul></section>
     </div>
-  </div>
-
-  <script src="script.js"></script>
+  </main>
+  <footer class="hub-footer"><div class="hub-wrap"><span>Dead by Daylight collection · Sic4rioDragon</span><span>Fan-made site. Not affiliated with Behaviour Interactive.</span></div></footer>
+  <script src="/site.js"></script><script src="/home.js"></script>
 </body>
 </html>
