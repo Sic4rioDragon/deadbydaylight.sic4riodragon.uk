@@ -50,6 +50,33 @@ async function steam(endpoint, params) {
  if(!response.ok)throw Error('Steam '+endpoint+' HTTP '+response.status);
  return response.json();
 }
+
+function normalizeProfileState(input,catalog){
+ const previous=new Map();
+ for(const group of Object.values(input||{})){
+  if(!group||typeof group!=='object')continue;
+  for(const section of Object.values(group)){
+   if(!section||typeof section!=='object')continue;
+   for(const [id,value] of Object.entries(section)){
+    const row=typeof value==='boolean'?{unlocked:value}:value;
+    if(!row||typeof row!=='object')continue;
+    const old=previous.get(id);
+    if(!old){previous.set(id,{...row});continue;}
+    const chosen=old.unlocked?old:row.unlocked?row:old;
+    previous.set(id,{...old,...row,...chosen,unlocked:!!(old.unlocked||row.unlocked)});
+   }
+  }
+ }
+ const out={killers:{},survivors:{},general:{}};
+ for(const item of catalog){
+  const value=previous.get(item.achievement_id);
+  if(!value)continue;
+  const [group,section]=bucket(item);
+  (out[group][section]??={})[item.achievement_id]=value;
+ }
+ return out;
+}
+
 async function sync() {
  if(!key){throw Error('STEAM_API_KEY is missing. Add it in GitHub repository Actions secrets.');}
  const players=read(playerFile,[]);
@@ -88,7 +115,7 @@ async function sync() {
      }
      list=data.playerstats.achievements;
    }catch(err){console.warn('Skipping player',p.steamid,':',err.message);continue;}
-   const state=current.state&&typeof current.state==='object'?current.state:{};
+   const state=normalizeProfileState(current.state,base);
    const unknown=[];
    for(const a of list){
      let item=byApi.get(String(a.apiname));
