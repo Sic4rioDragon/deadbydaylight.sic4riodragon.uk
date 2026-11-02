@@ -161,10 +161,6 @@
         "adept_xenomorph": {
           "unlocked": true,
           "unlockedAt": "2026-03-17T00:19:14.000Z"
-        },
-        "tools_of_the_trade": {
-          "unlocked": true,
-          "unlockedAt": "2026-05-20T06:50:12.000Z"
         }
       },
       "general": {
@@ -357,9 +353,10 @@
           "unlockedAt": "2026-01-26T06:06:13.000Z"
         },
         "tools_of_the_trade": {
-          "unlocked": false,
+          "unlocked": true,
           "progress": 1,
-          "goal": 5
+          "goal": 5,
+          "unlockedAt": "2026-05-20T06:50:12.000Z"
         },
         "what_lurks_beneath": {
           "unlocked": true,
@@ -501,8 +498,10 @@
         },
         "skilled_huntress": {
           "unlocked": false,
-          "progress": 12,
-          "goal": 20
+          "progress": 17,
+          "goal": 20,
+          "progressSource": "NightLight",
+          "progressUpdatedAt": "2026-11-02"
         },
         "slip_into_the_stream": {
           "unlocked": true,
