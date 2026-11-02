@@ -1,5 +1,7 @@
 name: DBD achievements - sync and manage
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: '17 */3 * * *'
   workflow_dispatch:
@@ -45,6 +47,7 @@ jobs:
         with:
           node-version: '22'
       - name: Update player data
+        if: github.event_name != 'push'
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
           MODE: ${{ github.event.inputs.action || 'sync' }}
@@ -52,6 +55,7 @@ jobs:
           DISPLAY_NAME: ${{ github.event.inputs.display_name || '' }}
         run: node scripts/sync-achievements.cjs "$MODE" "$STEAM_ID" "$DISPLAY_NAME"
       - name: Commit updated public data
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
