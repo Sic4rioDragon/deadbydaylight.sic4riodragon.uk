@@ -2,7 +2,7 @@
   const links = [
     ['/', 'Home'], ['/killers/', 'Killers'], ['/survivors.html', 'Survivors'],
     ['/achievements/', 'Achievements'], ['/dbd-rulebook/', 'Rulebook'],
-    ['https://dbdfarming.sic4riodragon.uk/', 'Farming guide'],
+    ['https://dbdfarming.sic4riodragon.uk/', 'Bloodpoint Farming Guide'],
     ['https://twitch.sic4riodragon.uk/deadbydaylight/', 'Challenges']
   ];
   const esc = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -18,4 +18,8 @@
       const selected = url.startsWith('/') && (url==='/' ? path==='/' : path.startsWith(url.replace('survivors.html','survivors')));
       return '<a href="'+esc(url)+'"'+(selected?' aria-current="page"':'')+'>'+esc(label)+'</a>';
     }).join('') + '</nav>';
+  // Also correct any links retained by older page-specific navigation.
+  document.querySelectorAll('a[href="https://sic4riodragon.uk/twitch/deadbydaylight/"]').forEach(a => {
+    a.href = 'https://twitch.sic4riodragon.uk/deadbydaylight/';
+  });
 })();
