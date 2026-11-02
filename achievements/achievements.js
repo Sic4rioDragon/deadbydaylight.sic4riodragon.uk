@@ -76,6 +76,7 @@ function flattenState(grouped) {
           goal = Number.isFinite(rawValue.goal) ? rawValue.goal : 0;
         }
 
+        if (out.has(achievementId) && out.get(achievementId).unlocked && !unlocked) continue;
         out.set(achievementId, {
           unlocked,
           progress,
