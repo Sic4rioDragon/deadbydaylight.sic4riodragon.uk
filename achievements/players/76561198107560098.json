@@ -1,0 +1,1272 @@
+{
+  "steamid": "76561198107560098",
+  "steamName": "Main Finale",
+  "avatar": "https://avatars.steamstatic.com/72f96d77e1f3d8d2bba926e1063740fb021db08d_full.jpg",
+  "lastSync": "2026-11-02T10:38:28.915Z",
+  "state": {
+    "killers": {
+      "general": {
+        "the_grand_sacrifice": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-26T07:36:42.000Z"
+        },
+        "a_bite_for_the_entity": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-14T16:39:59.000Z"
+        },
+        "a_feast_for_the_entity": {
+          "unlocked": true,
+          "unlockedAt": "2018-07-26T18:28:38.000Z"
+        },
+        "blood_on_your_hands": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-16T15:03:41.000Z"
+        },
+        "perfect_killing": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-29T22:28:20.000Z"
+        },
+        "expert_killer": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-23T01:09:45.000Z"
+        },
+        "master_killer": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-29T23:18:40.000Z"
+        },
+        "legendary_killer": {
+          "unlocked": true,
+          "unlockedAt": "2017-02-06T05:51:39.000Z"
+        },
+        "apt_killer": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-16T07:43:09.000Z"
+        },
+        "share_the_pain": {
+          "unlocked": true,
+          "unlockedAt": "2019-01-23T16:12:30.000Z"
+        },
+        "deadly_obsession": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-20T12:10:10.000Z"
+        },
+        "prized_possession": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-06T18:35:35.000Z"
+        },
+        "texas_bbq": {
+          "unlocked": true,
+          "unlockedAt": "2018-06-16T21:26:19.000Z"
+        },
+        "serial_killer": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-14T06:04:23.000Z"
+        },
+        "game_over": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-02T21:48:37.000Z"
+        },
+        "party_crasher": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-05T23:31:20.000Z"
+        },
+        "outrage": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-12T11:38:24.000Z"
+        },
+        "heavy_burden": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-17T06:46:24.000Z"
+        },
+        "devoted_gatekeeping": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-16T07:58:02.000Z"
+        },
+        "silent_approach": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-29T07:08:32.000Z"
+        },
+        "denied": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-14T12:26:57.000Z"
+        },
+        "tools_of_the_trade": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-18T02:04:27.000Z"
+        },
+        "broken_bodies": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-17T01:03:17.000Z"
+        },
+        "quick_draw": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-17T18:22:21.000Z"
+        },
+        "death_of_ignorance": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-11T21:19:22.000Z"
+        },
+        "i_see_you": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-06T19:48:53.000Z"
+        },
+        "end_of_days": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-05T15:51:10.000Z"
+        },
+        "multi_tasker": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-16T16:25:45.000Z"
+        },
+        "preemptive_strike": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-03T22:59:01.000Z"
+        },
+        "beyond_broken": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-09T23:32:00.000Z"
+        },
+        "neither_seen_nor_heard": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-08T04:46:55.000Z"
+        },
+        "lost_all_hope": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-07T22:10:09.000Z"
+        },
+        "prowler": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-10T22:31:31.000Z"
+        },
+        "ghost_in_the_machine": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-17T14:54:06.000Z"
+        },
+        "from_the_deep": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-17T09:59:03.000Z"
+        },
+        "high_speed_pursuit": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-16T11:44:56.000Z"
+        },
+        "a_fast_death": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-13T03:43:46.000Z"
+        },
+        "chorus_of_chaos": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-12T07:02:15.000Z"
+        },
+        "complete_the_evolution": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-07T23:13:09.000Z"
+        },
+        "disarm_and_dismember": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-17T08:20:19.000Z"
+        },
+        "jokes_on_you": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-16T12:02:52.000Z"
+        },
+        "outta_nowhere": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-17T12:33:16.000Z"
+        },
+        "what_lurks_beneath": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-18T15:12:42.000Z"
+        },
+        "taste_the_darkness": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T01:24:57.000Z"
+        },
+        "deadly_plunge": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-18T01:48:02.000Z"
+        },
+        "awakened_anger": {
+          "unlocked": true,
+          "unlockedAt": "2025-05-12T09:16:51.000Z"
+        },
+        "none_the_wiser": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T05:30:10.000Z"
+        },
+        "death_flight": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T20:37:32.000Z"
+        },
+        "master_manipulator": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T01:11:46.000Z"
+        }
+      },
+      "extra": {
+        "cripple_them_all": {
+          "unlocked": true,
+          "unlockedAt": "2017-02-22T20:25:16.000Z"
+        },
+        "jump_scares": {
+          "unlocked": true,
+          "unlockedAt": "2017-07-21T12:17:38.000Z"
+        },
+        "the_grind": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-15T23:20:55.000Z"
+        },
+        "in_the_void_she_walks": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-12T02:30:12.000Z"
+        },
+        "from_the_void_she_kills": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-17T06:55:49.000Z"
+        },
+        "triggered": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-18T18:03:07.000Z"
+        },
+        "even_punishment": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-26T22:49:54.000Z"
+        },
+        "shocking_treatment": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-23T00:32:42.000Z"
+        },
+        "mad_house": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-19T23:19:25.000Z"
+        },
+        "swirling_death": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-09T22:21:24.000Z"
+        },
+        "skilled_huntress": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-09T21:29:29.000Z"
+        },
+        "butcherin": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-26T22:25:43.000Z"
+        },
+        "dream_demon": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-19T11:26:28.000Z"
+        },
+        "i_want_to_play_a_game": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-18T15:04:03.000Z"
+        },
+        "smoked": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-18T13:53:35.000Z"
+        },
+        "conniption": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-09T22:56:42.000Z"
+        },
+        "deranged_pursuit": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-17T18:15:40.000Z"
+        },
+        "terminal_illness": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-11T06:07:03.000Z"
+        },
+        "totally_vulnerable": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-20T00:34:44.000Z"
+        },
+        "bloodbath": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-23T13:15:03.000Z"
+        },
+        "bound_and_downed": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-17T03:42:09.000Z"
+        },
+        "cleansed_in_agony": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-17T13:17:23.000Z"
+        },
+        "speed_kills": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-09T22:07:08.000Z"
+        },
+        "tag_team": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-24T12:32:15.000Z"
+        },
+        "one_thousand_cuts": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-17T07:26:17.000Z"
+        },
+        "biological_weaponry": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-10T21:04:02.000Z"
+        },
+        "caws_of_death": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-11T00:56:48.000Z"
+        },
+        "viral_video": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-10T00:05:28.000Z"
+        },
+        "bump_in_the_night": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-17T10:22:22.000Z"
+        },
+        "collision_course": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-16T15:52:54.000Z"
+        },
+        "cruelty_loves_company": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-17T08:49:53.000Z"
+        },
+        "thrill_of_the_chase": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-16T16:24:12.000Z"
+        },
+        "slip_into_the_stream": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-16T17:16:31.000Z"
+        },
+        "terror_of_lv_426": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-12T02:24:46.000Z"
+        },
+        "prey_upon": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-16T13:13:33.000Z"
+        },
+        "battle_caster": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T19:58:10.000Z"
+        },
+        "rightful_owner": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T20:10:55.000Z"
+        },
+        "symphony_of_fire": {
+          "unlocked": true,
+          "unlockedAt": "2025-07-16T05:44:44.000Z"
+        },
+        "binding_teeth": {
+          "unlocked": true,
+          "unlockedAt": "2025-04-07T17:16:02.000Z"
+        },
+        "remember_who_i_am": {
+          "unlocked": true,
+          "unlockedAt": "2025-07-22T09:34:13.000Z"
+        },
+        "jump_scared": {
+          "unlocked": true,
+          "unlockedAt": "2025-07-16T05:12:41.000Z"
+        },
+        "youve_got_guts": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T01:20:22.000Z"
+        },
+        "torn_asunder": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T18:25:12.000Z"
+        }
+      },
+      "adept": {
+        "adept_trapper": {
+          "unlocked": true,
+          "unlockedAt": "2017-02-16T08:27:01.000Z"
+        },
+        "adept_wraith": {
+          "unlocked": true,
+          "unlockedAt": "2019-01-23T16:58:20.000Z"
+        },
+        "adept_hillbilly": {
+          "unlocked": true,
+          "unlockedAt": "2019-01-23T16:44:10.000Z"
+        },
+        "adept_nurse": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-14T09:34:20.000Z"
+        },
+        "adept_hag": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-26T22:51:09.000Z"
+        },
+        "adept_doctor": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-23T00:11:11.000Z"
+        },
+        "adept_huntress": {
+          "unlocked": true,
+          "unlockedAt": "2019-01-23T17:11:49.000Z"
+        },
+        "adept_cannibal": {
+          "unlocked": true,
+          "unlockedAt": "2019-01-23T17:41:48.000Z"
+        },
+        "adept_nightmare": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-26T21:37:16.000Z"
+        },
+        "adept_pig": {
+          "unlocked": true,
+          "unlockedAt": "2019-01-23T18:24:11.000Z"
+        },
+        "adept_clown": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-26T04:19:32.000Z"
+        },
+        "adept_spirit": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-26T02:26:20.000Z"
+        },
+        "adept_legion": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-14T06:05:23.000Z"
+        },
+        "adept_plague": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-10T23:06:02.000Z"
+        },
+        "adept_ghost_face": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-17T17:49:11.000Z"
+        },
+        "adept_oni": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-16T19:41:07.000Z"
+        },
+        "adept_deathslinger": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-17T01:07:26.000Z"
+        },
+        "adept_executioner": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-17T02:45:09.000Z"
+        },
+        "adept_blight": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-22T23:38:42.000Z"
+        },
+        "adept_twins": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-24T14:22:12.000Z"
+        },
+        "adept_trickster": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-12T07:08:40.000Z"
+        },
+        "adept_nemesis": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-14T03:14:05.000Z"
+        },
+        "adept_artist": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-08T00:05:14.000Z"
+        },
+        "adept_onryo": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-07T18:28:49.000Z"
+        },
+        "adept_dredge": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-07T20:01:11.000Z"
+        },
+        "adept_mastermind": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-07T23:13:28.000Z"
+        },
+        "adept_knight": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-07T19:20:02.000Z"
+        },
+        "adept_skull_merchant": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-08T00:45:00.000Z"
+        },
+        "adept_singularity": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-07T20:54:14.000Z"
+        },
+        "adept_xenomorph": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-08T04:58:00.000Z"
+        },
+        "adept_good_guy": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-16T12:25:19.000Z"
+        },
+        "adept_unknown": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-16T13:36:18.000Z"
+        },
+        "adept_lich": {
+          "unlocked": true,
+          "unlockedAt": "2025-05-12T19:01:12.000Z"
+        },
+        "adept_dark_lord": {
+          "unlocked": true,
+          "unlockedAt": "2025-05-12T17:51:22.000Z"
+        },
+        "adept_houndmaster": {
+          "unlocked": true,
+          "unlockedAt": "2025-05-12T09:48:04.000Z"
+        },
+        "adept_ghoul": {
+          "unlocked": true,
+          "unlockedAt": "2025-05-12T17:35:13.000Z"
+        },
+        "adept_animatronic": {
+          "unlocked": true,
+          "unlockedAt": "2025-06-30T01:35:40.000Z"
+        },
+        "adept_krasue": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-05T17:14:50.000Z"
+        },
+        "adept_first": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-05T17:46:45.000Z"
+        }
+      }
+    },
+    "survivors": {
+      "map": {
+        "escape_artist": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-22T23:24:14.000Z"
+        },
+        "hemophobia": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-29T04:35:14.000Z"
+        },
+        "shock_therapy": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-03T15:39:56.000Z"
+        },
+        "all_aboard": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-05T17:47:12.000Z"
+        },
+        "cottage_owner": {
+          "unlocked": true,
+          "unlockedAt": "2018-04-17T05:35:34.000Z"
+        },
+        "cherish_your_life": {
+          "unlocked": true,
+          "unlockedAt": "2018-04-16T00:01:46.000Z"
+        },
+        "campbells_chapel_legacy": {
+          "unlocked": true,
+          "unlockedAt": "2018-06-22T02:53:41.000Z"
+        },
+        "ancestors_rite": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-05T22:26:40.000Z"
+        },
+        "unforgettable_getaway": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-05T05:07:19.000Z"
+        },
+        "shrine_apparatus": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-18T19:45:29.000Z"
+        },
+        "operation_survival": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-18T04:51:03.000Z"
+        },
+        "grim_pilgrimage": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-16T17:48:16.000Z"
+        },
+        "old_west_oasis": {
+          "unlocked": true,
+          "unlockedAt": "2020-04-12T22:20:06.000Z"
+        },
+        "classy_act": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-05T00:27:28.000Z"
+        },
+        "raccoon_city_recruit": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-21T17:14:48.000Z"
+        },
+        "flight_to_freedom": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-23T10:39:31.000Z"
+        },
+        "outrun_the_overlap": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-30T11:01:54.000Z"
+        },
+        "outbreak_breakout": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-18T20:51:59.000Z"
+        },
+        "rebuilding_the_borgo": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-30T02:53:46.000Z"
+        },
+        "hack_the_mainframe": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-28T15:24:52.000Z"
+        },
+        "extraterrestrial": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-09T01:28:44.000Z"
+        },
+        "mu_th_ur_dearest": {
+          "unlocked": true,
+          "unlockedAt": "2023-10-29T01:23:30.000Z"
+        },
+        "movie_buff": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-28T15:46:14.000Z"
+        },
+        "dungeon_crawler": {
+          "unlocked": true,
+          "unlockedAt": "2026-07-20T01:36:26.000Z"
+        },
+        "dont_open_dead_inside": {
+          "unlocked": true,
+          "unlockedAt": "2026-07-22T22:52:44.000Z"
+        }
+      },
+      "general": {
+        "made_it_out_alive": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-16T00:39:42.000Z"
+        },
+        "agonizing_escape": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-03T15:39:56.000Z"
+        },
+        "backdoor_escape": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-28T13:38:06.000Z"
+        },
+        "the_key_to_escape": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-29T08:34:40.000Z"
+        },
+        "ive_got_your_back": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-01T01:57:29.000Z"
+        },
+        "no_one_left_behind": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-26T07:08:57.000Z"
+        },
+        "medic": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-03T10:22:12.000Z"
+        },
+        "handyman": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-03T08:30:32.000Z"
+        },
+        "nerves_of_steel": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-02T14:31:09.000Z"
+        },
+        "perfect_escape": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-05T11:25:41.000Z"
+        },
+        "expert_survivor": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-16T19:21:21.000Z"
+        },
+        "master_survivor": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-19T01:28:47.000Z"
+        },
+        "legendary_survivor": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-21T01:34:57.000Z"
+        },
+        "apt_survivor": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-02T04:44:40.000Z"
+        },
+        "risk_it_all": {
+          "unlocked": true,
+          "unlockedAt": "2017-02-08T02:41:36.000Z"
+        },
+        "survival_treasures": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-28T13:38:06.000Z"
+        },
+        "vulture": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-29T04:35:14.000Z"
+        },
+        "key_to_success": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-04T04:33:27.000Z"
+        },
+        "working_overtime": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-13T17:38:02.000Z"
+        },
+        "item_of_obsession": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-09T13:01:16.000Z"
+        },
+        "deep_cleansing": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-08T03:43:33.000Z"
+        },
+        "taking_one_for_the_team": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-01T22:48:57.000Z"
+        },
+        "left_for_dead": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-12T06:54:57.000Z"
+        },
+        "engineer": {
+          "unlocked": true,
+          "unlockedAt": "2017-06-11T02:26:17.000Z"
+        },
+        "leapfrog": {
+          "unlocked": true,
+          "unlockedAt": "2017-06-26T21:16:00.000Z"
+        },
+        "sorted": {
+          "unlocked": true,
+          "unlockedAt": "2018-06-14T03:50:45.000Z"
+        },
+        "looter": {
+          "unlocked": true,
+          "unlockedAt": "2018-07-25T04:13:22.000Z"
+        },
+        "escaping_the_nightmare": {
+          "unlocked": true,
+          "unlockedAt": "2018-06-30T01:25:44.000Z"
+        },
+        "milk_n_cookies": {
+          "unlocked": true,
+          "unlockedAt": "2018-07-13T11:48:11.000Z"
+        },
+        "near_death_experience": {
+          "unlocked": true,
+          "unlockedAt": "2018-07-05T00:41:39.000Z"
+        },
+        "whiffing_to_success": {
+          "unlocked": true,
+          "unlockedAt": "2018-08-09T03:43:20.000Z"
+        },
+        "not_today": {
+          "unlocked": true,
+          "unlockedAt": "2021-05-28T19:58:18.000Z"
+        },
+        "dismantle": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-21T23:01:53.000Z"
+        },
+        "wounded_healer": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-12T22:34:44.000Z"
+        },
+        "cutting_out": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-05T00:26:18.000Z"
+        },
+        "outrun_evil": {
+          "unlocked": true,
+          "unlockedAt": "2020-04-12T22:55:51.000Z"
+        },
+        "expert_generalist": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-15T22:33:01.000Z"
+        },
+        "skilled_generalist": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-14T11:24:59.000Z"
+        },
+        "bodyguard": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-07T22:25:20.000Z"
+        },
+        "selfless_survival": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-08T22:42:13.000Z"
+        },
+        "healthy_obsession": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-08T19:04:12.000Z"
+        },
+        "every_last_drop": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-20T00:03:07.000Z"
+        },
+        "resurgence": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-11T04:43:22.000Z"
+        },
+        "rescue_mission": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-22T11:00:32.000Z"
+        },
+        "power_moves": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-17T22:04:14.000Z"
+        },
+        "insult_and_injury": {
+          "unlocked": true,
+          "unlockedAt": "2022-04-01T18:14:18.000Z"
+        },
+        "close_shave": {
+          "unlocked": true,
+          "unlockedAt": "2021-05-13T18:02:45.000Z"
+        },
+        "bless_you": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-29T14:41:12.000Z"
+        },
+        "humanitarian": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-08T14:23:20.000Z"
+        },
+        "with_scars_to_show": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-14T05:34:17.000Z"
+        },
+        "fleet_of_foot": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-29T23:46:30.000Z"
+        },
+        "triage": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-23T15:32:23.000Z"
+        },
+        "hiding_seeker": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-09T02:28:21.000Z"
+        },
+        "lifting_the_fog": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-13T11:18:56.000Z"
+        },
+        "one_more_step": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-22T14:01:24.000Z"
+        },
+        "second_act": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-23T12:23:32.000Z"
+        },
+        "make_some_noise": {
+          "unlocked": true,
+          "unlockedAt": "2023-08-28T15:15:11.000Z"
+        },
+        "kitted_out": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-31T00:43:43.000Z"
+        },
+        "under_pressure": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-22T15:44:35.000Z"
+        },
+        "shine_on": {
+          "unlocked": true,
+          "unlockedAt": "2025-05-22T14:06:54.000Z"
+        },
+        "fearless_healer": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-22T08:46:31.000Z"
+        },
+        "hand_eye_coordination": {
+          "unlocked": true,
+          "unlockedAt": "2026-07-22T21:59:13.000Z"
+        },
+        "desperate_escape": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-15T04:11:04.000Z"
+        },
+        "resourceful": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-18T23:03:09.000Z"
+        },
+        "honor_the_bloodline": {
+          "unlocked": true,
+          "unlockedAt": "2025-05-22T13:38:58.000Z"
+        },
+        "hero_of_wallachia": {
+          "unlocked": true,
+          "unlockedAt": "2025-07-16T13:50:07.000Z"
+        },
+        "break_for_it": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-22T09:53:53.000Z"
+        },
+        "bloodied_hands": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-22T10:36:54.000Z"
+        },
+        "final_days": {
+          "unlocked": true,
+          "unlockedAt": "2026-07-02T10:23:53.000Z"
+        },
+        "ever_vigilant": {
+          "unlocked": true,
+          "unlockedAt": "2026-07-02T10:22:41.000Z"
+        },
+        "the_show_must_go_on": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-18T23:54:21.000Z"
+        },
+        "practice_makes_perfect": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-10T17:34:28.000Z"
+        },
+        "stranger_sightings": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-10T20:23:35.000Z"
+        },
+        "a_worthy_opponent": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-09T02:25:20.000Z"
+        },
+        "devoted_caretaker": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-29T09:43:41.000Z"
+        }
+      },
+      "adept": {
+        "adept_jake": {
+          "unlocked": true,
+          "unlockedAt": "2017-06-21T02:52:52.000Z"
+        },
+        "adept_dwight": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-04T03:42:14.000Z"
+        },
+        "adept_claudette": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-21T07:47:35.000Z"
+        },
+        "adept_meg": {
+          "unlocked": true,
+          "unlockedAt": "2019-01-27T02:48:59.000Z"
+        },
+        "adept_nea": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-04T02:03:11.000Z"
+        },
+        "adept_ace": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-04T03:02:39.000Z"
+        },
+        "adept_bill": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-04T03:57:30.000Z"
+        },
+        "adept_min": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-13T22:27:54.000Z"
+        },
+        "adept_david": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-04T05:39:38.000Z"
+        },
+        "adept_quentin": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-15T23:20:39.000Z"
+        },
+        "adept_tapp": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-04T04:49:59.000Z"
+        },
+        "adept_kate": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-16T20:38:56.000Z"
+        },
+        "adept_adam": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-13T20:03:09.000Z"
+        },
+        "adept_jeff": {
+          "unlocked": true,
+          "unlockedAt": "2019-02-04T05:14:19.000Z"
+        },
+        "adept_jane": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-13T19:43:30.000Z"
+        },
+        "adept_ash": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-14T10:59:08.000Z"
+        },
+        "adept_yui": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-13T20:40:22.000Z"
+        },
+        "adept_zarina": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-15T23:03:36.000Z"
+        },
+        "adept_cheryl": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-16T18:47:29.000Z"
+        },
+        "adept_felix": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-16T01:23:56.000Z"
+        },
+        "adept_e_lodie": {
+          "unlocked": true,
+          "unlockedAt": "2021-03-13T20:22:24.000Z"
+        },
+        "adept_yun_jin": {
+          "unlocked": true,
+          "unlockedAt": "2021-05-16T05:07:31.000Z"
+        },
+        "adept_leon": {
+          "unlocked": true,
+          "unlockedAt": "2021-07-19T11:26:52.000Z"
+        },
+        "adept_jill": {
+          "unlocked": true,
+          "unlockedAt": "2021-07-19T10:48:42.000Z"
+        },
+        "adept_mikaela": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-08T23:26:09.000Z"
+        },
+        "adept_jonah": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-09T00:04:42.000Z"
+        },
+        "adept_yoichi": {
+          "unlocked": true,
+          "unlockedAt": "2022-10-28T19:29:43.000Z"
+        },
+        "adept_haddie": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-09T00:20:36.000Z"
+        },
+        "adept_ada": {
+          "unlocked": true,
+          "unlockedAt": "2023-11-09T01:28:44.000Z"
+        },
+        "adept_rebecca": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-21T11:53:33.000Z"
+        },
+        "adept_vittorio": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-21T12:24:30.000Z"
+        },
+        "adept_thalita": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-21T17:14:48.000Z"
+        },
+        "adept_renato": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-21T18:21:55.000Z"
+        },
+        "adept_gabriel": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-21T13:24:39.000Z"
+        },
+        "adept_cage": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-21T18:39:47.000Z"
+        },
+        "adept_ripley": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-22T11:04:34.000Z"
+        },
+        "adept_alan": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-22T11:25:28.000Z"
+        },
+        "adept_sable": {
+          "unlocked": true,
+          "unlockedAt": "2024-03-22T11:54:09.000Z"
+        },
+        "adept_troupe": {
+          "unlocked": true,
+          "unlockedAt": "2024-06-30T07:12:14.000Z"
+        },
+        "adept_lara": {
+          "unlocked": true,
+          "unlockedAt": "2025-07-14T00:32:23.000Z"
+        },
+        "adept_trevor": {
+          "unlocked": true,
+          "unlockedAt": "2025-07-14T00:48:55.000Z"
+        },
+        "adept_taurie": {
+          "unlocked": true,
+          "unlockedAt": "2025-07-14T01:21:19.000Z"
+        },
+        "adept_orela": {
+          "unlocked": true,
+          "unlockedAt": "2025-06-30T03:50:43.000Z"
+        },
+        "adept_rick": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-09T02:30:14.000Z"
+        },
+        "adept_michonne": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-10T15:59:13.000Z"
+        },
+        "adept_vee": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-09T01:54:13.000Z"
+        },
+        "adept_dustin": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-10T15:27:58.000Z"
+        },
+        "adept_eleven": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-10T15:43:44.000Z"
+        },
+        "adept_tae_young": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-10T18:00:12.000Z"
+        }
+      }
+    },
+    "general": {
+      "general": {
+        "blood_on_your_face": {
+          "unlocked": true,
+          "unlockedAt": "2017-05-15T00:02:41.000Z"
+        },
+        "blood_in_your_mouth": {
+          "unlocked": true,
+          "unlockedAt": "2021-02-22T19:41:30.000Z"
+        },
+        "zealous": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-26T07:08:57.000Z"
+        },
+        "it_wakes": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-26T08:24:38.000Z"
+        },
+        "not_half_bad": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-02T04:34:28.000Z"
+        },
+        "bloody_millionaire": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-01T01:57:29.000Z"
+        },
+        "getting_the_hang_of_it": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-26T08:36:34.000Z"
+        },
+        "gifts_for_the_fog": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-29T05:46:46.000Z"
+        },
+        "skillful": {
+          "unlocked": true,
+          "unlockedAt": "2016-12-28T09:03:31.000Z"
+        },
+        "i": {
+          "unlocked": true,
+          "unlockedAt": "2017-01-25T01:02:21.000Z"
+        },
+        "ii": {
+          "unlocked": true,
+          "unlockedAt": "2017-02-17T08:53:19.000Z"
+        },
+        "iii": {
+          "unlocked": true,
+          "unlockedAt": "2017-02-20T11:23:26.000Z"
+        },
+        "iii_50": {
+          "unlocked": true,
+          "unlockedAt": "2017-03-04T18:12:35.000Z"
+        },
+        "holiday_get_together": {
+          "unlocked": true,
+          "unlockedAt": "2018-08-08T04:05:33.000Z"
+        },
+        "happy_holidays": {
+          "unlocked": true,
+          "unlockedAt": "2018-12-26T11:17:10.000Z"
+        },
+        "first_to_the_punch": {
+          "unlocked": true,
+          "unlockedAt": "2023-06-09T10:02:05.000Z"
+        },
+        "tanuki_in_the_fog": {
+          "unlocked": true,
+          "unlockedAt": "2026-07-05T03:15:54.000Z"
+        },
+        "steam_new_achievement_312_27": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T17:30:01.000Z"
+        },
+        "steam_new_achievement_312_28": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T19:59:51.000Z"
+        },
+        "steam_new_achievement_312_29": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-17T05:36:26.000Z"
+        },
+        "steam_new_achievement_312_30": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-27T23:22:06.000Z"
+        },
+        "steam_new_achievement_312_31": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-29T11:19:30.000Z"
+        },
+        "steam_new_achievement_334_1": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-29T00:09:19.000Z"
+        },
+        "steam_new_achievement_334_2": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-25T16:40:44.000Z"
+        },
+        "steam_new_achievement_334_3": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-25T16:57:14.000Z"
+        },
+        "steam_new_achievement_334_4": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-25T16:04:38.000Z"
+        },
+        "steam_new_achievement_334_5": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-25T16:25:43.000Z"
+        },
+        "steam_new_achievement_334_6": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-25T18:38:53.000Z"
+        },
+        "steam_new_achievement_334_7": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-25T21:13:01.000Z"
+        },
+        "steam_new_achievement_334_8": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-25T17:25:06.000Z"
+        },
+        "steam_new_achievement_334_9": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-25T21:06:59.000Z"
+        }
+      }
+    }
+  }
+}

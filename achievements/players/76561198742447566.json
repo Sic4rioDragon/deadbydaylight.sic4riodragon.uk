@@ -2,7 +2,7 @@
   "steamid": "76561198742447566",
   "steamName": "Sic4rioDragon",
   "avatar": "https://avatars.steamstatic.com/6ae1e208db8cd4b195d7c517ad8da0f360ff3ca4_full.jpg",
-  "lastSync": "2026-11-02T10:09:05.948Z",
+  "lastSync": "2026-11-02T10:38:28.236Z",
   "state": {
     "killers": {
       "adept": {
@@ -164,6 +164,12 @@
         }
       },
       "general": {
+        "tools_of_the_trade": {
+          "unlocked": true,
+          "progress": 5,
+          "goal": 5,
+          "unlockedAt": "2026-05-20T06:50:12.000Z"
+        },
         "a_bite_for_the_entity": {
           "unlocked": true,
           "unlockedAt": "2026-01-28T23:55:54.000Z"
@@ -352,12 +358,6 @@
           "unlocked": true,
           "unlockedAt": "2026-01-26T06:06:13.000Z"
         },
-        "tools_of_the_trade": {
-          "unlocked": true,
-          "progress": 1,
-          "goal": 5,
-          "unlockedAt": "2026-05-20T06:50:12.000Z"
-        },
         "what_lurks_beneath": {
           "unlocked": true,
           "unlockedAt": "2026-02-05T05:56:21.000Z"
@@ -499,9 +499,7 @@
         "skilled_huntress": {
           "unlocked": false,
           "progress": 17,
-          "goal": 20,
-          "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-02"
+          "goal": 20
         },
         "slip_into_the_stream": {
           "unlocked": true,
@@ -885,10 +883,6 @@
           "unlocked": true,
           "unlockedAt": "2026-01-28T07:12:50.000Z"
         },
-        "a_worthy_opponent": {
-          "unlocked": true,
-          "unlockedAt": "2026-03-19T20:56:57.000Z"
-        },
         "backdoor_escape": {
           "unlocked": true,
           "unlockedAt": "2026-01-27T00:18:55.000Z"
@@ -928,10 +922,6 @@
         "desperate_escape": {
           "unlocked": true,
           "unlockedAt": "2026-01-30T07:07:21.000Z"
-        },
-        "devoted_caretaker": {
-          "unlocked": true,
-          "unlockedAt": "2026-03-23T22:39:29.000Z"
         },
         "dismantle": {
           "unlocked": true,
@@ -1184,6 +1174,14 @@
         "wounded_healer": {
           "unlocked": true,
           "unlockedAt": "2026-02-18T01:00:40.000Z"
+        },
+        "a_worthy_opponent": {
+          "unlocked": true,
+          "unlockedAt": "2026-03-19T20:56:57.000Z"
+        },
+        "devoted_caretaker": {
+          "unlocked": true,
+          "unlockedAt": "2026-03-23T22:39:29.000Z"
         }
       }
     },
