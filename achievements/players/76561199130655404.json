@@ -8,7 +8,7 @@
     "survivors": {},
     "general": {}
   },
-  "lastAttempt": "2026-11-03T17:08:46.117Z",
+  "lastAttempt": "2026-11-03T23:28:56.444Z",
   "syncStatus": "unavailable",
   "syncReason": "Steam ISteamUserStats/GetPlayerAchievements/v1/ HTTP 403"
 }
