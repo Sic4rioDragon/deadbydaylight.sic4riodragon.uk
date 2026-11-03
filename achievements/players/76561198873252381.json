@@ -2,7 +2,7 @@
   "steamid": "76561198873252381",
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
-  "lastSync": "2026-11-03T06:56:00.853Z",
+  "lastSync": "2026-11-03T08:44:12.118Z",
   "state": {
     "killers": {
       "adept": {
@@ -1011,7 +1011,8 @@
           "unlockedAt": "2025-07-11T03:08:27.000Z"
         },
         "taking_one_for_the_team": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-03T07:42:14.000Z"
         },
         "the_key_to_escape": {
           "unlocked": true,
@@ -1122,7 +1123,8 @@
           "unlockedAt": "2025-06-23T00:40:39.000Z"
         },
         "tanuki_in_the_fog": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-03T07:22:58.000Z"
         },
         "zealous": {
           "unlocked": true,
