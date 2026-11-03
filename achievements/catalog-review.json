@@ -1,0 +1,42 @@
+{
+  "instructions": "Review achievements.base.json, assign category/section, then remove needsReview. Re-generated on the next sync.",
+  "needsReview": [
+    {
+      "achievement_id": "steam_new_achievement_312_30",
+      "title": "Roadblocks",
+      "steam_api_name": "NEW_ACHIEVEMENT_312_30",
+      "description": "In a single match, block the same Pallet 3 times.",
+      "category": "general",
+      "section": "general",
+      "reason": "Manual category review needed"
+    },
+    {
+      "achievement_id": "steam_new_achievement_334_3",
+      "title": "Witness to Heresy",
+      "steam_api_name": "NEW_ACHIEVEMENT_334_3",
+      "description": "In public matches, see the Obsession's Aura for a total of 300 seconds.",
+      "category": "general",
+      "section": "general",
+      "reason": "Manual category review needed"
+    },
+    {
+      "achievement_id": "steam_new_achievement_334_5",
+      "title": "Sacrosanct",
+      "steam_api_name": "NEW_ACHIEVEMENT_334_5",
+      "description": "",
+      "category": "general",
+      "section": "general",
+      "reason": "Missing description; manual review needed"
+    },
+    {
+      "achievement_id": "steam_new_achievement_334_9",
+      "title": "Sacrilege",
+      "steam_api_name": "NEW_ACHIEVEMENT_334_9",
+      "description": "",
+      "category": "general",
+      "section": "general",
+      "reason": "Missing description; manual review needed"
+    }
+  ],
+  "missingFromCurrentSteamSchema": []
+}

@@ -77,6 +77,28 @@ function normalizeProfileState(input,catalog){
  return out;
 }
 
+
+function classifyNewAchievement(title,description){
+ const name=String(title||''),text=String(description||'');
+ if(/^Adept /i.test(name)&&/merciless victory/i.test(text))return{category:'killer',section:'adept',needsReview:false};
+ if(/^Adept /i.test(name)&&/escape with/i.test(text))return{category:'survivor',section:'adept',needsReview:false};
+ if(/as the (?:Slasher|Judgment)/i.test(text))return{category:'killer',section:'extra',needsReview:false};
+ if(/down \d+ Survivors/i.test(text))return{category:'killer',section:'general',needsReview:false};
+ if(/give a total of .*healing charges to Survivors/i.test(text))return{category:'survivor',section:'general',needsReview:false};
+ if(/escape .*Exile/i.test(text)||/gain a health state/i.test(text))return{category:'survivor',section:'general',needsReview:false};
+ return{category:'general',section:'general',needsReview:true};
+}
+function generateReview(catalog,schema){
+ const needsReview=catalog.filter(x=>x.needsReview===true).map(x=>({
+  achievement_id:x.achievement_id,title:x.title,steam_api_name:x.steam_api_name||'',
+  description:x.description||'',category:x.category,section:x.section,
+  reason:x.description?'Manual category review needed':'Missing description; manual review needed'
+ }));
+ const known=new Set((schema||[]).map(x=>x.name));
+ const missingFromCurrentSteamSchema=known.size?catalog.filter(x=>x.steam_api_name&&!known.has(x.steam_api_name)).map(x=>({achievement_id:x.achievement_id,title:x.title,steam_api_name:x.steam_api_name})):[];
+ return{instructions:'Review achievements.base.json, assign category/section, then remove needsReview. Re-generated on the next sync.',needsReview,missingFromCurrentSteamSchema};
+}
+
 async function sync() {
  if(!key){throw Error('STEAM_API_KEY is missing. Add it in GitHub repository Actions secrets.');}
  const players=read(playerFile,[]);
@@ -99,7 +121,8 @@ async function sync() {
      byApi.set(x.name,known);
    } else {
      const id='steam_'+slug(x.name);
-     const added={achievement_id:id,steam_api_name:x.name,title:x.displayName||x.name,description:x.description||'',category:'general',section:'general',id:'steam'};
+     const inferred=classifyNewAchievement(x.displayName||x.name,x.description||'');
+     const added={achievement_id:id,steam_api_name:x.name,title:x.displayName||x.name,description:x.description||'',...inferred,id:'steam'};
      base.push(added);byApi.set(x.name,added);names.set(norm(added.title),added);
      console.log('New Steam achievement:',added.title);
    }
@@ -148,6 +171,7 @@ async function sync() {
  // Retain Steam schema and icon changes, but never replace existing progress on failed calls.
  write(baseFile,base);
  write(iconsFile,icons);
+ write(path.join(ach,'catalog-review.json'),generateReview(base,schema));
  if(!successes)console.warn('No player could be synchronized. Existing snapshots retained.');
 }
 (async()=>{
