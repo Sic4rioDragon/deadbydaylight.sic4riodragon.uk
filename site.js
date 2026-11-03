@@ -1,7 +1,7 @@
 (() => {
   const links = [
     ['/', 'Home'], ['/killers/', 'Killers'], ['/survivors.html', 'Survivors'],
-    ['/achievements/', 'Achievements'], ['/dbd-rulebook/', 'Rulebook'],
+    ['/achievements/', 'Achievements'], ['/achievements/compare/', 'Compare'], ['/dbd-rulebook/', 'Rulebook'],
     ['https://dbdfarming.sic4riodragon.uk/', 'Bloodpoint Farming Guide'],
     ['https://twitch.sic4riodragon.uk/deadbydaylight/', 'Challenges']
   ];
