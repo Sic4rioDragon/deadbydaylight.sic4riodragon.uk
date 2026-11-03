@@ -2,7 +2,7 @@
   "steamid": "76561198873252381",
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
-  "lastSync": "2026-11-02T21:45:38.018Z",
+  "lastSync": "2026-11-03T06:56:00.853Z",
   "state": {
     "killers": {
       "adept": {
@@ -540,7 +540,8 @@
           "unlockedAt": "2026-10-24T21:11:06.000Z"
         },
         "adept_felix": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-03T02:46:19.000Z"
         },
         "adept_gabriel": {
           "unlocked": false
@@ -659,7 +660,8 @@
           "unlockedAt": "2026-11-02T03:24:48.000Z"
         },
         "adept_e_lodie": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-03T03:34:34.000Z"
         },
         "adept_tae_young": {
           "unlocked": true,
