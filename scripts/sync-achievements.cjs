@@ -174,6 +174,13 @@ async function sync() {
  let successes=0;
  for(const p of players){
    const current=read(playerPath(p.steamid),{steamid:p.steamid,steamName:'',avatar:'',lastSync:null,state:{}});
+   // Profile identity is independent of whether DBD achievement stats are public.
+   let steamName=current.steamName||'',avatar=current.avatar||'';
+   try {
+     const s=await steam('ISteamUser/GetPlayerSummaries/v2/',{steamids:p.steamid});
+     const u=s.response?.players?.[0];
+     if(u){steamName=u.personaname||steamName;avatar=u.avatarfull||avatar;}
+   } catch(err){console.warn('Steam profile lookup unavailable',p.steamid,err.message);}
    let list;
    try {
      const data=await steam('ISteamUserStats/GetPlayerAchievements/v1/',{appid:APP,steamid:p.steamid,l:'en'});
@@ -181,7 +188,13 @@ async function sync() {
        throw Error('Achievements are private, unavailable or incomplete');
      }
      list=data.playerstats.achievements;
-   }catch(err){console.warn('Skipping player',p.steamid,':',err.message);continue;}
+   }catch(err){
+     const message=String(err?.message||'Steam returned no DBD achievement data').slice(0,180);
+     console.warn('No DBD achievement snapshot for',p.steamid,':',message);
+     // Preserve any prior valid achievement snapshot and lastSync timestamp.
+     write(playerPath(p.steamid),{...current,steamid:p.steamid,steamName,avatar,lastAttempt:new Date().toISOString(),syncStatus:'unavailable',syncReason:message});
+     continue;
+   }
    const state=normalizeProfileState(current.state,base);
    const unknown=[];
    for(const a of list){
@@ -203,13 +216,8 @@ async function sync() {
    }
    if(unknown.length)console.warn('Unmapped Steam achievement identifiers:',unknown.slice(0,15).join(', '));
    await updatePartialProgress(p.steamid,state,base);
-   let steamName=current.steamName||'',avatar=current.avatar||'';
-   try {
-     const s=await steam('ISteamUser/GetPlayerSummaries/v2/',{steamids:p.steamid});
-     const u=s.response?.players?.[0];
-     if(u){steamName=u.personaname||steamName;avatar=u.avatarfull||avatar;}
-   } catch(err){console.warn('Steam profile lookup unavailable',p.steamid,err.message);}
-   write(playerPath(p.steamid),{steamid:p.steamid,steamName,avatar,lastSync:new Date().toISOString(),state});
+   const syncedAt=new Date().toISOString();
+   write(playerPath(p.steamid),{steamid:p.steamid,steamName,avatar,lastSync:syncedAt,lastAttempt:syncedAt,syncStatus:'ok',syncReason:null,state});
    successes++;
    console.log('Updated',p.steamid,':',list.length,'achievements');
  }

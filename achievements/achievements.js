@@ -345,10 +345,28 @@ async function init() {
     profile = options.find(p=>p.steamid===selected.steamid)?.profile || {};
     if (steamLink) steamLink.href = 'https://steamcommunity.com/profiles/' + selected.steamid;
     if (nightlightLink) nightlightLink.href = 'https://nightlight.gg/steam-stats/profile/' + selected.steamid + '/achievements';
-    if (status) status.textContent = profile.lastSync ? 'Last synced: ' + new Date(profile.lastSync).toLocaleString() : 'Awaiting first Steam sync — currently showing saved data';
+    if (status) {
+      status.textContent = profile.syncStatus === 'unavailable'
+        ? (profile.lastSync ? 'Latest sync failed — showing last successful data from ' + new Date(profile.lastSync).toLocaleString() : 'Steam achievements unavailable — last attempt ' + (profile.lastAttempt ? new Date(profile.lastAttempt).toLocaleString() : 'unknown'))
+        : (profile.lastSync ? 'Last synced: ' + new Date(profile.lastSync).toLocaleString() : 'Awaiting first Steam sync');
+      if (profile.syncReason) status.title = profile.syncReason;
+    }
     if (document.getElementById('profileName')) document.getElementById('profileName').textContent = selected.overrideName || profile.steamName || selected.fallbackName || selected.steamid;
     if (document.getElementById('profileAvatar') && profile.avatar) document.getElementById('profileAvatar').src = profile.avatar;
     stateUrl = './players/' + encodeURIComponent(selected.steamid) + '.json';
+  }
+  if (selected && !profile?.lastSync) {
+    const note = '<div class="empty">No DBD achievement snapshot available for this player yet. Check Steam Game details visibility and whether the account has played Dead by Daylight.</div>';
+    for (const el of [els.killerSections, els.survivorSections, els.generalSections, document.getElementById('latestUnlocks')]) {
+      if (el) el.innerHTML = note;
+    }
+    for (const el of [els.countUnlocked, els.countLocked, els.countShown]) {
+      if (el) el.textContent = '—';
+    }
+    for (const el of [els.killerSummaryCounts,els.survivorSummaryCounts,els.generalSummaryCounts]) {
+      if (el) el.textContent = 'Unavailable';
+    }
+    return;
   }
   const [base, groupedState, icons] = await Promise.all([
     fetch(baseUrl, { cache: 'no-store' }).then(r => r.json()),

@@ -39,7 +39,7 @@
    if(type==='both')both++;else if(type==='aOnly')aOnly++;else if(type==='bOnly')bOnly++;else if(type==='neither')neither++;else unknown++;
    return{item,a,b,type};
   });
-  $('compareSummary').innerHTML=stat(first.name,aCount,'of '+catalog.length+' unlocked')+stat(second.name,bCount,'of '+catalog.length+' unlocked')+stat('Both unlocked',both,'Shared achievements')+stat('Differences',aOnly+bOnly,'Unlocked by one player');
+  $('compareSummary').innerHTML=stat(first.name,first.data.lastSync?aCount:'—',first.data.lastSync?'of '+catalog.length+' unlocked':'Achievement data unavailable')+stat(second.name,second.data.lastSync?bCount:'—',second.data.lastSync?'of '+catalog.length+' unlocked':'Achievement data unavailable')+stat('Both unlocked',both,'Shared achievements')+stat('Differences',aOnly+bOnly,'Unlocked by one player');
   const mode=$('compareMode').value,category=$('compareCategory').value,search=$('compareSearch').value.toLowerCase().trim();
   const visible=rows.filter(r=>{
    if(mode==='different'&&!['aOnly','bOnly'].includes(r.type))return false;
