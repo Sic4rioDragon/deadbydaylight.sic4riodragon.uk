@@ -99,6 +99,50 @@ function generateReview(catalog,schema){
  return{instructions:'Review achievements.base.json, assign category/section, then remove needsReview. Re-generated on the next sync.',needsReview,missingFromCurrentSteamSchema};
 }
 
+
+function parseNightLightProgress(html){
+ const items=[];
+ for(const fragment of html.split(/<div class="_achievement_[^"]+">/i).slice(1,500)){
+  const title=fragment.match(/<p class="mb-0 fw-bold">([\s\S]*?)<\/p>/i);
+  const progress=fragment.match(/<div class="_progress_info_[^"]+">([\s\S]*?)<\/small>/i);
+  if(!title||!progress)continue;
+  const name=title[1].replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"').trim();
+  const text=progress[1].replace(/<!--[\s\S]*?-->/g,'').replace(/<[^>]*>/g,'');
+  const values=text.match(/([\d,]+)\s*\/\s*([\d,]+)/);
+  if(!values)continue;
+  const current=Number(values[1].replace(/,/g,'')),goal=Number(values[2].replace(/,/g,''));
+  if(!Number.isSafeInteger(current)||!Number.isSafeInteger(goal)||current<0||goal<2||goal>1000000000||current>goal)continue;
+  items.push({name,progress:current,goal});
+ }
+ return items;
+}
+async function updatePartialProgress(steamid,state,catalog){
+ try {
+  const response=await fetch('https://nightlight.gg/steam-stats/profile/'+steamid+'/achievements',{
+   headers:{'User-Agent':'Sic4rioDragon DBD Achievement Tracker'},
+   signal:AbortSignal.timeout(12000)
+  });
+  if(!response.ok)throw Error('NightLight HTTP '+response.status);
+  const html=await response.text();
+  if(html.length>4000000)throw Error('Unexpected NightLight response size');
+  const progress=parseNightLightProgress(html);
+  const named=new Map(catalog.map(x=>[norm(x.title),x]));
+  let refreshed=0;
+  for(const item of progress){
+   const record=named.get(norm(item.name));
+   if(!record)continue;
+   const [group,section]=bucket(record);
+   const previous=state[group]?.[section]?.[record.achievement_id];
+   if(!previous||previous.unlocked)continue;
+   if(Number.isFinite(previous.goal)&&previous.goal>1&&previous.goal!==item.goal)continue;
+   const value=Number.isFinite(previous.progress)?Math.max(previous.progress,item.progress):item.progress;
+   state[group][section][record.achievement_id]={...previous,progress:value,goal:item.goal,progressSource:'NightLight',progressUpdatedAt:new Date().toISOString()};
+   refreshed++;
+  }
+  console.log('NightLight progress refreshed',steamid,refreshed);
+ }catch(error){console.warn('NightLight progress unavailable for',steamid,'-',error.message);}
+}
+
 async function sync() {
  if(!key){throw Error('STEAM_API_KEY is missing. Add it in GitHub repository Actions secrets.');}
  const players=read(playerFile,[]);
@@ -152,12 +196,13 @@ async function sync() {
      const old=state[group][section][item.achievement_id];
      const unlocked=Number(a.achieved)===1;
      const prior=old&&typeof old==='object'?old:null;
-     const record={unlocked, ...(prior&&Number.isFinite(prior.progress)?{progress:prior.progress}:{}) ,...(prior&&Number.isFinite(prior.goal)?{goal:prior.goal}:{})};
+     const record={unlocked, ...(prior&&Number.isFinite(prior.progress)?{progress:prior.progress}:{}), ...(prior&&Number.isFinite(prior.goal)?{goal:prior.goal}:{}), ...(prior?.progressSource?{progressSource:prior.progressSource}:{}), ...(prior?.progressUpdatedAt?{progressUpdatedAt:prior.progressUpdatedAt}:{})};
      if(unlocked && Number.isFinite(record.goal))record.progress=record.goal;
      if(unlocked && Number.isFinite(Number(a.unlocktime)) && Number(a.unlocktime)>0)record.unlockedAt=new Date(Number(a.unlocktime)*1000).toISOString();
      state[group][section][item.achievement_id]=record;
    }
    if(unknown.length)console.warn('Unmapped Steam achievement identifiers:',unknown.slice(0,15).join(', '));
+   await updatePartialProgress(p.steamid,state,base);
    let steamName=current.steamName||'',avatar=current.avatar||'';
    try {
      const s=await steam('ISteamUser/GetPlayerSummaries/v2/',{steamids:p.steamid});
