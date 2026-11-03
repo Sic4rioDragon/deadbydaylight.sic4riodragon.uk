@@ -2,7 +2,7 @@
   "steamid": "76561198873252381",
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
-  "lastSync": "2026-11-03T08:44:12.118Z",
+  "lastSync": "2026-11-03T15:40:21.939Z",
   "state": {
     "killers": {
       "adept": {
@@ -137,6 +137,12 @@
         "adept_xenomorph": {
           "unlocked": true,
           "unlockedAt": "2025-10-14T04:39:30.000Z"
+        },
+        "steam_new_achievement_312_29": {
+          "unlocked": false
+        },
+        "steam_new_achievement_334_4": {
+          "unlocked": false
         }
       },
       "general": {
@@ -333,6 +339,10 @@
         "what_lurks_beneath": {
           "unlocked": true,
           "unlockedAt": "2026-01-06T06:19:44.000Z"
+        },
+        "steam_new_achievement_312_28": {
+          "unlocked": true,
+          "unlockedAt": "2026-06-20T04:27:33.000Z"
         }
       },
       "extra": {
@@ -484,6 +494,13 @@
         },
         "youve_got_guts": {
           "unlocked": false
+        },
+        "steam_new_achievement_312_27": {
+          "unlocked": false
+        },
+        "steam_new_achievement_334_2": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-27T02:50:14.000Z"
         }
       }
     },
@@ -666,6 +683,14 @@
         "adept_tae_young": {
           "unlocked": true,
           "unlockedAt": "2026-07-17T23:17:07.000Z"
+        },
+        "steam_new_achievement_334_1": {
+          "unlocked": true,
+          "unlockedAt": "2026-10-30T04:27:06.000Z"
+        },
+        "steam_new_achievement_334_8": {
+          "unlocked": true,
+          "unlockedAt": "2026-10-29T22:51:18.000Z"
         }
       },
       "map": {
@@ -1057,6 +1082,18 @@
         "devoted_caretaker": {
           "unlocked": true,
           "unlockedAt": "2026-04-10T03:49:59.000Z"
+        },
+        "steam_new_achievement_312_31": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-21T01:15:35.000Z"
+        },
+        "steam_new_achievement_334_6": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-26T01:41:23.000Z"
+        },
+        "steam_new_achievement_334_7": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-26T02:54:08.000Z"
         }
       }
     },
@@ -1130,54 +1167,17 @@
           "unlocked": true,
           "unlockedAt": "2025-06-28T02:27:11.000Z"
         },
-        "steam_new_achievement_312_27": {
-          "unlocked": false
-        },
-        "steam_new_achievement_312_28": {
-          "unlocked": true,
-          "unlockedAt": "2026-06-20T04:27:33.000Z"
-        },
-        "steam_new_achievement_312_29": {
-          "unlocked": false
-        },
         "steam_new_achievement_312_30": {
           "unlocked": true,
           "unlockedAt": "2026-08-21T00:40:56.000Z"
-        },
-        "steam_new_achievement_312_31": {
-          "unlocked": true,
-          "unlockedAt": "2026-08-21T01:15:35.000Z"
-        },
-        "steam_new_achievement_334_1": {
-          "unlocked": true,
-          "unlockedAt": "2026-10-30T04:27:06.000Z"
-        },
-        "steam_new_achievement_334_2": {
-          "unlocked": true,
-          "unlockedAt": "2026-08-27T02:50:14.000Z"
         },
         "steam_new_achievement_334_3": {
           "unlocked": true,
           "unlockedAt": "2026-08-27T07:07:59.000Z"
         },
-        "steam_new_achievement_334_4": {
-          "unlocked": false
-        },
         "steam_new_achievement_334_5": {
           "unlocked": true,
           "unlockedAt": "2026-08-28T06:16:10.000Z"
-        },
-        "steam_new_achievement_334_6": {
-          "unlocked": true,
-          "unlockedAt": "2026-08-26T01:41:23.000Z"
-        },
-        "steam_new_achievement_334_7": {
-          "unlocked": true,
-          "unlockedAt": "2026-08-26T02:54:08.000Z"
-        },
-        "steam_new_achievement_334_8": {
-          "unlocked": true,
-          "unlockedAt": "2026-10-29T22:51:18.000Z"
         },
         "steam_new_achievement_334_9": {
           "unlocked": true,
