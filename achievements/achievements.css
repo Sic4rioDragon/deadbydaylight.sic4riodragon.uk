@@ -542,3 +542,17 @@ body{
 .player-actions a{font-size:12px;color:#b8dafd;border:1px solid var(--line);text-decoration:none;padding:9px 12px;border-radius:8px}
 .player-actions a:hover{color:#fff;background:#20334a}
 @media(max-width:650px){.player-toolbar{padding:14px}.player-actions{width:100%}.player-actions select{max-width:100%;flex:1}}
+
+.recent-unlocks{padding:19px 21px;margin:14px 0;border-radius:18px}
+.recent-head{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:13px}
+.recent-head h2{font:800 25px 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0}
+.recent-head p{font-size:11px;color:var(--muted);margin:3px 0 0}
+.recent-head a{color:#b9d4ee;text-decoration:none;font-size:12px}
+.recent-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}
+.recent-item{display:flex;gap:9px;align-items:center;background:rgba(255,255,255,.025);border:1px solid var(--line);border-radius:10px;padding:9px;min-width:0}
+.recent-item img{width:37px;height:37px;object-fit:cover;border-radius:6px;flex:none}
+.recent-item strong{display:block;font-size:11px}
+.recent-item small{display:block;font-size:10px;color:var(--muted)}
+.achievement-meta small{font-size:10px;color:var(--muted);font-weight:500}
+@media(max-width:1000px){.recent-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.recent-grid{grid-template-columns:1fr}}

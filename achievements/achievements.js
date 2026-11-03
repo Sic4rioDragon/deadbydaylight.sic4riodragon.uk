@@ -221,7 +221,7 @@ function renderAchievementCard(item) {
     metaHtml = `
       <div class="achievement-meta">
         <span class="achievement-state achievement-state-done">Done</span>
-        <strong>Done</strong>
+        <strong>${item.unlockedAt ? escapeHtml(new Date(item.unlockedAt).toLocaleDateString()) : 'Done'}</strong>
       </div>
     `;
   } else if (hasProgress) {
@@ -234,6 +234,7 @@ function renderAchievementCard(item) {
       <div class="achievement-meta achievement-meta-progress">
         <span class="achievement-state">Locked</span>
         <strong>${safeProgress} / ${safeGoal}</strong>
+        <small title="Steam does not provide live partial-progress counters for every achievement">${item.progressUpdatedAt ? `Saved ${escapeHtml(new Date(item.progressUpdatedAt).toLocaleDateString())}` : 'Saved progress'}</small>
         <div class="achievement-progress-wrap">
           <div class="achievement-progress-label">${percentLabel}%</div>
           <div class="achievement-progressbar">
@@ -302,6 +303,17 @@ function render() {
   renderSections(els.generalSections, generalItems, 'general');
 }
 
+
+function renderRecentUnlocks(){
+ const host=document.getElementById('latestUnlocks');if(!host)return;
+ const recent=state.items.filter(i=>i.unlocked&&i.unlockedAt&&Number.isFinite(Date.parse(i.unlockedAt)))
+  .sort((a,b)=>Date.parse(b.unlockedAt)-Date.parse(a.unlockedAt)).slice(0,8);
+ host.innerHTML=recent.map(item=>{
+  const icon=state.icons[item.achievement_id]||'/assets/img/deadbydaylight_icon.png';
+  return '<div class="recent-item"><img loading="lazy" alt="" src="'+escapeHtml(icon)+'"><span><strong>'+escapeHtml(item.title)+'</strong><small>'+escapeHtml(new Date(item.unlockedAt).toLocaleDateString())+'</small></span></div>';
+ }).join('')||'<span>No recorded unlock dates yet.</span>';
+}
+
 async function init() {
   const players = await loadOptionalJson(playerIndexUrl, []);
   const idFromUrl = new URLSearchParams(location.search).get('player');
@@ -361,7 +373,9 @@ async function init() {
     unlocked: !!entry.unlocked,
     progress: Number.isFinite(entry.progress) ? entry.progress : null,
     goal: Number.isFinite(entry.goal) ? entry.goal : null,
-    unlockedAt: entry.unlockedAt || null
+    unlockedAt: entry.unlockedAt || null,
+    progressSource: entry.progressSource || null,
+    progressUpdatedAt: entry.progressUpdatedAt || null
   };
 });
 
@@ -381,6 +395,7 @@ async function init() {
   });
 
   render();
+  renderRecentUnlocks();
 }
 
 init().catch(error => {
