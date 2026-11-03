@@ -95,3 +95,9 @@ body:not(.hub-page) .killer:hover{box-shadow:0 0 0 1px rgba(240,104,116,.3),0 16
 .hub-activity-item small{font-size:11px;color:var(--hub-muted);display:block}
 @media(max-width:1000px){.hub-activity-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:670px){.hub-activity-list{grid-template-columns:1fr}.hub-activity{padding:16px}}
+
+/* Shared header supersedes old standalone navigation on the rulebook page. */
+.site-header~.back-btn{display:none}
+.site-header~.back-btn~.page-shell{margin-top:28px}
+body:not(.hub-page) .topbar{border-bottom:1px solid rgba(174,197,223,.12)}
+body:not(.hub-page) .controls input[type="search"]{border-radius:10px}

@@ -33,3 +33,12 @@ The 3-hour schedule is best-effort: GitHub may delay scheduled jobs. The public 
 Run **sync** manually in GitHub Actions; check for errors, verify the Pages deployment and compare the resulting profile with Steam. If it fails, data from the previous successful synchronization is kept.
 
 The retired alt account/repository is not modified or deleted.
+
+## Site tools and achievement maintenance
+
+- Player comparison: `/achievements/compare/`. Select any two current profiles, filter unlock differences, and share comparison URLs.
+- Collection editor: `/tools/collection-editor/`. Update character prestige, builds, clips and notes locally; download or copy the full collection file and commit it. This editor does not save to GitHub by itself.
+- Homepage and achievement pages show recent unlocks from Steam timestamps and completion summaries.
+- `achievements/catalog-review.json` lists new achievements whose category cannot be identified safely. To review, edit `achievements/achievements.base.json`, update `category` and `section`, and remove `needsReview`. The review file refreshes on each Steam sync.
+- The deployment workflow now validates registered player files and achievement catalog IDs with `scripts/validate-data.cjs`.
+- Steam unlocks are authoritative. Partial progress may come from older saved values and is labeled as saved rather than live.

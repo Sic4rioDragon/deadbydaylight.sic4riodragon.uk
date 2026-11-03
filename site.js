@@ -15,7 +15,7 @@
   }
   header.innerHTML = '<a class="site-brand" href="/"><img src="/assets/img/deadbydaylight_icon.png" alt="" loading="lazy"><span>DEAD BY DAYLIGHT<small>Sic4rioDragon</small></span></a>' +
     '<nav class="site-links" aria-label="Main navigation">' + links.map(([url,label]) => {
-      const selected = url.startsWith('/') && (url==='/' ? path==='/' : path.startsWith(url.replace('survivors.html','survivors')));
+      const selected = url.startsWith('/') && (url==='/' ? path==='/' : url==='/achievements/' ? path==='/achievements/' : path.startsWith(url.replace('survivors.html','survivors')));
       return '<a href="'+esc(url)+'"'+(selected?' aria-current="page"':'')+'>'+esc(label)+'</a>';
     }).join('') + '</nav>';
   // Also correct any links retained by older page-specific navigation.
