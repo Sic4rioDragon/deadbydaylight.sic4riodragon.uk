@@ -1,11 +1,14 @@
 {
   "steamid": "76561199130655404",
-  "steamName": "",
-  "avatar": "",
+  "steamName": "Neelopeelo",
+  "avatar": "https://avatars.steamstatic.com/0e96fd1da4c91017a7c1de980d6361b139e6831d_full.jpg",
   "lastSync": null,
   "state": {
     "killers": {},
     "survivors": {},
     "general": {}
-  }
+  },
+  "lastAttempt": "2026-11-03T16:30:42.672Z",
+  "syncStatus": "unavailable",
+  "syncReason": "Steam ISteamUserStats/GetPlayerAchievements/v1/ HTTP 403"
 }
