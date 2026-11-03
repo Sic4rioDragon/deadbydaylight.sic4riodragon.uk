@@ -2,7 +2,7 @@
   "steamid": "76561198742049835",
   "steamName": "I Am Dragon's Cutie",
   "avatar": "https://avatars.steamstatic.com/462f40a1f0c80be66f77287736d1d395176f6349_full.jpg",
-  "lastSync": "2026-11-03T15:40:21.343Z",
+  "lastSync": "2026-11-03T15:41:49.142Z",
   "state": {
     "killers": {
       "adept": {
@@ -145,7 +145,7 @@
           "progress": 0,
           "goal": 5,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "a_bite_for_the_entity": {
           "unlocked": true,
@@ -160,7 +160,7 @@
           "progress": 425,
           "goal": 1000,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "apt_killer": {
           "unlocked": true,
@@ -175,7 +175,7 @@
           "progress": 16,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "blood_on_your_hands": {
           "unlocked": true,
@@ -198,14 +198,14 @@
           "progress": 183,
           "goal": 300,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "deadly_plunge": {
           "unlocked": false,
           "progress": 673,
           "goal": 1000,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "death_flight": {
           "unlocked": true,
@@ -216,7 +216,7 @@
           "progress": 13,
           "goal": 15,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "denied": {
           "unlocked": true,
@@ -255,7 +255,7 @@
           "progress": 19,
           "goal": 25,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "high_speed_pursuit": {
           "unlocked": true,
@@ -270,14 +270,14 @@
           "progress": 0,
           "goal": 10,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "legendary_killer": {
           "unlocked": false,
           "progress": 0,
           "goal": 85,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "lost_all_hope": {
           "unlocked": true,
@@ -288,7 +288,7 @@
           "progress": 0,
           "goal": 65,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "master_manipulator": {
           "unlocked": true,
@@ -299,7 +299,7 @@
           "progress": 13,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "neither_seen_nor_heard": {
           "unlocked": true,
@@ -341,7 +341,7 @@
           "progress": 0,
           "goal": 10,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "serial_killer": {
           "unlocked": true,
@@ -356,14 +356,14 @@
           "progress": 15,
           "goal": 25,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "taste_the_darkness": {
           "unlocked": false,
           "progress": 4,
           "goal": 10,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "texas_bbq": {
           "unlocked": true,
@@ -378,14 +378,14 @@
           "progress": 10,
           "goal": 25,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "steam_new_achievement_312_28": {
           "unlocked": false,
           "progress": 0,
           "goal": 13,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         }
       },
       "extra": {
@@ -394,7 +394,7 @@
           "progress": 0,
           "goal": 25,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "binding_teeth": {
           "unlocked": false
@@ -404,28 +404,28 @@
           "progress": 2,
           "goal": 65,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "bloodbath": {
           "unlocked": false,
           "progress": 0,
           "goal": 75,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "bound_and_downed": {
           "unlocked": false,
           "progress": 0,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "bump_in_the_night": {
           "unlocked": false,
           "progress": 0,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "butcherin": {
           "unlocked": true,
@@ -436,14 +436,14 @@
           "progress": 19,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "cleansed_in_agony": {
           "unlocked": false,
           "progress": 19,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "collision_course": {
           "unlocked": true,
@@ -454,35 +454,35 @@
           "progress": 0,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "cripple_them_all": {
           "unlocked": false,
           "progress": 1,
           "goal": 100,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "cruelty_loves_company": {
           "unlocked": false,
           "progress": 0,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "deranged_pursuit": {
           "unlocked": false,
           "progress": 11,
           "goal": 25,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "dream_demon": {
           "unlocked": false,
           "progress": 17,
           "goal": 200,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "even_punishment": {
           "unlocked": false
@@ -495,28 +495,28 @@
           "progress": 5,
           "goal": 125,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "in_the_void_she_walks": {
           "unlocked": false,
           "progress": 39,
           "goal": 500,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "jump_scared": {
           "unlocked": false,
           "progress": 0,
           "goal": 15,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "jump_scares": {
           "unlocked": false,
           "progress": 39,
           "goal": 100,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "mad_house": {
           "unlocked": false
@@ -526,21 +526,21 @@
           "progress": 0,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "prey_upon": {
           "unlocked": false,
           "progress": 0,
           "goal": 20,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "remember_who_i_am": {
           "unlocked": false,
           "progress": 0,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "rightful_owner": {
           "unlocked": false
@@ -550,133 +550,133 @@
           "progress": 0,
           "goal": 500,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "skilled_huntress": {
           "unlocked": false,
           "progress": 0,
           "goal": 20,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "slip_into_the_stream": {
           "unlocked": false,
           "progress": 0,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "smoked": {
           "unlocked": false,
           "progress": 0,
           "goal": 100,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "speed_kills": {
           "unlocked": false,
           "progress": 0,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "swirling_death": {
           "unlocked": false,
           "progress": 766,
           "goal": 1000,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "symphony_of_fire": {
           "unlocked": false,
           "progress": 0,
           "goal": 20,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "tag_team": {
           "unlocked": false,
           "progress": 0,
           "goal": 10,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "terminal_illness": {
           "unlocked": false,
           "progress": 5,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "terror_of_lv_426": {
           "unlocked": false,
           "progress": 28,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "the_grind": {
           "unlocked": false,
           "progress": 2,
           "goal": 100,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "thrill_of_the_chase": {
           "unlocked": false,
           "progress": 0,
           "goal": 10,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "torn_asunder": {
           "unlocked": false,
           "progress": 0,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "totally_vulnerable": {
           "unlocked": false,
           "progress": 43,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "triggered": {
           "unlocked": false,
           "progress": 9,
           "goal": 300,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "viral_video": {
           "unlocked": false,
           "progress": 0,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "youve_got_guts": {
           "unlocked": false,
           "progress": 0,
           "goal": 20,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "steam_new_achievement_312_27": {
           "unlocked": false,
           "progress": 0,
           "goal": 13,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "steam_new_achievement_334_2": {
           "unlocked": false,
           "progress": 0,
           "goal": 15,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         }
       }
     },
@@ -961,7 +961,7 @@
           "progress": 6,
           "goal": 20,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "outrun_the_overlap": {
           "unlocked": true,
@@ -1005,7 +1005,7 @@
           "progress": 12,
           "goal": 20,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "bloodied_hands": {
           "unlocked": true,
@@ -1016,7 +1016,7 @@
           "progress": 29,
           "goal": 30,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "break_for_it": {
           "unlocked": true,
@@ -1035,7 +1035,7 @@
           "progress": 50,
           "goal": 100,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "desperate_escape": {
           "unlocked": true,
@@ -1046,7 +1046,7 @@
           "progress": 26,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "engineer": {
           "unlocked": true,
@@ -1069,14 +1069,14 @@
           "progress": 0,
           "goal": 8,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "skilled_generalist": {
           "unlocked": false,
           "progress": 0,
           "goal": 8,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "expert_survivor": {
           "unlocked": true,
@@ -1095,7 +1095,7 @@
           "progress": 18,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "hand_eye_coordination": {
           "unlocked": true,
@@ -1201,7 +1201,7 @@
           "progress": 16,
           "goal": 50,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "one_more_step": {
           "unlocked": true,
@@ -1268,7 +1268,7 @@
           "progress": 228,
           "goal": 250,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "the_key_to_escape": {
           "unlocked": true,
@@ -1326,7 +1326,7 @@
           "progress": 2,
           "goal": 5,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         }
       }
     },
@@ -1407,7 +1407,7 @@
           "progress": 0,
           "goal": 300,
           "progressSource": "NightLight",
-          "progressUpdatedAt": "2026-11-03T15:40:21.239Z"
+          "progressUpdatedAt": "2026-11-03T15:41:48.999Z"
         },
         "steam_new_achievement_334_5": {
           "unlocked": false
