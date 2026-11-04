@@ -23,7 +23,9 @@ const els = {
 
   searchInput: document.getElementById('searchInput'),
   toggleUnlocked: document.getElementById('toggleUnlocked'),
-  filterSelect: document.getElementById('filterSelect')
+  filterSelect: document.getElementById('filterSelect'),
+  toggleFarmable: document.getElementById('toggleFarmable'),
+  farmableCount: document.getElementById('farmableCount')
 };
 
 const SECTION_ORDER = {
@@ -35,6 +37,8 @@ const SECTION_ORDER = {
 let state = {
   search: '',
   showUnlocked: false,
+  farmableOnly: false,
+  farming: {},
   filter: 'all',
   items: [],
   icons: {}
@@ -131,7 +135,8 @@ function matchesFilter(item, filter) {
 function getVisibleItems(items) {
   return items.filter(item => {
     const passesUnlocked = state.showUnlocked ? true : !item.unlocked;
-    return passesUnlocked && matchesSearch(item, state.search) && matchesFilter(item, state.filter);
+    const passesFarming = !state.farmableOnly || (!item.unlocked && !!state.farming[item.achievement_id]);
+    return passesUnlocked && passesFarming && matchesSearch(item, state.search) && matchesFilter(item, state.filter);
   });
 }
 
@@ -213,6 +218,9 @@ function renderSections(container, items, category) {
 
 function renderAchievementCard(item) {
   const icon = state.icons[item.achievement_id] || '';
+  const guide = !item.unlocked ? state.farming[item.achievement_id] : null;
+  const farmLinks = guide && Array.isArray(guide.methods) ? guide.methods.filter(m => m.url?.startsWith('https://dbdfarming.sic4riodragon.uk/')) : [];
+  const farmHtml = farmLinks.length ? `<div class="farming-method-links"><span class="farming-label">Farming guide</span>${farmLinks.slice(0,2).map(m => `<a href="${escapeHtml(m.url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(m.summary || '')}">${escapeHtml(m.name)} ↗</a>`).join('')}${guide.guideUrl?.startsWith('https://dbdfarming.sic4riodragon.uk/') ? `<a class="farming-all" href="${escapeHtml(guide.guideUrl)}" target="_blank" rel="noopener noreferrer">Full guide</a>` : ''}</div>` : '';
   const hasProgress = !item.unlocked && Number.isFinite(item.progress) && Number.isFinite(item.goal) && item.goal > 1;
 
   let metaHtml = '';
@@ -253,7 +261,7 @@ function renderAchievementCard(item) {
   }
 
   return `
-    <article class="achievement ${item.unlocked ? 'is-unlocked' : 'is-locked'}">
+    <article class="achievement ${item.unlocked ? 'is-unlocked' : 'is-locked'} ${farmLinks.length ? 'has-farming-guide' : ''}">
       <div class="achievement-icon-wrap">
         ${icon ? `<img class="achievement-icon" src="${escapeHtml(icon)}" alt="${escapeHtml(item.title)}">` : ''}
       </div>
@@ -262,6 +270,7 @@ function renderAchievementCard(item) {
           <h4>${escapeHtml(item.title)}</h4>
         </div>
         <p>${escapeHtml(item.description)}</p>
+        ${farmHtml}
       </div>
       ${metaHtml}
     </article>
@@ -272,6 +281,7 @@ function updateCounters(allItems, visibleItems) {
   els.countUnlocked.textContent = String(countUnlocked(allItems));
   els.countLocked.textContent = String(countLocked(allItems));
   els.countShown.textContent = String(visibleItems.length);
+  if(els.farmableCount) els.farmableCount.textContent = String(allItems.filter(item => !item.unlocked && state.farming[item.achievement_id]).length);
 }
 
 function render() {
@@ -372,11 +382,13 @@ async function init() {
     }
     return;
   }
-  const [base, groupedState, icons] = await Promise.all([
+  const [base, groupedState, icons, farmData] = await Promise.all([
     fetch(baseUrl, { cache: 'no-store' }).then(r => r.json()),
     fetch(stateUrl, { cache: 'no-store' }).then(r => r.json()),
-    loadOptionalJson(iconsUrl, {})
+    loadOptionalJson(iconsUrl, {}),
+    loadOptionalJson('./farming-links.json', {mapping:{}})
   ]);
+  state.farming = farmData.mapping || {};
 
   const stateMap = flattenState(groupedState.state || groupedState);
   state.icons = icons || {};
@@ -403,6 +415,16 @@ async function init() {
 
   els.searchInput?.addEventListener('input', () => {
     state.search = normalize(els.searchInput.value);
+    render();
+  });
+
+  state.farmableOnly = new URLSearchParams(location.search).get('farmable') === '1';
+  if(els.toggleFarmable) els.toggleFarmable.checked=state.farmableOnly;
+  els.toggleFarmable?.addEventListener('change', () => {
+    state.farmableOnly = !!els.toggleFarmable.checked;
+    const url = new URL(location.href);
+    if(state.farmableOnly) url.searchParams.set('farmable', '1'); else url.searchParams.delete('farmable');
+    history.replaceState(null,'',url);
     render();
   });
 

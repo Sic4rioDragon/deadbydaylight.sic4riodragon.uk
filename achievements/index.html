@@ -9,7 +9,7 @@
   <meta name="theme-color" content="#07111d">
 
   <link rel="canonical" href="https://deadbydaylight.sic4riodragon.uk/achievements/">
-  <link rel="stylesheet" href="./achievements.css?v=2">
+  <link rel="stylesheet" href="./achievements.css?v=5">
 
   <link rel="icon" type="image/png" href="/assets/img/deadbydaylight_icon.png">
   <link rel="shortcut icon" href="/assets/img/deadbydaylight_icon.png">
@@ -65,6 +65,7 @@
     <section class="player-toolbar card" aria-label="Steam player profile"><div class="player-details"><img id="profileAvatar" src="/assets/img/deadbydaylight_icon.png" alt="" loading="lazy"><div><strong id="profileName">Steam player</strong><p id="playerSyncStatus">Loading saved achievements…</p></div></div><div class="player-actions"><a href="/achievements/compare/">Compare players ↗</a><label for="playerSelect">Player</label><select id="playerSelect" aria-label="Select Steam player"></select><a id="playerSteamLink" href="https://steamcommunity.com/" target="_blank" rel="noopener noreferrer">Steam profile</a><a id="playerNightlightLink" href="https://nightlight.gg/" target="_blank" rel="noopener noreferrer">NightLight</a></div></section>
 
     <section class="card recent-unlocks" aria-labelledby="latestUnlockHeading"><div class="recent-head"><div><h2 id="latestUnlockHeading">Latest unlocked</h2><p>From Steam unlock timestamps</p></div><a href="/achievements/compare/">Compare players ↗</a></div><div id="latestUnlocks" class="recent-grid">Loading…</div></section>
+    <section class="farm-overview card" aria-label="Farming guide integration"><div><strong><span id="farmableCount">0</span> locked achievements with farming guides</strong><p>Linked to your existing Bloodpoint Farming Guide methods. These are suggested setups, not guaranteed unlocks.</p></div><a href="https://dbdfarming.sic4riodragon.uk/achievements/" target="_blank" rel="noopener noreferrer">Browse all farming methods ↗</a></section>
     <section class="toolbar card compact">
       <div class="stats">
         <div class="stat">
@@ -99,6 +100,10 @@
           </select>
         </label>
 
+        <label class="check farming-toggle">
+          <input id="toggleFarmable" type="checkbox">
+          <span>Farmable only</span>
+        </label>
         <label class="check">
           <input id="toggleUnlocked" type="checkbox">
           <span>Show all</span>

@@ -2,7 +2,8 @@
  const $=id=>document.getElementById(id);
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
  const read=async path=>{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw Error('Could not load '+path);return r.json();};
- const [registered,catalog,icons]=await Promise.all([read('/achievements/players.json'),read('/achievements/achievements.base.json'),read('/achievements/achievements.icons.json')]);
+ const [registered,catalog,icons,farmingData]=await Promise.all([read('/achievements/players.json'),read('/achievements/achievements.base.json'),read('/achievements/achievements.icons.json'),read('/achievements/farming-links.json').catch(()=>({mapping:{}}))]);
+ const farming=farmingData.mapping||{};
  if(registered.length<2){$('compareRows').innerHTML='<tr><td colspan="3">At least two registered players are required.</td></tr>';return;}
  function flatten(state){const m=new Map();for(const group of Object.values(state||{}))for(const section of Object.values(group||{}))for(const [id,v] of Object.entries(section||{})){const value=typeof v==='boolean'?{unlocked:v}:v;if(!value)continue;const old=m.get(id);if(!old||(!old.unlocked&&value.unlocked))m.set(id,value);}return m;}
  const players=await Promise.all(registered.map(async p=>{let data={};try{data=await read('/achievements/players/'+encodeURIComponent(p.steamid)+'.json');}catch{}return{p,data,name:p.overrideName||data.steamName||p.fallbackName||p.steamid,achievements:flatten(data.state)};}));
@@ -12,7 +13,7 @@
  selectA.value=lookup.has(params.get('a'))?params.get('a'):players[0].p.steamid;
  const preferredB=params.get('b');
  selectB.value=lookup.has(preferredB)&&preferredB!==selectA.value?preferredB:players.find(p=>p.p.steamid!==selectA.value).p.steamid;
- if(['different','aOnly','bOnly','both','neither','all'].includes(params.get('mode')))$('compareMode').value=params.get('mode');
+ if(['different','aOnly','bOnly','both','neither','farmableBoth','all'].includes(params.get('mode')))$('compareMode').value=params.get('mode');
  const stamp=x=>{const n=Date.parse(x||'');return Number.isFinite(n)?new Date(n).toLocaleDateString():'';};
  const cell=x=>{
   if(!x)return '<span class="compare-unknown">Unknown</span>';
@@ -30,27 +31,31 @@
   if(first===second){second=players.find(p=>p!==first);selectB.value=second.p.steamid;}
   profile(first,$('compareProfileA'));profile(second,$('compareProfileB'));
   $('compareHeaderA').textContent=first.name;$('compareHeaderB').textContent=second.name;
-  let aCount=0,bCount=0,both=0,aOnly=0,bOnly=0,neither=0,unknown=0;
+  let aCount=0,bCount=0,both=0,aOnly=0,bOnly=0,neither=0,unknown=0,farmableBoth=0;
   const rows=catalog.map(item=>{
    const a=snapshot(first,item.achievement_id),b=snapshot(second,item.achievement_id);
    if(a?.unlocked)aCount++;if(b?.unlocked)bCount++;
    let type='unknown';
    if(a&&b){if(a.unlocked&&b.unlocked)type='both';else if(a.unlocked)type='aOnly';else if(b.unlocked)type='bOnly';else type='neither';}
-   if(type==='both')both++;else if(type==='aOnly')aOnly++;else if(type==='bOnly')bOnly++;else if(type==='neither')neither++;else unknown++;
+   if(type==='both')both++;else if(type==='aOnly')aOnly++;else if(type==='bOnly')bOnly++;else if(type==='neither'){neither++;if(farming[item.achievement_id])farmableBoth++;}else unknown++;
    return{item,a,b,type};
   });
-  $('compareSummary').innerHTML=stat(first.name,first.data.lastSync?aCount:'—',first.data.lastSync?'of '+catalog.length+' unlocked':'Achievement data unavailable')+stat(second.name,second.data.lastSync?bCount:'—',second.data.lastSync?'of '+catalog.length+' unlocked':'Achievement data unavailable')+stat('Both unlocked',both,'Shared achievements')+stat('Differences',aOnly+bOnly,'Unlocked by one player');
+  $('compareSummary').innerHTML=stat(first.name,first.data.lastSync?aCount:'—',first.data.lastSync?'of '+catalog.length+' unlocked':'Achievement data unavailable')+stat(second.name,second.data.lastSync?bCount:'—',second.data.lastSync?'of '+catalog.length+' unlocked':'Achievement data unavailable')+stat('Both unlocked',both,'Shared achievements')+stat('Differences',aOnly+bOnly,'Unlocked by one player')+stat('Farmable together',farmableBoth,'Both missing with a guide');
   const mode=$('compareMode').value,category=$('compareCategory').value,search=$('compareSearch').value.toLowerCase().trim();
   const visible=rows.filter(r=>{
+   if(mode==='farmableBoth' && (r.type!=='neither'||!farming[r.item.achievement_id]))return false;
    if(mode==='different'&&!['aOnly','bOnly'].includes(r.type))return false;
-   if(mode!=='different'&&mode!=='all'&&mode!==r.type)return false;
+   if(!['different','all','farmableBoth'].includes(mode)&&mode!==r.type)return false;
    if(category!=='all'&&r.item.category!==category&&r.item.section!==category)return false;
    return !search||[r.item.title,r.item.description,r.item.category,r.item.section].join(' ').toLowerCase().includes(search);
   });
   $('compareCount').textContent=visible.length+' shown · '+aOnly+' only '+first.name+' · '+bOnly+' only '+second.name+(unknown?' · '+unknown+' unknown':'');
   $('compareRows').innerHTML=visible.map(r=>{
    const icon=icons[r.item.achievement_id]||'/assets/img/deadbydaylight_icon.png';
-   return '<tr><td><div class="compare-achievement"><img loading="lazy" alt="" src="'+esc(icon)+'"><div><strong>'+esc(r.item.title)+'</strong><small>'+esc(r.item.description||r.item.category)+'</small></div></div></td><td>'+cell(r.a)+'</td><td>'+cell(r.b)+'</td></tr>';
+   const guide=farming[r.item.achievement_id];
+   const farm=guide?.methods?.[0]?.url?.startsWith('https://dbdfarming.sic4riodragon.uk/')
+     ? '<a class="compare-farm-link" target="_blank" rel="noopener noreferrer" href="'+esc(guide.methods[0].url)+'">Farming method: '+esc(guide.methods[0].name)+' ↗</a>' : '';
+   return '<tr><td><div class="compare-achievement"><img loading="lazy" alt="" src="'+esc(icon)+'"><div><strong>'+esc(r.item.title)+'</strong><small>'+esc(r.item.description||r.item.category)+'</small>'+farm+'</div></div></td><td>'+cell(r.a)+'</td><td>'+cell(r.b)+'</td></tr>';
   }).join('')||'<tr><td colspan="3">No achievements match these filters.</td></tr>';
   const url=new URL(location.href);url.searchParams.set('a',selectA.value);url.searchParams.set('b',selectB.value);url.searchParams.set('mode',mode);history.replaceState({},'',url);
  }

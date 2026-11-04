@@ -556,3 +556,17 @@ body{
 .achievement-meta small{font-size:10px;color:var(--muted);font-weight:500}
 @media(max-width:1000px){.recent-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.recent-grid{grid-template-columns:1fr}}
+
+/* Links are matched to curated achievements on the separate farming guide site. */
+.farm-overview{margin:14px 0;padding:15px 21px;display:flex;align-items:center;justify-content:space-between;gap:18px;border-radius:17px}
+.farm-overview strong{font-size:14px;color:#f1f5fb}
+.farm-overview p{font-size:11px;color:var(--muted);margin:4px 0 0}
+.farm-overview a{color:#b8ddf4;text-decoration:none;font-size:12px;flex:none}
+.farming-toggle{background:rgba(82,138,171,.11);border-radius:8px}
+.achievement.has-farming-guide{border-color:rgba(124,197,217,.3)}
+.farming-method-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:10px 0 2px}
+.farming-method-links a{display:inline-flex;align-items:center;padding:5px 8px;border:1px solid rgba(139,200,224,.27);background:rgba(114,167,201,.1);color:#bcdff4;text-decoration:none;border-radius:7px;font-size:11px;line-height:1.4}
+.farming-method-links a:hover{background:rgba(120,191,212,.21);color:#fff}
+.farming-method-links .farming-all{background:none;border-color:transparent;text-decoration:underline}
+.farming-label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#8acdde}
+@media(max-width:650px){.farm-overview{flex-direction:column;align-items:flex-start;padding:15px}}
