@@ -1,0 +1,2382 @@
+{
+  "sourceRepository": "https://github.com/Sic4rioDragon/dbdfarming.sic4riodragon.uk",
+  "sourceWebsite": "https://dbdfarming.sic4riodragon.uk/",
+  "catalogSize": 311,
+  "matchedAchievements": 157,
+  "matching": "Exact guide achievement title, then category-specific Adept family",
+  "mapping": {
+    "adept_animatronic": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_artist": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_blight": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_cannibal": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_clown": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_dark_lord": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_deathslinger": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_doctor": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_dredge": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_executioner": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_first": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_ghost_face": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_ghoul": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_good_guy": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_hag": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_hillbilly": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_houndmaster": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_huntress": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_knight": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_krasue": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_legion": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_lich": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_mastermind": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_nemesis": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_nightmare": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_nurse": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_oni": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_onryo": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_pig": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_plague": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_singularity": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_skull_merchant": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_spirit": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_trapper": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_trickster": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_twins": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_unknown": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_wraith": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "adept_xenomorph": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "from_the_deep": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/from-the-deep/",
+      "guideName": "From the Deep",
+      "guideCategory": "Grab",
+      "methods": [
+        {
+          "id": "grab-farm",
+          "name": "Grab achievement match",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/grab-farm/",
+          "summary": "Use one dedicated match to rotate through Generator, Totem, vault and Locker grabs."
+        }
+      ],
+      "matchType": "title",
+      "priority": 77
+    },
+    "heavy_burden": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/heavy-burden/",
+      "guideName": "Heavy Burden",
+      "guideCategory": "Carry",
+      "methods": [
+        {
+          "id": "carry-farm",
+          "name": "Carry achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/carry-farm/",
+          "summary": "Keep one Survivor carried while the rest rotate hits and fast heals around the Killer."
+        }
+      ],
+      "matchType": "title",
+      "priority": 21
+    },
+    "multi_tasker": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/multi-tasker/",
+      "guideName": "Multi-tasker",
+      "guideCategory": "Carry",
+      "methods": [
+        {
+          "id": "carry-farm",
+          "name": "Carry achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/carry-farm/",
+          "summary": "Keep one Survivor carried while the rest rotate hits and fast heals around the Killer."
+        }
+      ],
+      "matchType": "title",
+      "priority": 22
+    },
+    "quick_draw": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/quick-draw/",
+      "guideName": "Quick Draw",
+      "guideCategory": "Grab",
+      "methods": [
+        {
+          "id": "grab-farm",
+          "name": "Grab achievement match",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/grab-farm/",
+          "summary": "Use one dedicated match to rotate through Generator, Totem, vault and Locker grabs."
+        }
+      ],
+      "matchType": "title",
+      "priority": 75
+    },
+    "silent_approach": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/silent-approach/",
+      "guideName": "Silent Approach",
+      "guideCategory": "Grab",
+      "methods": [
+        {
+          "id": "grab-farm",
+          "name": "Grab achievement match",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/grab-farm/",
+          "summary": "Use one dedicated match to rotate through Generator, Totem, vault and Locker grabs."
+        }
+      ],
+      "matchType": "title",
+      "priority": 74
+    },
+    "taste_the_darkness": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/taste-the-darkness/",
+      "guideName": "Taste the Darkness",
+      "guideCategory": "Grab",
+      "methods": [
+        {
+          "id": "grab-farm",
+          "name": "Grab achievement match",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/grab-farm/",
+          "summary": "Use one dedicated match to rotate through Generator, Totem, vault and Locker grabs."
+        }
+      ],
+      "matchType": "title",
+      "priority": 76
+    },
+    "cripple_them_all": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/cripple-them-all/",
+      "guideName": "Cripple Them All",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "trapper-two-trap-loop",
+          "name": "Trapper two-trap loop",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/trapper-two-trap-loop/",
+          "summary": "One Survivor and two traps are enough to repeatedly get direct trap pickups."
+        }
+      ],
+      "matchType": "title",
+      "priority": 3
+    },
+    "dream_demon": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/dream-demon/",
+      "guideName": "Dream Demon",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "dream-demon-shack-loop",
+          "name": "Dream Demon shack loop",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/dream-demon-shack-loop/",
+          "summary": "Use the shack gen and fake-pallet wake/sleep loop to keep pulling Survivors back into the Dream World."
+        }
+      ],
+      "matchType": "title",
+      "priority": 2
+    },
+    "even_punishment": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/even-punishment/",
+      "guideName": "Even Punishment",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "hag-trap-farm",
+          "name": "Hag two-trap teleport farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/hag-trap-farm/",
+          "summary": "Rotate between two Phantasm Traps so one Survivor can trigger them almost nonstop."
+        }
+      ],
+      "matchType": "title",
+      "priority": 25
+    },
+    "jump_scares": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/jump-scares/",
+      "guideName": "Jump Scares",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "wraith-jump-scare-farm",
+          "name": "Wraith Surprise Attack farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/wraith-jump-scare-farm/",
+          "summary": "Alternate uncloaking hits between Survivors while the team resets the damage quickly."
+        }
+      ],
+      "matchType": "title",
+      "priority": 28
+    },
+    "mad_house": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/mad-house/",
+      "guideName": "Mad House",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "doctor-shock-farm",
+          "name": "Doctor shock farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/doctor-shock-farm/",
+          "summary": "Group all four Survivors and hit as many of them as possible with every Shock Therapy."
+        }
+      ],
+      "matchType": "title",
+      "priority": 26
+    },
+    "shocking_treatment": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/shocking-treatment/",
+      "guideName": "Shocking Treatment",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "doctor-shock-farm",
+          "name": "Doctor shock farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/doctor-shock-farm/",
+          "summary": "Group all four Survivors and hit as many of them as possible with every Shock Therapy."
+        }
+      ],
+      "matchType": "title",
+      "priority": 27
+    },
+    "skilled_huntress": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/skilled-huntress/",
+      "guideName": "Skilled Huntress",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "skilled-huntress-boon-range",
+          "name": "Skilled Huntress boon-range farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/skilled-huntress-boon-range/",
+          "summary": "Use a 24m boon radius as an easy in-game distance marker for the hatchet downs."
+        }
+      ],
+      "matchType": "title",
+      "priority": 5
+    },
+    "totally_vulnerable": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/totally-vulnerable/",
+      "guideName": "Totally Vulnerable",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "ghostface-mark-farm",
+          "name": "Ghost Face Mark farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/ghostface-mark-farm/",
+          "summary": "Mark, down, reset the Survivor, then repeat without anyone revealing Ghost Face."
+        }
+      ],
+      "matchType": "title",
+      "priority": 29
+    },
+    "triggered": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/triggered/",
+      "guideName": "Triggered",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "hag-trap-farm",
+          "name": "Hag two-trap teleport farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/hag-trap-farm/",
+          "summary": "Rotate between two Phantasm Traps so one Survivor can trigger them almost nonstop."
+        }
+      ],
+      "matchType": "title",
+      "priority": 24
+    },
+    "adept_ace": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_ada": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_adam": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_alan": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_ash": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_bill": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_cage": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_cheryl": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_claudette": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_david": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_dustin": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_dwight": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_eleven": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_felix": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_gabriel": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_haddie": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_jake": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_jane": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_jeff": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_jill": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_jonah": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_kate": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_lara": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_leon": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_meg": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_michonne": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_mikaela": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_min": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_nea": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_orela": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_quentin": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_rebecca": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_renato": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_rick": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_ripley": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_sable": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_tapp": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_taurie": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_thalita": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_trevor": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_troupe": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_vee": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_vittorio": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_yoichi": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_yui": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_yun_jin": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_zarina": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "adept_e_lodie": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "shock_therapy": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/shock-therapy-map/",
+      "guideName": "Shock Therapy",
+      "guideCategory": "Map",
+      "methods": [
+        {
+          "id": "disturbed-ward-stack",
+          "name": "Disturbed Ward achievement stack",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/disturbed-ward-stack/",
+          "summary": "A dedicated Disturbed Ward match can potentially stack several annoying escape achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 43
+    },
+    "agonizing_escape": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/agonizing-escape/",
+      "guideName": "Agonizing Escape",
+      "guideCategory": "Hatch",
+      "methods": [
+        {
+          "id": "hatch-crawl-stack",
+          "name": "Hatch crawl stack",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/hatch-crawl-stack/",
+          "summary": "Down the last Survivor beside an open Hatch and have them crawl through it."
+        }
+      ],
+      "matchType": "title",
+      "priority": 60
+    },
+    "backdoor_escape": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/backdoor-escape/",
+      "guideName": "Backdoor Escape",
+      "guideCategory": "Hatch",
+      "methods": [
+        {
+          "id": "hatch-crawl-stack",
+          "name": "Hatch crawl stack",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/hatch-crawl-stack/",
+          "summary": "Down the last Survivor beside an open Hatch and have them crawl through it."
+        }
+      ],
+      "matchType": "title",
+      "priority": 59
+    },
+    "bless_you": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/bless-you/",
+      "guideName": "Bless You",
+      "guideCategory": "Totem",
+      "methods": [
+        {
+          "id": "bless-you-loop",
+          "name": "Bless You pallet / Hex loop",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/bless-you-loop/",
+          "summary": "Force the same remaining Totem to become Hex: Two Can Play over and over, bless it, snuff it and reset the pallet."
+        }
+      ],
+      "matchType": "title",
+      "priority": 8
+    },
+    "bloodied_hands": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/bloodied-hands/",
+      "guideName": "Bloodied Hands",
+      "guideCategory": "Hook",
+      "methods": [
+        {
+          "id": "hook-unhook-farm",
+          "name": "Hook / unhook achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/hook-unhook-farm/",
+          "summary": "Rotate hooks, safe unhooks and protection hits so several hook achievements move together."
+        }
+      ],
+      "matchType": "title",
+      "priority": 62
+    },
+    "bodyguard": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/bodyguard/",
+      "guideName": "Bodyguard",
+      "guideCategory": "Protection",
+      "methods": [
+        {
+          "id": "carry-farm",
+          "name": "Carry achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/carry-farm/",
+          "summary": "Keep one Survivor carried while the rest rotate hits and fast heals around the Killer."
+        }
+      ],
+      "matchType": "title",
+      "priority": 20
+    },
+    "break_for_it": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/break-for-it/",
+      "guideName": "Break For It",
+      "guideCategory": "Endgame",
+      "methods": [
+        {
+          "id": "endgame-cleanup",
+          "name": "Endgame achievement cleanup",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/endgame-cleanup/",
+          "summary": "Use the last couple minutes after farming instead of immediately leaving."
+        }
+      ],
+      "matchType": "title",
+      "priority": 69
+    },
+    "close_shave": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/close-shave/",
+      "guideName": "Close Shave",
+      "guideCategory": "Chase",
+      "methods": [
+        {
+          "id": "controlled-chase-farm",
+          "name": "Controlled chase farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/controlled-chase-farm/",
+          "summary": "Use shack or another clean pallet/window area to farm a whole block of chase achievements."
+        },
+        {
+          "id": "skilled-huntress-boon-range",
+          "name": "Skilled Huntress boon-range farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/skilled-huntress-boon-range/",
+          "summary": "Use a 24m boon radius as an easy in-game distance marker for the hatchet downs."
+        }
+      ],
+      "matchType": "title",
+      "priority": 53
+    },
+    "cutting_out": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/cutting-out/",
+      "guideName": "Cutting Out",
+      "guideCategory": "Carry",
+      "methods": [
+        {
+          "id": "carry-farm",
+          "name": "Carry achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/carry-farm/",
+          "summary": "Keep one Survivor carried while the rest rotate hits and fast heals around the Killer."
+        },
+        {
+          "id": "trapper-two-trap-loop",
+          "name": "Trapper two-trap loop",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/trapper-two-trap-loop/",
+          "summary": "One Survivor and two traps are enough to repeatedly get direct trap pickups."
+        }
+      ],
+      "matchType": "title",
+      "priority": 23
+    },
+    "desperate_escape": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/desperate-escape/",
+      "guideName": "Desperate Escape",
+      "guideCategory": "Chase",
+      "methods": [
+        {
+          "id": "controlled-chase-farm",
+          "name": "Controlled chase farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/controlled-chase-farm/",
+          "summary": "Use shack or another clean pallet/window area to farm a whole block of chase achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 54
+    },
+    "engineer": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/engineer/",
+      "guideName": "Engineer",
+      "guideCategory": "Generator",
+      "methods": [
+        {
+          "id": "engineer-farm",
+          "name": "Engineer damaged-gen rotation",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/engineer-farm/",
+          "summary": "Get one Engineer count from each Generator in the match instead of waiting for random kicks."
+        }
+      ],
+      "matchType": "title",
+      "priority": 46
+    },
+    "escaping_the_nightmare": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/escaping-the-nightmare/",
+      "guideName": "Escaping the Nightmare",
+      "guideCategory": "Endgame",
+      "methods": [
+        {
+          "id": "endgame-cleanup",
+          "name": "Endgame achievement cleanup",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/endgame-cleanup/",
+          "summary": "Use the last couple minutes after farming instead of immediately leaving."
+        }
+      ],
+      "matchType": "title",
+      "priority": 68
+    },
+    "ever_vigilant": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/ever-vigilant/",
+      "guideName": "Ever Vigilant",
+      "guideCategory": "Endgame",
+      "methods": [
+        {
+          "id": "endgame-cleanup",
+          "name": "Endgame achievement cleanup",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/endgame-cleanup/",
+          "summary": "Use the last couple minutes after farming instead of immediately leaving."
+        }
+      ],
+      "matchType": "title",
+      "priority": 65
+    },
+    "expert_generalist": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/expert-generalist/",
+      "guideName": "Expert Generalist",
+      "guideCategory": "Generator",
+      "methods": [
+        {
+          "id": "generalist-farm",
+          "name": "Generalist / Power Moves farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/generalist-farm/",
+          "summary": "Have each Survivor repair their own equivalent of one Generator and escape; all four players can progress together."
+        }
+      ],
+      "matchType": "title",
+      "priority": 39
+    },
+    "skilled_generalist": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/skilled-generalist/",
+      "guideName": "Skilled Generalist",
+      "guideCategory": "Generator",
+      "methods": [
+        {
+          "id": "generalist-farm",
+          "name": "Generalist / Power Moves farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/generalist-farm/",
+          "summary": "Have each Survivor repair their own equivalent of one Generator and escape; all four players can progress together."
+        }
+      ],
+      "matchType": "title",
+      "priority": 40
+    },
+    "fearless_healer": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/fearless-healer/",
+      "guideName": "Fearless Healer",
+      "guideCategory": "Healing",
+      "methods": [
+        {
+          "id": "basement-healing-farm",
+          "name": "Basement healing farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/basement-healing-farm/",
+          "summary": "Keep all the hit/heal resets inside basement so every heal is useful progress."
+        }
+      ],
+      "matchType": "title",
+      "priority": 78
+    },
+    "final_days": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/final-days/",
+      "guideName": "Final Days",
+      "guideCategory": "Endgame",
+      "methods": [
+        {
+          "id": "endgame-cleanup",
+          "name": "Endgame achievement cleanup",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/endgame-cleanup/",
+          "summary": "Use the last couple minutes after farming instead of immediately leaving."
+        }
+      ],
+      "matchType": "title",
+      "priority": 66
+    },
+    "fleet_of_foot": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/fleet-of-foot/",
+      "guideName": "Fleet of Foot",
+      "guideCategory": "Haste",
+      "methods": [
+        {
+          "id": "fleet-of-foot-loop",
+          "name": "Fleet of Foot speed loop",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/fleet-of-foot-loop/",
+          "summary": "Babysitter is the clean recommendation; Dark Theory also works but can track inconsistently."
+        }
+      ],
+      "matchType": "title",
+      "priority": 6
+    },
+    "healthy_obsession": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/healthy-obsession/",
+      "guideName": "Healthy Obsession",
+      "guideCategory": "Healing",
+      "methods": [
+        {
+          "id": "healing-achievement-farm",
+          "name": "Healing achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/healing-achievement-farm/",
+          "summary": "Keep multiple Survivors injured and repeatedly heal the Obsession while Reactive Healing speeds up every reset."
+        }
+      ],
+      "matchType": "title",
+      "priority": 32
+    },
+    "hero_of_wallachia": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/hero-of-wallachia/",
+      "guideName": "Hero of Wallachia",
+      "guideCategory": "Pallet",
+      "methods": [
+        {
+          "id": "bless-you-loop",
+          "name": "Bless You pallet / Hex loop",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/bless-you-loop/",
+          "summary": "Force the same remaining Totem to become Hex: Two Can Play over and over, bless it, snuff it and reset the pallet."
+        }
+      ],
+      "matchType": "title",
+      "priority": 45
+    },
+    "hiding_seeker": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/hiding-seeker/",
+      "guideName": "Hiding Seeker",
+      "guideCategory": "Chase",
+      "methods": [
+        {
+          "id": "controlled-chase-farm",
+          "name": "Controlled chase farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/controlled-chase-farm/",
+          "summary": "Use shack or another clean pallet/window area to farm a whole block of chase achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 57
+    },
+    "insult_and_injury": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/insult-and-injury/",
+      "guideName": "Insult and Injury",
+      "guideCategory": "Pallet",
+      "methods": [
+        {
+          "id": "controlled-chase-farm",
+          "name": "Controlled chase farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/controlled-chase-farm/",
+          "summary": "Use shack or another clean pallet/window area to farm a whole block of chase achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 56
+    },
+    "item_of_obsession": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/item-of-obsession/",
+      "guideName": "Item of Obsession",
+      "guideCategory": "Escape",
+      "methods": [
+        {
+          "id": "disturbed-ward-stack",
+          "name": "Disturbed Ward achievement stack",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/disturbed-ward-stack/",
+          "summary": "A dedicated Disturbed Ward match can potentially stack several annoying escape achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 41
+    },
+    "leapfrog": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/leapfrog/",
+      "guideName": "Leapfrog",
+      "guideCategory": "Chase",
+      "methods": [
+        {
+          "id": "controlled-chase-farm",
+          "name": "Controlled chase farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/controlled-chase-farm/",
+          "summary": "Use shack or another clean pallet/window area to farm a whole block of chase achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 51
+    },
+    "left_for_dead": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/left-for-dead/",
+      "guideName": "Left For Dead",
+      "guideCategory": "Escape",
+      "methods": [
+        {
+          "id": "disturbed-ward-stack",
+          "name": "Disturbed Ward achievement stack",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/disturbed-ward-stack/",
+          "summary": "A dedicated Disturbed Ward match can potentially stack several annoying escape achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 44
+    },
+    "lifting_the_fog": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/lifting-the-fog/",
+      "guideName": "Lifting the Fog",
+      "guideCategory": "Aura",
+      "methods": [
+        {
+          "id": "aura-farm",
+          "name": "Killer aura farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/aura-farm/",
+          "summary": "Use Still Sight with a cooperating Killer for easy continuous aura reading."
+        }
+      ],
+      "matchType": "title",
+      "priority": 36
+    },
+    "medic": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/medic/",
+      "guideName": "Medic",
+      "guideCategory": "Healing",
+      "methods": [
+        {
+          "id": "healing-achievement-farm",
+          "name": "Healing achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/healing-achievement-farm/",
+          "summary": "Keep multiple Survivors injured and repeatedly heal the Obsession while Reactive Healing speeds up every reset."
+        }
+      ],
+      "matchType": "title",
+      "priority": 33
+    },
+    "no_one_left_behind": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/no-one-left-behind/",
+      "guideName": "No One Left Behind",
+      "guideCategory": "Endgame",
+      "methods": [
+        {
+          "id": "endgame-cleanup",
+          "name": "Endgame achievement cleanup",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/endgame-cleanup/",
+          "summary": "Use the last couple minutes after farming instead of immediately leaving."
+        }
+      ],
+      "matchType": "title",
+      "priority": 67
+    },
+    "not_today": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/not-today/",
+      "guideName": "Not Today",
+      "guideCategory": "Hook",
+      "methods": [
+        {
+          "id": "not-today-facecamp",
+          "name": "Not Today facecamp loop",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/not-today-facecamp/",
+          "summary": "Use the anti-camp self-unhook instead of relying on luck."
+        }
+      ],
+      "matchType": "title",
+      "priority": 4
+    },
+    "one_more_step": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/one-more-step/",
+      "guideName": "One More Step",
+      "guideCategory": "Hook",
+      "methods": [
+        {
+          "id": "hook-unhook-farm",
+          "name": "Hook / unhook achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/hook-unhook-farm/",
+          "summary": "Rotate hooks, safe unhooks and protection hits so several hook achievements move together."
+        }
+      ],
+      "matchType": "title",
+      "priority": 63
+    },
+    "outrun_evil": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/outrun-evil/",
+      "guideName": "Outrun Evil",
+      "guideCategory": "Hatch",
+      "methods": [
+        {
+          "id": "hatch-crawl-stack",
+          "name": "Hatch crawl stack",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/hatch-crawl-stack/",
+          "summary": "Down the last Survivor beside an open Hatch and have them crawl through it."
+        }
+      ],
+      "matchType": "title",
+      "priority": 58
+    },
+    "power_moves": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/power-moves/",
+      "guideName": "Power Moves",
+      "guideCategory": "Generator",
+      "methods": [
+        {
+          "id": "generalist-farm",
+          "name": "Generalist / Power Moves farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/generalist-farm/",
+          "summary": "Have each Survivor repair their own equivalent of one Generator and escape; all four players can progress together."
+        }
+      ],
+      "matchType": "title",
+      "priority": 38
+    },
+    "rescue_mission": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/rescue-mission/",
+      "guideName": "Rescue Mission",
+      "guideCategory": "Pallet",
+      "methods": [
+        {
+          "id": "pallet-rescue-loop",
+          "name": "Pallet rescue loop",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/pallet-rescue-loop/",
+          "summary": "Keep resetting the same pallet and repeat pallet saves."
+        }
+      ],
+      "matchType": "title",
+      "priority": 61
+    },
+    "resurgence": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/resurgence-achievement/",
+      "guideName": "Resurgence",
+      "guideCategory": "Healing",
+      "methods": [
+        {
+          "id": "healing-achievement-farm",
+          "name": "Healing achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/healing-achievement-farm/",
+          "summary": "Keep multiple Survivors injured and repeatedly heal the Obsession while Reactive Healing speeds up every reset."
+        }
+      ],
+      "matchType": "title",
+      "priority": 31
+    },
+    "second_act": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/second-act/",
+      "guideName": "Second Act",
+      "guideCategory": "Healing",
+      "methods": [
+        {
+          "id": "healing-achievement-farm",
+          "name": "Healing achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/healing-achievement-farm/",
+          "summary": "Keep multiple Survivors injured and repeatedly heal the Obsession while Reactive Healing speeds up every reset."
+        }
+      ],
+      "matchType": "title",
+      "priority": 34
+    },
+    "sorted": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/sorted/",
+      "guideName": "Sorted",
+      "guideCategory": "Escape",
+      "methods": [
+        {
+          "id": "injured-gen-farm",
+          "name": "Injured Generator farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/injured-gen-farm/",
+          "summary": "Stay injured while working Generators, farm Great Skill Checks, then use the Path to Salvation heal timing."
+        }
+      ],
+      "matchType": "title",
+      "priority": 48
+    },
+    "taking_one_for_the_team": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/taking-one-for-the-team/",
+      "guideName": "Taking One For The Team",
+      "guideCategory": "Protection",
+      "methods": [
+        {
+          "id": "hook-unhook-farm",
+          "name": "Hook / unhook achievement farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/hook-unhook-farm/",
+          "summary": "Rotate hooks, safe unhooks and protection hits so several hook achievements move together."
+        }
+      ],
+      "matchType": "title",
+      "priority": 64
+    },
+    "the_show_must_go_on": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/the-show-must-go-on/",
+      "guideName": "The Show Must Go On",
+      "guideCategory": "Generator",
+      "methods": [
+        {
+          "id": "injured-gen-farm",
+          "name": "Injured Generator farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/injured-gen-farm/",
+          "summary": "Stay injured while working Generators, farm Great Skill Checks, then use the Path to Salvation heal timing."
+        }
+      ],
+      "matchType": "title",
+      "priority": 49
+    },
+    "triage": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/triage/",
+      "guideName": "Triage",
+      "guideCategory": "Healing",
+      "methods": [
+        {
+          "id": "triage-station",
+          "name": "Triage healing station",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/triage-station/",
+          "summary": "The achievement hunter stays put while the injured Survivor travels back to them for each heal."
+        }
+      ],
+      "matchType": "title",
+      "priority": 30
+    },
+    "under_pressure": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/under-pressure/",
+      "guideName": "Under Pressure",
+      "guideCategory": "Generator",
+      "methods": [
+        {
+          "id": "injured-gen-farm",
+          "name": "Injured Generator farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/injured-gen-farm/",
+          "summary": "Stay injured while working Generators, farm Great Skill Checks, then use the Path to Salvation heal timing."
+        }
+      ],
+      "matchType": "title",
+      "priority": 47
+    },
+    "whiffing_to_success": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/whiffing-to-success/",
+      "guideName": "Whiffing to Success",
+      "guideCategory": "Chase",
+      "methods": [
+        {
+          "id": "controlled-chase-farm",
+          "name": "Controlled chase farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/controlled-chase-farm/",
+          "summary": "Use shack or another clean pallet/window area to farm a whole block of chase achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 52
+    },
+    "with_scars_to_show": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/with-scars-to-show/",
+      "guideName": "With Scars to Show",
+      "guideCategory": "Chase",
+      "methods": [
+        {
+          "id": "controlled-chase-farm",
+          "name": "Controlled chase farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/controlled-chase-farm/",
+          "summary": "Use shack or another clean pallet/window area to farm a whole block of chase achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 55
+    },
+    "working_overtime": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/working-overtime/",
+      "guideName": "Working Overtime",
+      "guideCategory": "Generator",
+      "methods": [
+        {
+          "id": "working-overtime-farm",
+          "name": "Working Overtime slow-gen farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/working-overtime-farm/",
+          "summary": "This is one of the rare farms where you deliberately keep Generators alive instead of finishing quickly."
+        }
+      ],
+      "matchType": "title",
+      "priority": 37
+    },
+    "a_worthy_opponent": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/a-worthy-opponent/",
+      "guideName": "A Worthy Opponent",
+      "guideCategory": "Chase",
+      "methods": [
+        {
+          "id": "controlled-chase-farm",
+          "name": "Controlled chase farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/controlled-chase-farm/",
+          "summary": "Use shack or another clean pallet/window area to farm a whole block of chase achievements."
+        }
+      ],
+      "matchType": "title",
+      "priority": 50
+    },
+    "adept_tae_young": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "steam_new_achievement_312_29": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "steam_new_achievement_334_1": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "steam_new_achievement_334_2": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/under-my-dominion/",
+      "guideName": "Under my Dominion",
+      "guideCategory": "Killer power",
+      "methods": [
+        {
+          "id": "judgment-farm",
+          "name": "Judgment achievement round",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/judgment-farm/",
+          "summary": "One organised Judgment session can cover most of the new power interactions."
+        }
+      ],
+      "matchType": "title",
+      "priority": 70
+    },
+    "steam_new_achievement_334_3": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/witness-to-heresy/",
+      "guideName": "Witness to Heresy",
+      "guideCategory": "Aura",
+      "methods": [
+        {
+          "id": "witness-to-heresy-build",
+          "name": "Witness to Heresy farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/witness-to-heresy-build/",
+          "summary": "There are a few very easy ways to hold the Obsession's aura long enough to finish the full 300 seconds."
+        }
+      ],
+      "matchType": "title",
+      "priority": 1
+    },
+    "steam_new_achievement_334_4": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "steam_new_achievement_334_5": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/sacrosanct/",
+      "guideName": "Sacrosanct",
+      "guideCategory": "Judgment",
+      "methods": [
+        {
+          "id": "judgment-farm",
+          "name": "Judgment achievement round",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/judgment-farm/",
+          "summary": "One organised Judgment session can cover most of the new power interactions."
+        }
+      ],
+      "matchType": "title",
+      "priority": 72
+    },
+    "steam_new_achievement_334_6": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/above-judgment/",
+      "guideName": "Above Judgment",
+      "guideCategory": "Judgment",
+      "methods": [
+        {
+          "id": "judgment-farm",
+          "name": "Judgment achievement round",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/judgment-farm/",
+          "summary": "One organised Judgment session can cover most of the new power interactions."
+        }
+      ],
+      "matchType": "title",
+      "priority": 73
+    },
+    "steam_new_achievement_334_7": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/path-to-salvation/",
+      "guideName": "Path to Salvation",
+      "guideCategory": "Healing",
+      "methods": [
+        {
+          "id": "path-to-salvation-loop",
+          "name": "Path to Salvation gen/heal loop",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/path-to-salvation-loop/",
+          "summary": "Pre-heal, pop the Generator, then finish the heal immediately."
+        },
+        {
+          "id": "injured-gen-farm",
+          "name": "Injured Generator farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/injured-gen-farm/",
+          "summary": "Stay injured while working Generators, farm Great Skill Checks, then use the Path to Salvation heal timing."
+        }
+      ],
+      "matchType": "title",
+      "priority": 7
+    },
+    "steam_new_achievement_334_8": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
+    },
+    "steam_new_achievement_334_9": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/sacrilege/",
+      "guideName": "Sacrilege",
+      "guideCategory": "Judgment",
+      "methods": [
+        {
+          "id": "judgment-farm",
+          "name": "Judgment achievement round",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/judgment-farm/",
+          "summary": "One organised Judgment session can cover most of the new power interactions."
+        }
+      ],
+      "matchType": "title",
+      "priority": 71
+    }
+  }
+}

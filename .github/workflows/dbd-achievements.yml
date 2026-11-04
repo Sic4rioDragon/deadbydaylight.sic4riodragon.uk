@@ -54,12 +54,15 @@ jobs:
           STEAM_ID: ${{ github.event.inputs.steam_id || '' }}
           DISPLAY_NAME: ${{ github.event.inputs.display_name || '' }}
         run: node scripts/sync-achievements.cjs "$MODE" "$STEAM_ID" "$DISPLAY_NAME"
+      - name: Refresh farming guide links
+        if: github.event_name != 'push'
+        run: node scripts/sync-farming-links.cjs
       - name: Commit updated public data
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add achievements/players.json achievements/players/ achievements/achievements.base.json achievements/achievements.icons.json achievements/catalog-review.json
+          git add achievements/players.json achievements/players/ achievements/achievements.base.json achievements/achievements.icons.json achievements/catalog-review.json achievements/farming-links.json
           if ! git diff --cached --quiet; then
             git commit -m "Update DBD achievement snapshots"
             git push
