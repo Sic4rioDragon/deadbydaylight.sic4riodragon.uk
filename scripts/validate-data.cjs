@@ -20,6 +20,18 @@ for(const p of players){
  check(fs.existsSync(file),'Missing data for '+p.steamid);
  if(fs.existsSync(file)){const data=JSON.parse(fs.readFileSync(file,'utf8'));check(data.steamid===p.steamid,'Profile ID mismatch '+p.steamid);}
 }
+const farming=load('achievements/farming-links.json');
+check(farming&&typeof farming.mapping==='object'&&farming.mapping!==null,'Farming mapping is missing');
+const guideEntries=Object.entries(farming.mapping||{});
+check(Number(farming.matchedAchievements)===guideEntries.length,'Farming link count mismatch');
+for(const [id,guide] of guideEntries){
+ check(ids.has(id),'Farming link points to unknown achievement: '+id);
+ check(typeof guide.guideUrl==='string'&&guide.guideUrl.startsWith('https://dbdfarming.sic4riodragon.uk/achievements/'),'Invalid guide URL: '+id);
+ check(Array.isArray(guide.methods)&&guide.methods.length>0,'Farming link missing methods: '+id);
+ for(const method of guide.methods||[]){
+  check(typeof method.url==='string'&&method.url.startsWith('https://dbdfarming.sic4riodragon.uk/methods/'),'Invalid method URL for '+id);
+ }
+}
 const review=load('achievements/catalog-review.json');
 check(Array.isArray(review.needsReview),'Catalog review file lacks needsReview array');
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}

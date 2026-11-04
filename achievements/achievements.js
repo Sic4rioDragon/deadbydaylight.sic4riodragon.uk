@@ -382,6 +382,8 @@ async function init() {
     for (const el of [els.killerSections, els.survivorSections, els.generalSections, document.getElementById('latestUnlocks')]) {
       if (el) el.innerHTML = note;
     }
+    if (els.farmableCount) els.farmableCount.textContent = '—';
+    if (els.toggleFarmable) els.toggleFarmable.disabled = true;
     for (const el of [els.countUnlocked, els.countLocked, els.countShown]) {
       if (el) el.textContent = '—';
     }
