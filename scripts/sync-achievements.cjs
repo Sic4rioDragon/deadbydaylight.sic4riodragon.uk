@@ -143,6 +143,34 @@ async function updatePartialProgress(steamid,state,catalog){
  }catch(error){console.warn('NightLight progress unavailable for',steamid,'-',error.message);}
 }
 
+
+async function fetchDbdPlaytime(steamid,previous) {
+ try {
+  const owned=await steam('IPlayerService/GetOwnedGames/v1/',{
+   steamid,include_appinfo:'false',include_played_free_games:'true'
+  });
+  const games=owned.response?.games;
+  if(!Array.isArray(games))return previous||null;
+  const game=games.find(x=>Number(x.appid)===Number(APP));
+  if(!game||!Number.isFinite(Number(game.playtime_forever)))return previous||null;
+  let lastTwoWeeksMinutes=null;
+  try {
+   const recent=await steam('IPlayerService/GetRecentlyPlayedGames/v1/',{steamid,count:'0'});
+   if(Array.isArray(recent.response?.games)){
+    const found=recent.response.games.find(x=>Number(x.appid)===Number(APP));
+    if(found&&Number.isFinite(Number(found.playtime_2weeks)))lastTwoWeeksMinutes=Math.max(0,Math.round(Number(found.playtime_2weeks)));
+    else if(!found)lastTwoWeeksMinutes=0;
+   }else if(recent.response?.total_count===0)lastTwoWeeksMinutes=0;
+  }catch(e){console.warn('Recent DBD playtime unavailable',steamid,e.message);}
+  return {
+   totalMinutes:Math.max(0,Math.round(Number(game.playtime_forever))),
+   lastTwoWeeksMinutes,
+   checkedAt:new Date().toISOString(),
+   source:'Steam'
+  };
+ }catch(e){console.warn('DBD playtime unavailable',steamid,e.message);return previous||null;}
+}
+
 async function sync() {
  if(!key){throw Error('STEAM_API_KEY is missing. Add it in GitHub repository Actions secrets.');}
  const players=read(playerFile,[]);
@@ -181,6 +209,7 @@ async function sync() {
      const u=s.response?.players?.[0];
      if(u){steamName=u.personaname||steamName;avatar=u.avatarfull||avatar;}
    } catch(err){console.warn('Steam profile lookup unavailable',p.steamid,err.message);}
+   const playtime=await fetchDbdPlaytime(p.steamid,current.playtime);
    let list;
    try {
      const data=await steam('ISteamUserStats/GetPlayerAchievements/v1/',{appid:APP,steamid:p.steamid,l:'en'});
@@ -192,7 +221,7 @@ async function sync() {
      const message=String(err?.message||'Steam returned no DBD achievement data').slice(0,180);
      console.warn('No DBD achievement snapshot for',p.steamid,':',message);
      // Preserve any prior valid achievement snapshot and lastSync timestamp.
-     write(playerPath(p.steamid),{...current,steamid:p.steamid,steamName,avatar,lastAttempt:new Date().toISOString(),syncStatus:'unavailable',syncReason:message});
+     write(playerPath(p.steamid),{...current,steamid:p.steamid,steamName,avatar,playtime,lastAttempt:new Date().toISOString(),syncStatus:'unavailable',syncReason:message});
      continue;
    }
    const state=normalizeProfileState(current.state,base);
@@ -217,7 +246,7 @@ async function sync() {
    if(unknown.length)console.warn('Unmapped Steam achievement identifiers:',unknown.slice(0,15).join(', '));
    await updatePartialProgress(p.steamid,state,base);
    const syncedAt=new Date().toISOString();
-   write(playerPath(p.steamid),{steamid:p.steamid,steamName,avatar,lastSync:syncedAt,lastAttempt:syncedAt,syncStatus:'ok',syncReason:null,state});
+   write(playerPath(p.steamid),{steamid:p.steamid,steamName,avatar,playtime,lastSync:syncedAt,lastAttempt:syncedAt,syncStatus:'ok',syncReason:null,state});
    successes++;
    console.log('Updated',p.steamid,':',list.length,'achievements');
  }
