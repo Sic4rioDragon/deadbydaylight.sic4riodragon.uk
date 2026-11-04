@@ -19,9 +19,12 @@
   host.innerHTML=data.map(({p,info,map,name})=>{
    const count=catalog.filter(item=>map.get(item.achievement_id)?.unlocked===true).length;
    const percent=catalog.length?Math.round(count/catalog.length*100):0;
+   const hours=info.playtime&&Number.isFinite(info.playtime.totalMinutes)?(info.playtime.totalMinutes/60).toFixed(1):null;
+   const recentHours=info.playtime&&Number.isFinite(info.playtime.lastTwoWeeksMinutes)?(info.playtime.lastTwoWeeksMinutes/60).toFixed(1):null;
+   const timeHtml=hours===null?'':'<span class="hub-player-count">'+hours+' h DBD total'+(recentHours===null?'':' · '+recentHours+' h in 2 weeks')+'</span>';
    const withGuide=catalog.filter(item=>farming[item.achievement_id]&&map.has(item.achievement_id)&&!map.get(item.achievement_id).unlocked).length;
    const avatar=/^https:\/\//.test(info.avatar||'')?info.avatar:'/assets/img/deadbydaylight_icon.png';
-   return '<a class="hub-player" href="/achievements/?player='+encodeURIComponent(p.steamid)+'"><img alt="" loading="lazy" src="'+esc(avatar)+'"><span><strong>'+esc(name)+'</strong><small>'+(info.syncStatus==='unavailable'?'Steam achievements unavailable':info.lastSync?'Synced '+esc(date(info.lastSync)):'Awaiting first sync')+'</small>'+(info.lastSync ? '<span class="hub-player-count">'+count+' / '+catalog.length+' unlocked ('+percent+'%) · '+withGuide+' with farming guides</span><span class="hub-meter"><span style="width:'+percent+'%"></span></span>' : '<span class="hub-player-count" title="'+esc(info.syncReason||'')+'">'+(info.syncStatus==='unavailable'?'No accessible DBD achievement data':'Achievement data pending')+'</span>')+'</span></a>';
+   return '<a class="hub-player" href="/achievements/?player='+encodeURIComponent(p.steamid)+'"><img alt="" loading="lazy" src="'+esc(avatar)+'"><span><strong>'+esc(name)+'</strong><small>'+(info.syncStatus==='unavailable'?'Steam achievements unavailable':info.lastSync?'Synced '+esc(date(info.lastSync)):'Awaiting first sync')+'</small>'+timeHtml+(info.lastSync ? '<span class="hub-player-count">'+count+' / '+catalog.length+' unlocked ('+percent+'%) · '+withGuide+' with farming guides</span><span class="hub-meter"><span style="width:'+percent+'%"></span></span>' : '<span class="hub-player-count" title="'+esc(info.syncReason||'')+'">'+(info.syncStatus==='unavailable'?'No accessible DBD achievement data':'Achievement data pending')+'</span>')+'</span></a>';
   }).join('')||'<span>No registered players.</span>';
   const titles=new Map(catalog.map(i=>[i.achievement_id,i])),all=[];
   for(const {p,name,map} of data)for(const [id,v] of map){

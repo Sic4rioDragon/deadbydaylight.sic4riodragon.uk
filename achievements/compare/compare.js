@@ -23,7 +23,7 @@
  const snapshot=(p,id)=>p.data.lastSync?p.achievements.get(id)||null:null;
  const profile=(p,host)=>{
   const avatar=/^https:\/\//.test(p.data.avatar||'')?p.data.avatar:'/assets/img/deadbydaylight_icon.png';
-  host.innerHTML='<img src="'+esc(avatar)+'" alt=""><div><strong>'+esc(p.name)+'</strong><small>'+(p.data.lastSync?'Synced '+esc(stamp(p.data.lastSync)):'No completed sync')+'</small><a href="/achievements/?player='+encodeURIComponent(p.p.steamid)+'">Open achievements ↗</a></div>';
+  host.innerHTML='<img src="'+esc(avatar)+'" alt=""><div><strong>'+esc(p.name)+'</strong><small>'+(p.data.lastSync?'Synced '+esc(stamp(p.data.lastSync)):'No completed sync')+'</small>'+(p.data.playtime&&Number.isFinite(p.data.playtime.totalMinutes)?'<small>DBD '+(p.data.playtime.totalMinutes/60).toFixed(1)+' h played</small>':'')+'<a href="/achievements/?player='+encodeURIComponent(p.p.steamid)+'">Open achievements ↗</a></div>';
  };
  const stat=(label,count,detail)=>'<div class="compare-stat"><span>'+esc(label)+'</span><strong>'+count+'</strong><span>'+esc(detail)+'</span></div>';
  function render(){

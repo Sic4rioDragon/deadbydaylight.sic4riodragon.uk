@@ -570,3 +570,5 @@ body{
 .farming-method-links .farming-all{background:none;border-color:transparent;text-decoration:underline}
 .farming-label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#8acdde}
 @media(max-width:650px){.farm-overview{flex-direction:column;align-items:flex-start;padding:15px}}
+
+#playerPlaytime:not([hidden]){font-size:11px;color:#a8cfed;margin:5px 0 0}

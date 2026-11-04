@@ -367,6 +367,14 @@ async function init() {
     const pageTitle = document.getElementById('achievementsPageTitle');
     if (pageTitle) pageTitle.textContent = 'Achievements — ' + displayName;
     if (document.getElementById('profileAvatar') && profile.avatar) document.getElementById('profileAvatar').src = profile.avatar;
+    const time=document.getElementById('playerPlaytime');
+    if(time && profile.playtime && Number.isFinite(profile.playtime.totalMinutes)) {
+      const total=(profile.playtime.totalMinutes/60).toFixed(1);
+      const recent=Number.isFinite(profile.playtime.lastTwoWeeksMinutes)?' · '+(profile.playtime.lastTwoWeeksMinutes/60).toFixed(1)+' h in the last 2 weeks':'';
+      time.textContent='DBD playtime: '+total+' h total'+recent;
+      time.hidden=false;
+      if(profile.playtime.checkedAt)time.title='Steam data checked '+new Date(profile.playtime.checkedAt).toLocaleString();
+    }
     stateUrl = './players/' + encodeURIComponent(selected.steamid) + '.json';
   }
   if (selected && !profile?.lastSync) {

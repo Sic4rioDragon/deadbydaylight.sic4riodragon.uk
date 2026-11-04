@@ -42,3 +42,9 @@ The retired alt account/repository is not modified or deleted.
 - `achievements/catalog-review.json` lists new achievements whose category cannot be identified safely. To review, edit `achievements/achievements.base.json`, update `category` and `section`, and remove `needsReview`. The review file refreshes on each Steam sync.
 - The deployment workflow now validates registered player files and achievement catalog IDs with `scripts/validate-data.cjs`.
 - Steam unlocks are authoritative. Partial progress may come from older saved values and is labeled as saved rather than live.
+
+## Farming guide links
+The tracker uses `achievements/farming-links.json` to link verified guide methods from `dbdfarming.sic4riodragon.uk`. The GitHub Actions sync refreshes this mapping from the companion repository's public `data/achievements.json` and `data/methods.json` files, retaining last valid data on errors. Use **Farmable only** on an individual player's locked achievements; the comparison page offers **Both locked + farming guide** for shared goals.
+
+## Optional Steam playtime
+The sync also attempts public DBD playtime from Steam's `IPlayerService/GetOwnedGames` and `GetRecentlyPlayedGames` endpoints. It stores supported total minutes and recent two-week minutes in the player snapshots; visibility restrictions do not erase older known playtime. Escapes, sacrifices, grades, and match history are not guessed from unidentified or unsupported statistic endpoints.
