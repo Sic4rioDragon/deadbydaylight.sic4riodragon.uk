@@ -351,7 +351,11 @@ async function init() {
         : (profile.lastSync ? 'Last synced: ' + new Date(profile.lastSync).toLocaleString() : 'Awaiting first Steam sync');
       if (profile.syncReason) status.title = profile.syncReason;
     }
-    if (document.getElementById('profileName')) document.getElementById('profileName').textContent = selected.overrideName || profile.steamName || selected.fallbackName || selected.steamid;
+    const displayName = selected.overrideName || profile.steamName || selected.fallbackName || selected.steamid;
+    if (document.getElementById('profileName')) document.getElementById('profileName').textContent = displayName;
+    document.title = 'DBD Achievements — ' + displayName;
+    const pageTitle = document.getElementById('achievementsPageTitle');
+    if (pageTitle) pageTitle.textContent = 'Achievements — ' + displayName;
     if (document.getElementById('profileAvatar') && profile.avatar) document.getElementById('profileAvatar').src = profile.avatar;
     stateUrl = './players/' + encodeURIComponent(selected.steamid) + '.json';
   }
