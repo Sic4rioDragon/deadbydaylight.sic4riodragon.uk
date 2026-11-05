@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 58044,
-    "lastTwoWeeksMinutes": 2343,
-    "checkedAt": "2026-11-04T23:45:05.438Z",
+    "totalMinutes": 58270,
+    "lastTwoWeeksMinutes": 2491,
+    "checkedAt": "2026-11-05T06:57:01.628Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-04T23:45:05.882Z",
-  "lastAttempt": "2026-11-04T23:45:05.882Z",
+  "lastSync": "2026-11-05T06:57:02.250Z",
+  "lastAttempt": "2026-11-05T06:57:02.250Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -400,7 +400,8 @@
           "unlockedAt": "2025-11-01T04:51:48.000Z"
         },
         "deranged_pursuit": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-05T05:36:02.000Z"
         },
         "dream_demon": {
           "unlocked": false
