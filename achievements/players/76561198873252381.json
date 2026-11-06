@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 58527,
-    "lastTwoWeeksMinutes": 2277,
-    "checkedAt": "2026-11-06T19:17:48.775Z",
+    "totalMinutes": 58647,
+    "lastTwoWeeksMinutes": 2397,
+    "checkedAt": "2026-11-06T23:14:36.550Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-06T19:17:49.409Z",
-  "lastAttempt": "2026-11-06T19:17:49.409Z",
+  "lastSync": "2026-11-06T23:14:37.067Z",
+  "lastAttempt": "2026-11-06T23:14:37.067Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
