@@ -3,13 +3,13 @@
   "steamName": "Sic4rioDragon",
   "avatar": "https://avatars.steamstatic.com/6ae1e208db8cd4b195d7c517ad8da0f360ff3ca4_full.jpg",
   "playtime": {
-    "totalMinutes": 70635,
-    "lastTwoWeeksMinutes": 5307,
-    "checkedAt": "2026-11-06T06:56:52.152Z",
+    "totalMinutes": 71022,
+    "lastTwoWeeksMinutes": 5694,
+    "checkedAt": "2026-11-06T16:49:27.596Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-06T06:56:52.457Z",
-  "lastAttempt": "2026-11-06T06:56:52.457Z",
+  "lastSync": "2026-11-06T16:49:27.844Z",
+  "lastAttempt": "2026-11-06T16:49:27.844Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
