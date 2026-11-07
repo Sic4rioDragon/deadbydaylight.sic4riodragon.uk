@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 58647,
-    "lastTwoWeeksMinutes": 2397,
-    "checkedAt": "2026-11-06T23:14:36.550Z",
+    "totalMinutes": 58974,
+    "lastTwoWeeksMinutes": 2704,
+    "checkedAt": "2026-11-07T06:08:32.177Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-06T23:14:37.067Z",
-  "lastAttempt": "2026-11-06T23:14:37.067Z",
+  "lastSync": "2026-11-07T06:08:32.830Z",
+  "lastAttempt": "2026-11-07T06:08:32.830Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -414,7 +414,8 @@
           "unlocked": false
         },
         "i_want_to_play_a_game": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-07T02:29:40.000Z"
         },
         "in_the_void_she_walks": {
           "unlocked": false
@@ -474,7 +475,8 @@
           "unlockedAt": "2026-08-11T03:46:31.000Z"
         },
         "terminal_illness": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-07T04:19:10.000Z"
         },
         "terror_of_lv_426": {
           "unlocked": true,
@@ -500,7 +502,8 @@
           "unlockedAt": "2026-08-07T04:40:43.000Z"
         },
         "viral_video": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-07T04:48:48.000Z"
         },
         "youve_got_guts": {
           "unlocked": false
