@@ -4,12 +4,12 @@
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
     "totalMinutes": 58974,
-    "lastTwoWeeksMinutes": 2704,
-    "checkedAt": "2026-11-07T19:28:50.503Z",
+    "lastTwoWeeksMinutes": 2617,
+    "checkedAt": "2026-11-08T00:43:30.364Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-07T19:28:50.874Z",
-  "lastAttempt": "2026-11-07T19:28:50.874Z",
+  "lastSync": "2026-11-08T00:43:30.710Z",
+  "lastAttempt": "2026-11-08T00:43:30.710Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
