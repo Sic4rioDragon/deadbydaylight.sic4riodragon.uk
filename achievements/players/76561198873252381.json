@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 59388,
-    "lastTwoWeeksMinutes": 3013,
-    "checkedAt": "2026-11-08T22:14:11.007Z",
+    "totalMinutes": 59608,
+    "lastTwoWeeksMinutes": 2987,
+    "checkedAt": "2026-11-09T06:47:00.579Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-08T22:14:11.481Z",
-  "lastAttempt": "2026-11-08T22:14:11.481Z",
+  "lastSync": "2026-11-09T06:47:01.094Z",
+  "lastAttempt": "2026-11-09T06:47:01.094Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -459,7 +459,8 @@
           "unlockedAt": "2025-11-06T07:01:00.000Z"
         },
         "smoked": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-09T04:34:49.000Z"
         },
         "speed_kills": {
           "unlocked": false
