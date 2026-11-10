@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 59805,
-    "lastTwoWeeksMinutes": 3106,
-    "checkedAt": "2026-11-10T03:38:03.892Z",
+    "totalMinutes": 60061,
+    "lastTwoWeeksMinutes": 3241,
+    "checkedAt": "2026-11-10T14:59:28.787Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-10T03:38:04.219Z",
-  "lastAttempt": "2026-11-10T03:38:04.219Z",
+  "lastSync": "2026-11-10T14:59:29.655Z",
+  "lastAttempt": "2026-11-10T14:59:29.655Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -368,14 +368,16 @@
           "unlockedAt": "2026-11-09T07:32:17.000Z"
         },
         "bloodbath": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-10T05:43:55.000Z"
         },
         "bound_and_downed": {
           "unlocked": true,
           "unlockedAt": "2026-11-08T02:48:06.000Z"
         },
         "bump_in_the_night": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-10T04:46:59.000Z"
         },
         "butcherin": {
           "unlocked": true,
