@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 59703,
-    "lastTwoWeeksMinutes": 3083,
-    "checkedAt": "2026-11-09T19:53:31.061Z",
+    "totalMinutes": 59805,
+    "lastTwoWeeksMinutes": 3106,
+    "checkedAt": "2026-11-10T03:38:03.892Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-09T19:53:31.531Z",
-  "lastAttempt": "2026-11-09T19:53:31.531Z",
+  "lastSync": "2026-11-10T03:38:04.219Z",
+  "lastAttempt": "2026-11-10T03:38:04.219Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -509,7 +509,8 @@
           "unlockedAt": "2026-11-07T04:48:48.000Z"
         },
         "youve_got_guts": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-10T02:56:00.000Z"
         },
         "steam_new_achievement_312_27": {
           "unlocked": false
