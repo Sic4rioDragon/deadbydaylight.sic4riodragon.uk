@@ -5,11 +5,11 @@
   "playtime": {
     "totalMinutes": 60616,
     "lastTwoWeeksMinutes": 3728,
-    "checkedAt": "2026-11-12T11:26:21.896Z",
+    "checkedAt": "2026-11-12T20:02:19.535Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-12T11:26:22.600Z",
-  "lastAttempt": "2026-11-12T11:26:22.600Z",
+  "lastSync": "2026-11-12T20:02:20.110Z",
+  "lastAttempt": "2026-11-12T20:02:20.110Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
