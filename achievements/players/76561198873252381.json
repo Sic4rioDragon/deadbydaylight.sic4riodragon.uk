@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 60372,
-    "lastTwoWeeksMinutes": 3495,
-    "checkedAt": "2026-11-12T00:48:48.075Z",
+    "totalMinutes": 60616,
+    "lastTwoWeeksMinutes": 3728,
+    "checkedAt": "2026-11-12T11:26:21.896Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-12T00:48:48.767Z",
-  "lastAttempt": "2026-11-12T00:48:48.767Z",
+  "lastSync": "2026-11-12T11:26:22.600Z",
+  "lastAttempt": "2026-11-12T11:26:22.600Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -776,7 +776,8 @@
           "unlocked": false
         },
         "old_west_oasis": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-12T01:38:40.000Z"
         },
         "operation_survival": {
           "unlocked": true,
@@ -880,7 +881,8 @@
           "unlocked": false
         },
         "expert_survivor": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-12T02:02:48.000Z"
         },
         "fearless_healer": {
           "unlocked": true,
