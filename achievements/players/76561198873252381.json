@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 60778,
-    "lastTwoWeeksMinutes": 3654,
-    "checkedAt": "2026-11-14T22:33:35.400Z",
+    "totalMinutes": 60928,
+    "lastTwoWeeksMinutes": 3702,
+    "checkedAt": "2026-11-15T06:44:30.631Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-14T22:33:35.768Z",
-  "lastAttempt": "2026-11-14T22:33:35.768Z",
+  "lastSync": "2026-11-15T06:44:30.966Z",
+  "lastAttempt": "2026-11-15T06:44:30.966Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -20,7 +20,8 @@
           "unlockedAt": "2025-08-08T07:15:23.000Z"
         },
         "adept_artist": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-15T04:52:38.000Z"
         },
         "adept_blight": {
           "unlocked": false
@@ -384,7 +385,8 @@
           "unlockedAt": "2026-08-05T04:18:37.000Z"
         },
         "caws_of_death": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-15T04:24:24.000Z"
         },
         "cleansed_in_agony": {
           "unlocked": false
