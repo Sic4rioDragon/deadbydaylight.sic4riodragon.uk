@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 61846,
-    "lastTwoWeeksMinutes": 3494,
-    "checkedAt": "2026-11-20T02:23:26.403Z",
+    "totalMinutes": 62006,
+    "lastTwoWeeksMinutes": 3478,
+    "checkedAt": "2026-11-20T11:50:43.913Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-20T02:23:27.225Z",
-  "lastAttempt": "2026-11-20T02:23:27.225Z",
+  "lastSync": "2026-11-20T11:50:45.147Z",
+  "lastAttempt": "2026-11-20T11:50:45.147Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -154,7 +154,8 @@
           "unlocked": false
         },
         "steam_new_achievement_334_4": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-20T06:04:11.000Z"
         }
       },
       "general": {
