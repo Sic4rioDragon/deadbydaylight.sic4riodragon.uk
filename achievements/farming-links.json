@@ -1,8 +1,8 @@
 {
   "sourceRepository": "https://github.com/Sic4rioDragon/dbdfarming.sic4riodragon.uk",
   "sourceWebsite": "https://dbdfarming.sic4riodragon.uk/",
-  "catalogSize": 311,
-  "matchedAchievements": 157,
+  "catalogSize": 318,
+  "matchedAchievements": 159,
   "matching": "Exact guide achievement title, then category-specific Adept family",
   "mapping": {
     "adept_animatronic": {
@@ -2377,6 +2377,36 @@
       ],
       "matchType": "title",
       "priority": 71
+    },
+    "steam_new_achievement_334_12": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/killer-adept/",
+      "guideName": "Killer Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "killer-adept-farm",
+          "name": "Killer Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/killer-adept-farm/",
+          "summary": "Use only the Killer's three unique perks and finish with a fast 4K."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 10
+    },
+    "steam_new_achievement_334_15": {
+      "guideUrl": "https://dbdfarming.sic4riodragon.uk/achievements/survivor-adept/",
+      "guideName": "Survivor Adepts",
+      "guideCategory": "Adept",
+      "methods": [
+        {
+          "id": "survivor-adept-farm",
+          "name": "Survivor Adept farm",
+          "url": "https://dbdfarming.sic4riodragon.uk/methods/survivor-adept-farm/",
+          "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape."
+        }
+      ],
+      "matchType": "adept",
+      "priority": 9
     }
   }
 }

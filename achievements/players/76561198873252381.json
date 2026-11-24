@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 62175,
-    "lastTwoWeeksMinutes": 2114,
-    "checkedAt": "2026-11-24T13:53:17.162Z",
+    "totalMinutes": 62205,
+    "lastTwoWeeksMinutes": 2181,
+    "checkedAt": "2026-11-24T23:56:13.113Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-24T13:53:18.422Z",
-  "lastAttempt": "2026-11-24T13:53:18.422Z",
+  "lastSync": "2026-11-24T23:56:13.809Z",
+  "lastAttempt": "2026-11-24T23:56:13.809Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -156,6 +156,9 @@
         "steam_new_achievement_334_4": {
           "unlocked": true,
           "unlockedAt": "2026-11-20T06:04:11.000Z"
+        },
+        "steam_new_achievement_334_12": {
+          "unlocked": false
         }
       },
       "general": {
@@ -716,6 +719,9 @@
         "steam_new_achievement_334_8": {
           "unlocked": true,
           "unlockedAt": "2026-10-29T22:51:18.000Z"
+        },
+        "steam_new_achievement_334_15": {
+          "unlocked": false
         }
       },
       "map": {
@@ -1209,6 +1215,24 @@
         "steam_new_achievement_334_9": {
           "unlocked": true,
           "unlockedAt": "2026-08-26T02:26:23.000Z"
+        },
+        "steam_new_achievement_334_10": {
+          "unlocked": false
+        },
+        "steam_new_achievement_334_11": {
+          "unlocked": false
+        },
+        "steam_new_achievement_334_13": {
+          "unlocked": true,
+          "unlockedAt": "2026-11-24T23:33:53.000Z"
+        },
+        "steam_new_achievement_334_14": {
+          "unlocked": true,
+          "unlockedAt": "2026-11-24T23:50:09.000Z"
+        },
+        "steam_new_achievement_334_16": {
+          "unlocked": true,
+          "unlockedAt": "2026-11-24T23:34:28.000Z"
         }
       }
     }

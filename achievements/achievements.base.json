@@ -2801,5 +2801,75 @@
     "section": "general",
     "id": "steam",
     "needsReview": true
+  },
+  {
+    "achievement_id": "steam_new_achievement_334_10",
+    "steam_api_name": "NEW_ACHIEVEMENT_334_10",
+    "title": "Insult to Injury",
+    "description": "In public matches, Taunt 12 Terrified Survivors as The Terrifier.",
+    "category": "general",
+    "section": "general",
+    "needsReview": true,
+    "id": "steam"
+  },
+  {
+    "achievement_id": "steam_new_achievement_334_11",
+    "steam_api_name": "NEW_ACHIEVEMENT_334_11",
+    "title": "Better Late Than Never",
+    "description": "In a public match, kill a Survivor while they are within the Exit Threshold.",
+    "category": "general",
+    "section": "general",
+    "needsReview": true,
+    "id": "steam"
+  },
+  {
+    "achievement_id": "steam_new_achievement_334_12",
+    "steam_api_name": "NEW_ACHIEVEMENT_334_12",
+    "title": "Adept Terrifier",
+    "description": "Achieve a merciless victory with The Terrifier using only his 3 unique perks in a public match.",
+    "category": "killer",
+    "section": "adept",
+    "needsReview": false,
+    "id": "steam"
+  },
+  {
+    "achievement_id": "steam_new_achievement_334_13",
+    "steam_api_name": "NEW_ACHIEVEMENT_334_13",
+    "title": "Good Over Evil",
+    "description": "Be chased by the Killer for 90s and stun them 3 times in a public match.",
+    "category": "general",
+    "section": "general",
+    "needsReview": true,
+    "id": "steam"
+  },
+  {
+    "achievement_id": "steam_new_achievement_334_14",
+    "steam_api_name": "NEW_ACHIEVEMENT_334_14",
+    "title": "Guardian Angel",
+    "description": "Take a protection hit for each of the other 3 Survivors in a public match.",
+    "category": "general",
+    "section": "general",
+    "needsReview": true,
+    "id": "steam"
+  },
+  {
+    "achievement_id": "steam_new_achievement_334_15",
+    "steam_api_name": "NEW_ACHIEVEMENT_334_15",
+    "title": "Adept Sienna",
+    "description": "Escape with Sienna using only her 3 unique perks in a public match.",
+    "category": "survivor",
+    "section": "adept",
+    "needsReview": false,
+    "id": "steam"
+  },
+  {
+    "achievement_id": "steam_new_achievement_334_16",
+    "steam_api_name": "NEW_ACHIEVEMENT_334_16",
+    "title": "Waste Not, Want Not",
+    "description": "",
+    "category": "general",
+    "section": "general",
+    "needsReview": true,
+    "id": "steam"
   }
 ]
