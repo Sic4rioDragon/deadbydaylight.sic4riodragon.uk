@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -98,6 +98,19 @@ jobs:
           echo "::error::Pages artifact was uploaded but is not visible through the Actions API."
           exit 1
 
+      # GitHub's Actions API can show a completed upload before the Pages
+      # deployment service sees the same artifact. Give it time to propagate,
+      # then retry the deployment once if that race still happens.
+      - name: Allow Pages artifact to propagate
+        run: sleep 20
       - name: Deploy website
         id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: Wait before retrying Pages deployment
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+      - name: Retry Pages deployment
+        if: steps.deployment.outcome == 'failure'
+        id: deployment_retry
         uses: actions/deploy-pages@v4

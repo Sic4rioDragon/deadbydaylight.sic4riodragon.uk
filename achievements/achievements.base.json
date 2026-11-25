@@ -2704,10 +2704,9 @@
     "steam_api_name": "NEW_ACHIEVEMENT_312_30",
     "title": "Roadblocks",
     "description": "In a single match, block the same Pallet 3 times.",
-    "category": "general",
+    "category": "survivor",
     "section": "general",
-    "id": "steam",
-    "needsReview": true
+    "id": "steam"
   },
   {
     "achievement_id": "steam_new_achievement_312_31",
@@ -2741,10 +2740,9 @@
     "steam_api_name": "NEW_ACHIEVEMENT_334_3",
     "title": "Witness to Heresy",
     "description": "In public matches, see the Obsession's Aura for a total of 300 seconds.",
-    "category": "general",
+    "category": "killer",
     "section": "general",
-    "id": "steam",
-    "needsReview": true
+    "id": "steam"
   },
   {
     "achievement_id": "steam_new_achievement_334_4",
@@ -2759,11 +2757,10 @@
     "achievement_id": "steam_new_achievement_334_5",
     "steam_api_name": "NEW_ACHIEVEMENT_334_5",
     "title": "Sacrosanct",
-    "description": "",
-    "category": "general",
-    "section": "general",
-    "id": "steam",
-    "needsReview": true
+    "description": "In a public match, exile a Survivor that gained Heresy by taunting you.",
+    "category": "killer",
+    "section": "extra",
+    "id": "steam"
   },
   {
     "achievement_id": "steam_new_achievement_334_6",
@@ -2796,20 +2793,18 @@
     "achievement_id": "steam_new_achievement_334_9",
     "steam_api_name": "NEW_ACHIEVEMENT_334_9",
     "title": "Sacrilege",
-    "description": "",
-    "category": "general",
+    "description": "In a public match, gain Heresy by taunting The Judgment.",
+    "category": "survivor",
     "section": "general",
-    "id": "steam",
-    "needsReview": true
+    "id": "steam"
   },
   {
     "achievement_id": "steam_new_achievement_334_10",
     "steam_api_name": "NEW_ACHIEVEMENT_334_10",
     "title": "Insult to Injury",
     "description": "In public matches, Taunt 12 Terrified Survivors as The Terrifier.",
-    "category": "general",
-    "section": "general",
-    "needsReview": true,
+    "category": "killer",
+    "section": "extra",
     "id": "steam"
   },
   {
@@ -2817,9 +2812,8 @@
     "steam_api_name": "NEW_ACHIEVEMENT_334_11",
     "title": "Better Late Than Never",
     "description": "In a public match, kill a Survivor while they are within the Exit Threshold.",
-    "category": "general",
+    "category": "killer",
     "section": "general",
-    "needsReview": true,
     "id": "steam"
   },
   {
@@ -2837,9 +2831,8 @@
     "steam_api_name": "NEW_ACHIEVEMENT_334_13",
     "title": "Good Over Evil",
     "description": "Be chased by the Killer for 90s and stun them 3 times in a public match.",
-    "category": "general",
+    "category": "survivor",
     "section": "general",
-    "needsReview": true,
     "id": "steam"
   },
   {
@@ -2847,9 +2840,8 @@
     "steam_api_name": "NEW_ACHIEVEMENT_334_14",
     "title": "Guardian Angel",
     "description": "Take a protection hit for each of the other 3 Survivors in a public match.",
-    "category": "general",
+    "category": "survivor",
     "section": "general",
-    "needsReview": true,
     "id": "steam"
   },
   {
@@ -2866,10 +2858,9 @@
     "achievement_id": "steam_new_achievement_334_16",
     "steam_api_name": "NEW_ACHIEVEMENT_334_16",
     "title": "Waste Not, Want Not",
-    "description": "",
-    "category": "general",
+    "description": "Gain all 6 buffs from Best Gift Ever and escape the Trial in a public match.",
+    "category": "survivor",
     "section": "general",
-    "needsReview": true,
     "id": "steam"
   }
 ]
