@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 62205,
-    "lastTwoWeeksMinutes": 2181,
-    "checkedAt": "2026-11-24T23:56:13.113Z",
+    "totalMinutes": 62297,
+    "lastTwoWeeksMinutes": 2044,
+    "checkedAt": "2026-11-25T08:45:22.720Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-24T23:56:13.809Z",
-  "lastAttempt": "2026-11-24T23:56:13.809Z",
+  "lastSync": "2026-11-25T08:45:23.789Z",
+  "lastAttempt": "2026-11-25T08:45:23.789Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -359,6 +359,13 @@
         "steam_new_achievement_312_28": {
           "unlocked": true,
           "unlockedAt": "2026-06-20T04:27:33.000Z"
+        },
+        "steam_new_achievement_334_3": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-27T07:07:59.000Z"
+        },
+        "steam_new_achievement_334_11": {
+          "unlocked": false
         }
       },
       "extra": {
@@ -529,6 +536,13 @@
         "steam_new_achievement_334_2": {
           "unlocked": true,
           "unlockedAt": "2026-08-27T02:50:14.000Z"
+        },
+        "steam_new_achievement_334_5": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-28T06:16:10.000Z"
+        },
+        "steam_new_achievement_334_10": {
+          "unlocked": false
         }
       }
     },
@@ -1116,6 +1130,10 @@
           "unlocked": true,
           "unlockedAt": "2026-04-10T03:49:59.000Z"
         },
+        "steam_new_achievement_312_30": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-21T00:40:56.000Z"
+        },
         "steam_new_achievement_312_31": {
           "unlocked": true,
           "unlockedAt": "2026-08-21T01:15:35.000Z"
@@ -1127,6 +1145,22 @@
         "steam_new_achievement_334_7": {
           "unlocked": true,
           "unlockedAt": "2026-08-26T02:54:08.000Z"
+        },
+        "steam_new_achievement_334_9": {
+          "unlocked": true,
+          "unlockedAt": "2026-08-26T02:26:23.000Z"
+        },
+        "steam_new_achievement_334_13": {
+          "unlocked": true,
+          "unlockedAt": "2026-11-24T23:33:53.000Z"
+        },
+        "steam_new_achievement_334_14": {
+          "unlocked": true,
+          "unlockedAt": "2026-11-24T23:50:09.000Z"
+        },
+        "steam_new_achievement_334_16": {
+          "unlocked": true,
+          "unlockedAt": "2026-11-24T23:34:28.000Z"
         }
       }
     },
@@ -1199,40 +1233,6 @@
         "zealous": {
           "unlocked": true,
           "unlockedAt": "2025-06-28T02:27:11.000Z"
-        },
-        "steam_new_achievement_312_30": {
-          "unlocked": true,
-          "unlockedAt": "2026-08-21T00:40:56.000Z"
-        },
-        "steam_new_achievement_334_3": {
-          "unlocked": true,
-          "unlockedAt": "2026-08-27T07:07:59.000Z"
-        },
-        "steam_new_achievement_334_5": {
-          "unlocked": true,
-          "unlockedAt": "2026-08-28T06:16:10.000Z"
-        },
-        "steam_new_achievement_334_9": {
-          "unlocked": true,
-          "unlockedAt": "2026-08-26T02:26:23.000Z"
-        },
-        "steam_new_achievement_334_10": {
-          "unlocked": false
-        },
-        "steam_new_achievement_334_11": {
-          "unlocked": false
-        },
-        "steam_new_achievement_334_13": {
-          "unlocked": true,
-          "unlockedAt": "2026-11-24T23:33:53.000Z"
-        },
-        "steam_new_achievement_334_14": {
-          "unlocked": true,
-          "unlockedAt": "2026-11-24T23:50:09.000Z"
-        },
-        "steam_new_achievement_334_16": {
-          "unlocked": true,
-          "unlockedAt": "2026-11-24T23:34:28.000Z"
         }
       }
     }
