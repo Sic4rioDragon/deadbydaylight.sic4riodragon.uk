@@ -3,13 +3,13 @@
   "steamName": "Sic4rioDragon",
   "avatar": "https://avatars.steamstatic.com/6ae1e208db8cd4b195d7c517ad8da0f360ff3ca4_full.jpg",
   "playtime": {
-    "totalMinutes": 73632,
-    "lastTwoWeeksMinutes": 1723,
-    "checkedAt": "2026-11-27T12:39:06.914Z",
+    "totalMinutes": 73922,
+    "lastTwoWeeksMinutes": 2013,
+    "checkedAt": "2026-11-27T23:30:32.794Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-27T12:39:07.401Z",
-  "lastAttempt": "2026-11-27T12:39:07.401Z",
+  "lastSync": "2026-11-27T23:30:33.209Z",
+  "lastAttempt": "2026-11-27T23:30:33.209Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -1265,7 +1265,8 @@
           "unlockedAt": "2026-08-26T03:07:59.000Z"
         },
         "steam_new_achievement_334_13": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-27T20:19:13.000Z"
         },
         "steam_new_achievement_334_14": {
           "unlocked": true,
