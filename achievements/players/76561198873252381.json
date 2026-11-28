@@ -3,13 +3,13 @@
   "steamName": "mail2003",
   "avatar": "https://avatars.steamstatic.com/dc1963d8e420991203695b18008eb3132a6a0fa7_full.jpg",
   "playtime": {
-    "totalMinutes": 62333,
-    "lastTwoWeeksMinutes": 1555,
-    "checkedAt": "2026-11-27T23:30:35.112Z",
+    "totalMinutes": 62529,
+    "lastTwoWeeksMinutes": 1751,
+    "checkedAt": "2026-11-28T07:58:15.381Z",
     "source": "Steam"
   },
-  "lastSync": "2026-11-27T23:30:36.197Z",
-  "lastAttempt": "2026-11-27T23:30:36.197Z",
+  "lastSync": "2026-11-28T07:58:16.032Z",
+  "lastAttempt": "2026-11-28T07:58:16.032Z",
   "syncStatus": "ok",
   "syncReason": null,
   "state": {
@@ -678,7 +678,8 @@
           "unlocked": false
         },
         "adept_sable": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-28T04:29:07.000Z"
         },
         "adept_tapp": {
           "unlocked": true,
@@ -735,7 +736,8 @@
           "unlockedAt": "2026-10-29T22:51:18.000Z"
         },
         "steam_new_achievement_334_15": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-28T03:13:06.000Z"
         }
       },
       "map": {
@@ -764,7 +766,8 @@
           "unlockedAt": "2026-08-18T07:41:56.000Z"
         },
         "dont_open_dead_inside": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-28T05:40:35.000Z"
         },
         "dungeon_crawler": {
           "unlocked": true,
@@ -825,7 +828,8 @@
           "unlockedAt": "2026-08-12T02:41:21.000Z"
         },
         "shock_therapy": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-28T04:29:07.000Z"
         },
         "shrine_apparatus": {
           "unlocked": true,
@@ -1005,7 +1009,8 @@
           "unlockedAt": "2025-08-21T07:07:08.000Z"
         },
         "milk_n_cookies": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-28T02:42:05.000Z"
         },
         "near_death_experience": {
           "unlocked": true,
@@ -1020,7 +1025,8 @@
           "unlockedAt": "2025-07-13T05:25:04.000Z"
         },
         "not_today": {
-          "unlocked": false
+          "unlocked": true,
+          "unlockedAt": "2026-11-28T05:37:36.000Z"
         },
         "one_more_step": {
           "unlocked": true,
